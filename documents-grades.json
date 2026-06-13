@@ -1,0 +1,27 @@
+{
+  "jaune": [
+    { "titre": "Progression Jaune — Fiche 1", "fichier": "docs/2-2 juji jaune_ok.pdf" },
+    { "titre": "Progression Jaune — Fiche 2", "fichier": "docs/2-3 juji jaune_ok.pdf" },
+    { "titre": "Progression Jaune — Fiche 3", "fichier": "docs/2-4 juji jaune_ok.pdf" }
+  ],
+  "orange": [
+    { "titre": "Progression Orange — Fiche 1", "fichier": "docs/4-2 juji orange_ok.pdf" },
+    { "titre": "Progression Orange — Fiche 2", "fichier": "docs/4-3 juji orange_ok.pdf" },
+    { "titre": "Progression Orange — Fiche 3", "fichier": "docs/4-4 juji orange_ok.pdf" }
+  ],
+  "verte": [
+    { "titre": "Progression Verte — Fiche 1", "fichier": "docs/6-2 juji verte.pdf" },
+    { "titre": "Progression Verte — Fiche 2", "fichier": "docs/6-3 juji verte.pdf" },
+    { "titre": "Progression Verte — Fiche 3", "fichier": "docs/6-4 juji verte_ok.pdf" }
+  ],
+  "bleue": [
+    { "titre": "Progression Bleue — Fiche 1", "fichier": "docs/8-2 juji bleu_ok.pdf" },
+    { "titre": "Progression Bleue — Fiche 2", "fichier": "docs/8-3 juji bleu_ok.pdf" },
+    { "titre": "Progression Bleue — Fiche 3", "fichier": "docs/8-4 juji bleu_ok.pdf" }
+  ],
+  "marron": [
+    { "titre": "Progression Marron — Fiche 1", "fichier": "docs/10-4 juji maron_ok.pdf" },
+    { "titre": "Progression Marron — Fiche 2", "fichier": "docs/10-5 juji maron_ok.pdf" },
+    { "titre": "Progression Marron — Fiche 3", "fichier": "docs/10-6 juji maron_ok.pdf" }
+  ]
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceinture Jaune — Jujitsu JAK</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<header>
+  <h1>🟡 Ceinture Jaune</h1>
+  <p>Techniques et progressions pédagogiques</p>
+</header>
+
+<section id="contenu-techniques">
+  <p style="color:#666;">Chargement des techniques...</p>
+</section>
+
+<section id="contenu-docs">
+  <h2>📄 Fiches PDF</h2>
+</section>
+
+<section>
+  <a class="lien-bleu" href="techniques-par-grade.html">⬅ Retour aux grades</a>
+  <a class="lien-bleu" href="index.html">🏠 Accueil</a>
+</section>
+
+<footer>
+  <p>🥋 Club JAK Lambersart — Judo · Aïkido · Karaté · Jujitsu</p>
+</footer>
+
+<script>
+const GRADE = 'jaune';
+
+fetch('techniques-jujitsu.json')
+  .then(r => r.json())
+  .then(data => {
+    const techniques = data[GRADE] || [];
+    const container = document.getElementById('contenu-techniques');
+    if (!techniques.length) { container.innerHTML = '<p style="color:#888;">Techniques à venir.</p>'; return; }
+    let html = '<h2>🥋 Techniques</h2>';
+    let categorie = '';
+    techniques.forEach(t => {
+      if (t.categorie !== categorie) {
+        categorie = t.categorie;
+        html += `<div class="section-title">${categorie}</div>`;
+      }
+      html += `<div class="video-item">
+        <strong>${t.nom}</strong>
+        ${t.description ? `<p style="color:#555;margin-top:4px;font-size:0.95em;">${t.description}</p>` : ''}
+        ${t.video ? `<p style="margin-top:8px;"><a href="${t.video}" target="_blank" style="color:#1a3a5c;font-weight:bold;">▶ Voir la vidéo</a></p>` : ''}
+      </div>`;
+    });
+    container.innerHTML = html;
+  })
+  .catch(() => {
+    document.getElementById('contenu-techniques').innerHTML = '<p style="color:#888;">Techniques à venir.</p>';
+  });
+
+fetch('documents-grades.json')
+  .then(r => r.json())
+  .then(data => {
+    const docs = data[GRADE] || [];
+    const container = document.getElementById('contenu-docs');
+    let html = '<h2>📄 Fiches PDF</h2>';
+    if (!docs.length) { html += '<p style="color:#888;">Aucun document.</p>'; }
+    docs.forEach(doc => {
+      html += `<a class="doc-item" href="${doc.fichier}" target="_blank" download>
+        <span class="doc-icon">📥</span>
+        <span>${doc.titre}</span>
+      </a>`;
+    });
+    container.innerHTML = html;
+  });
+</script>
+
+</body>
+</html>

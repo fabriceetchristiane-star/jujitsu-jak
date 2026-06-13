@@ -1,0 +1,20 @@
+{
+  "stages": [
+    {
+      "titre": "Stages à venir",
+      "contenu": "Les informations sur les prochains stages fédéraux seront publiées ici."
+    }
+  ],
+  "club": [
+    {
+      "titre": "Club JAK Lambersart",
+      "contenu": "Judo · Aïkido · Karaté · Jujitsu. Retrouvez toutes les informations pratiques du club ici."
+    }
+  ],
+  "federation": [
+    {
+      "titre": "Informations Fédération",
+      "contenu": "Actualités et textes officiels de la FFJDA concernant le jujitsu."
+    }
+  ]
+}

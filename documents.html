@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documents — Jujitsu JAK</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<header>
+  <h1>📄 Documents PDF</h1>
+  <p>Fiches de progression téléchargeables par grade</p>
+</header>
+
+<section id="contenu-docs">
+  <p style="color:#666;">Chargement des documents...</p>
+</section>
+
+<section>
+  <a class="lien-bleu" href="index.html">⬅ Retour à l'accueil</a>
+</section>
+
+<footer>
+  <p>🥋 Club JAK Lambersart — Judo · Aïkido · Karaté · Jujitsu</p>
+</footer>
+
+<script>
+const grades = [
+  { key: 'jaune',  label: '🟡 Ceinture Jaune',  couleur: '#FFD700' },
+  { key: 'orange', label: '🟠 Ceinture Orange', couleur: '#FF8C00' },
+  { key: 'verte',  label: '🟢 Ceinture Verte',  couleur: '#2e7d32' },
+  { key: 'bleue',  label: '🔵 Ceinture Bleue',  couleur: '#1565c0' },
+  { key: 'marron', label: '🟤 Ceinture Marron', couleur: '#5d4037' }
+];
+
+fetch('documents-grades.json')
+  .then(r => r.json())
+  .then(data => {
+    const container = document.getElementById('contenu-docs');
+    let html = '';
+    grades.forEach(g => {
+      if (data[g.key] && data[g.key].length) {
+        html += `<h2 style="margin-top:30px;color:${g.couleur};border-bottom:3px solid ${g.couleur};padding-bottom:8px;">${g.label}</h2>`;
+        data[g.key].forEach(doc => {
+          html += `<a class="doc-item" href="${doc.fichier}" target="_blank" download>
+            <span class="doc-icon">📥</span>
+            <span>${doc.titre}</span>
+          </a>`;
+        });
+      }
+    });
+    container.innerHTML = html;
+  })
+  .catch(() => {
+    document.getElementById('contenu-docs').innerHTML = '<p style="color:red;">Erreur de chargement.</p>';
+  });
+</script>
+
+</body>
+</html>
