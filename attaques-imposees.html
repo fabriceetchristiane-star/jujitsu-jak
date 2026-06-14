@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attaques Imposées — Jujitsu JAK</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    .attaque-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin-top: 20px; }
+    .serie-bloc { background: white; border-radius: 12px; box-shadow: 0 3px 8px rgba(0,0,0,0.1); overflow: hidden; }
+    .serie-header { padding: 14px 18px; color: white; font-weight: bold; font-size: 1.15em; }
+    .serie-body { padding: 12px 18px; }
+    .attaque-item { padding: 10px 0; border-bottom: 1px solid #eee; }
+    .attaque-item:last-child { border-bottom: none; }
+    .attaque-nom { font-weight: bold; color: #1a3a5c; }
+    .attaque-desc { color: #666; font-size: 0.92em; margin-top: 2px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🥋 Attaques Imposées</h1>
+  <p>Les 20 attaques imposées — Championnats de France Judo Jujitsu "Expression Technique"</p>
+</header>
+
+<section>
+  <p style="color:#666;margin-bottom:10px;">Source : Fédération Française de Judo, Jujitsu, Kendo et Disciplines Associées</p>
+
+  <div class="attaque-grid" id="attaquesContainer">
+    <!-- généré par JS -->
+  </div>
+
+  <div style="margin-top:30px;">
+    <a class="lien-bleu" href="index.html">⬅ Retour à l'accueil</a>
+  </div>
+</section>
+
+<footer>
+  <p>🥋 Club JAK Lambersart — Judo · Aïkido · Karaté · Jujitsu</p>
+</footer>
+
+<script>
+  fetch('attaques-imposees.json')
+    .then(r => r.json())
+    .then(data => {
+      const container = document.getElementById('attaquesContainer');
+      data.attaquesImposees.series.forEach(serie => {
+        const bloc = document.createElement('div');
+        bloc.className = 'serie-bloc';
+
+        const header = document.createElement('div');
+        header.className = 'serie-header';
+        header.style.backgroundColor = serie.couleur;
+        header.textContent = serie.nom + ' — ' + serie.categorie;
+        bloc.appendChild(header);
+
+        const body = document.createElement('div');
+        body.className = 'serie-body';
+
+        serie.attaques.forEach(att => {
+          const item = document.createElement('div');
+          item.className = 'attaque-item';
+          item.innerHTML = '<div class="attaque-nom">' + att.numero + '. ' + att.nom + '</div>' +
+                            '<div class="attaque-desc">' + att.description + '</div>';
+          body.appendChild(item);
+        });
+
+        bloc.appendChild(body);
+        container.appendChild(bloc);
+      });
+    })
+    .catch(err => console.error('Erreur chargement attaques-imposees.json', err));
+</script>
+
+</body>
+</html>

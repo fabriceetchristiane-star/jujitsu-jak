@@ -1,0 +1,60 @@
+{
+  "attaquesImposees": {
+    "titre": "Les 20 attaques imposées des Championnats de France de Judo Jujitsu - Expression Technique",
+    "source": "Fédération Française de Judo, Jujitsu, Kendo et Disciplines Associées",
+    "series": [
+      {
+        "id": "A",
+        "nom": "Série A",
+        "categorie": "Saisies avec les mains",
+        "couleur": "#1565c0",
+        "attaques": [
+          { "numero": 1, "nom": "Katate Dori", "description": "Saisie du poignet à 2 mains" },
+          { "numero": 2, "nom": "Eri Dori", "description": "Saisie croisée du revers" },
+          { "numero": 3, "nom": "Mae Dori Kubi", "description": "Saisie à 2 mains de face au cou" },
+          { "numero": 4, "nom": "Yoko Dori Kubi", "description": "Saisie à 2 mains de côté au cou" },
+          { "numero": 5, "nom": "Yoko Sode Dori", "description": "Saisie de la manche de côté" }
+        ]
+      },
+      {
+        "id": "B",
+        "nom": "Série B",
+        "categorie": "Saisies avec les bras",
+        "couleur": "#e8a317",
+        "attaques": [
+          { "numero": 1, "nom": "Mae Dori", "description": "Saisie de face en ceinturant sous les bras" },
+          { "numero": 2, "nom": "Yoko Dori", "description": "Saisie de côté en ceinturant les bras" },
+          { "numero": 3, "nom": "Yoko Dori", "description": "Saisie de côté au cou" },
+          { "numero": 4, "nom": "Mae Dori", "description": "Saisie de face au cou" },
+          { "numero": 5, "nom": "Hakada Jime", "description": "Étranglement par l'arrière" }
+        ]
+      },
+      {
+        "id": "C",
+        "nom": "Série C",
+        "categorie": "Coups",
+        "couleur": "#2e7d32",
+        "attaques": [
+          { "numero": 1, "nom": "Jodan Oie Tsuki", "description": "Coup de poing direct haut" },
+          { "numero": 2, "nom": "Shudan Giaku Tsuki", "description": "Coup de poing direct (plexus)" },
+          { "numero": 3, "nom": "Jodan Naname Shuto", "description": "Attaque en oblique avec le tranchant de la main" },
+          { "numero": 4, "nom": "Shudan Mae Geri Kekomi", "description": "Coup de pied direct de face" },
+          { "numero": 5, "nom": "Shudan Mawaishi Geri", "description": "Coup de pied circulaire" }
+        ]
+      },
+      {
+        "id": "D",
+        "nom": "Série D",
+        "categorie": "Coups avec armes",
+        "couleur": "#424242",
+        "attaques": [
+          { "numero": 1, "nom": "Naname Tsuki", "description": "Piqué de haut en bas" },
+          { "numero": 2, "nom": "Shudan Tsukkomi", "description": "Piqué de face" },
+          { "numero": 3, "nom": "Naname Uchi", "description": "Piqué de biais en revers" },
+          { "numero": 4, "nom": "Kiri Komi", "description": "Attaque de haut en bas" },
+          { "numero": 5, "nom": "Yoko Uchi", "description": "Attaque oblique à la tête" }
+        ]
+      }
+    ]
+  }
+}
