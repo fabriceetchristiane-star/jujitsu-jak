@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lexique général Judo Ju-Jitsu organisé par catégories - Club JAK Lambersart">
+  <title>Lexique Général — Jujitsu JAK</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    /* ===== LEXIQUE GENERAL - STYLES SPECIFIQUES ===== */
+    .lexique-search {
+      width: 100%;
+      padding: 14px 18px;
+      font-size: 1.05em;
+      border: 2px solid #ccdded;
+      border-radius: 10px;
+      margin-bottom: 25px;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    .lexique-search:focus {
+      outline: none;
+      border-color: #1a3a5c;
+    }
+
+    .categorie-bouton {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: white;
+      border: none;
+      border-left: 6px solid var(--cat-color, #1a3a5c);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 10px 0;
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #333;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: all 0.25s ease;
+      text-align: left;
+      font-family: Arial, sans-serif;
+    }
+    .categorie-bouton:hover {
+      transform: translateX(4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .categorie-bouton .cat-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .categorie-bouton .cat-icone {
+      font-size: 1.4em;
+    }
+    .categorie-bouton .cat-compte {
+      font-weight: normal;
+      font-size: 0.8em;
+      color: #888;
+      margin-left: 8px;
+    }
+    .categorie-bouton .cat-chevron {
+      transition: transform 0.25s ease;
+      color: var(--cat-color, #1a3a5c);
+      font-size: 1.2em;
+    }
+    .categorie-bouton.ouvert .cat-chevron {
+      transform: rotate(180deg);
+    }
+
+    .categorie-contenu {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease;
+      background: #fafbfc;
+      border-radius: 0 0 10px 10px;
+      margin-top: -10px;
+    }
+    .categorie-contenu.ouvert {
+      max-height: 3000px;
+      margin-bottom: 10px;
+    }
+    .terme-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0;
+    }
+    .terme-table tr {
+      border-bottom: 1px solid #eee;
+    }
+    .terme-table tr:last-child {
+      border-bottom: none;
+    }
+    .terme-table tr:hover {
+      background: #f0f4f8;
+    }
+    .terme-table td {
+      padding: 10px 20px;
+      font-size: 0.98em;
+    }
+    .terme-table td.col-terme {
+      font-weight: bold;
+      color: #1a3a5c;
+      white-space: nowrap;
+      width: 35%;
+    }
+    .terme-table td.col-trad {
+      color: #555;
+    }
+    .terme-table tr.masque {
+      display: none;
+    }
+
+    .lexique-info {
+      background: #fff8e1;
+      border-left: 5px solid #f9a825;
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-bottom: 20px;
+      font-size: 0.95em;
+      color: #555;
+    }
+    .aucun-resultat {
+      text-align: center;
+      color: #888;
+      padding: 30px;
+      font-style: italic;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📖 Lexique Général</h1>
+  <p>Vocabulaire Judo · Ju-Jitsu — organisé par catégories</p>
+</header>
+
+<section>
+  <div class="lexique-info">
+    🚧 Ce lexique sera enrichi au fur et à mesure. N'hésite pas à signaler les termes manquants.
+  </div>
+
+  <input type="text" id="rechercheInput" class="lexique-search" placeholder="🔍 Rechercher un terme (japonais ou français)..." onkeyup="filtrerLexique()">
+
+  <div id="categoriesContainer"></div>
+
+  <p class="aucun-resultat" id="aucunResultat">Aucun terme ne correspond à votre recherche.</p>
+
+  <div style="margin-top:30px;">
+    <a class="lien-bleu" href="lexique.html">⬅ Retour au lexique par grade</a>
+    <a class="lien-bleu" href="index.html">🏠 Accueil</a>
+  </div>
+</section>
+
+<footer>
+  <p>🥋 Club JAK Lambersart — Judo · Aïkido · Karaté · Jujitsu</p>
+</footer>
+
+<script>
+let lexiqueData = null;
+
+async function chargerLexique() {
+  try {
+    const response = await fetch('lexique-general.json');
+    const data = await response.json();
+    lexiqueData = data.lexiqueGeneral;
+    afficherCategories(lexiqueData.categories);
+  } catch (erreur) {
+    document.getElementById('categoriesContainer').innerHTML =
+      '<p style="color:#c62828;text-align:center;padding:20px;">Erreur de chargement du lexique. Vérifiez que le fichier lexique-general.json est bien présent.</p>';
+    console.error('Erreur chargement lexique:', erreur);
+  }
+}
+
+function afficherCategories(categories) {
+  const container = document.getElementById('categoriesContainer');
+  container.innerHTML = '';
+
+  categories.forEach((cat, index) => {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'categorie-wrapper';
+    wrapper.dataset.catId = cat.id;
+
+    const bouton = document.createElement('button');
+    bouton.className = 'categorie-bouton';
+    bouton.style.setProperty('--cat-color', cat.couleur);
+    bouton.onclick = () => toggleCategorie(index);
+    bouton.id = 'bouton-' + index;
+    bouton.innerHTML = `
+      <span class="cat-left">
+        <span class="cat-icone">${cat.icone}</span>
+        <span>${cat.nom}</span>
+        <span class="cat-compte">(${cat.termes.length} termes)</span>
+      </span>
+      <span class="cat-chevron">▼</span>
+    `;
+
+    const contenu = document.createElement('div');
+    contenu.className = 'categorie-contenu';
+    contenu.id = 'contenu-' + index;
+
+    const table = document.createElement('table');
+    table.className = 'terme-table';
+    cat.termes.forEach(t => {
+      const tr = document.createElement('tr');
+      tr.dataset.terme = (t.terme + ' ' + t.traduction).toLowerCase();
+      tr.innerHTML = `<td class="col-terme">${t.terme}</td><td class="col-trad">${t.traduction}</td>`;
+      table.appendChild(tr);
+    });
+    contenu.appendChild(table);
+
+    wrapper.appendChild(bouton);
+    wrapper.appendChild(contenu);
+    container.appendChild(wrapper);
+  });
+}
+
+function toggleCategorie(index) {
+  const bouton = document.getElementById('bouton-' + index);
+  const contenu = document.getElementById('contenu-' + index);
+  bouton.classList.toggle('ouvert');
+  contenu.classList.toggle('ouvert');
+}
+
+function filtrerLexique() {
+  const recherche = document.getElementById('rechercheInput').value.toLowerCase().trim();
+  let resultatsTotal = 0;
+
+  document.querySelectorAll('.categorie-wrapper').forEach((wrapper, index) => {
+    const lignes = wrapper.querySelectorAll('tr');
+    let resultatsCategorie = 0;
+
+    lignes.forEach(ligne => {
+      const correspond = recherche === '' || ligne.dataset.terme.includes(recherche);
+      ligne.classList.toggle('masque', !correspond);
+      if (correspond) resultatsCategorie++;
+    });
+
+    resultatsTotal += resultatsCategorie;
+
+    const bouton = document.getElementById('bouton-' + index);
+    const contenu = document.getElementById('contenu-' + index);
+
+    if (recherche !== '' && resultatsCategorie > 0) {
+      bouton.classList.add('ouvert');
+      contenu.classList.add('ouvert');
+      wrapper.style.display = '';
+    } else if (recherche !== '' && resultatsCategorie === 0) {
+      wrapper.style.display = 'none';
+    } else {
+      wrapper.style.display = '';
+      if (recherche === '') {
+        bouton.classList.remove('ouvert');
+        contenu.classList.remove('ouvert');
+      }
+    }
+  });
+
+  document.getElementById('aucunResultat').style.display = (resultatsTotal === 0 && recherche !== '') ? 'block' : 'none';
+}
+
+chargerLexique();
+</script>
+
+</body>
+</html>
