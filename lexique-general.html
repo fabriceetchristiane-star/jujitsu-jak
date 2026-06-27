@@ -206,7 +206,7 @@ function afficherCategories(categories) {
     table.className = 'terme-table';
     cat.termes.forEach(t => {
       const tr = document.createElement('tr');
-      tr.dataset.terme = (t.terme + ' ' + t.traduction).toLowerCase();
+      tr.dataset.terme = (t.terme + ' ' + t.traduction).toLowerCase().replace(/-/g, ' ');
       tr.innerHTML = `<td class="col-terme">${t.terme}</td><td class="col-trad">${t.traduction}</td>`;
       table.appendChild(tr);
     });
@@ -234,7 +234,7 @@ function filtrerLexique() {
     let resultatsCategorie = 0;
 
     lignes.forEach(ligne => {
-      const correspond = recherche === '' || ligne.dataset.terme.includes(recherche);
+      const correspond = recherche === '' || ligne.dataset.terme.includes(recherche.replace(/-/g, ' '));
       ligne.classList.toggle('masque', !correspond);
       if (correspond) resultatsCategorie++;
     });
