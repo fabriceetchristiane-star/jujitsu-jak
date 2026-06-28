@@ -1,0 +1,150 @@
+{
+  "seizeTechniques": {
+    "titre": "Les 16 Techniques Imposées",
+    "historique": {
+      "creation": "Années 1980",
+      "createur": "Bernard Pariset (9ème dan)",
+      "contexte": "Instaurées pour lancer et développer l'activité jujitsu auprès de la FFJDA. Présentées pour la première fois lors des 2ème championnats du monde de judo féminin en 1982 à Paris.",
+      "remplacement": "1996",
+      "remplaceesPar": "Les 20 attaques/défenses imposées issues du Duo System international (Annexe 6-5 FFJDA)",
+      "note": "Ces 16 techniques demeurent une base de travail utile en jujitsu et une entrée en matière en self-défense, avec une dominante judo privilégiant la riposte par projection."
+    },
+    "protocole": {
+      "ouverture": [
+        "Tori est à droite de Joseki",
+        "Uke dépose ses armes sans cérémonial",
+        "Uke et Tori sont à quatre mètres l'un de l'autre",
+        "Uke et Tori saluent le Joseki en Ritsurei (debout)",
+        "Uke et Tori se saluent en Ritsurei",
+        "Uke et Tori font le pas de garde (pied gauche, puis pied droit)",
+        "Uke et Tori avancent l'un vers l'autre"
+      ],
+      "fermeture": [
+        "Uke va reposer le revolver, et ne reprend pas les autres armes",
+        "Uke reprend sa place initiale",
+        "Uke et Tori ferment (droite puis gauche), puis se saluent en Ritsurei",
+        "Uke et Tori saluent le Joseki en Ritsurei"
+      ]
+    },
+    "techniques": [
+      {
+        "numero": 1,
+        "categorie": "Saisie",
+        "attaque": "Saisie du revers gauche de Tori avec sa main droite (Uke avance puis recule jambe droite en tirant)",
+        "riposte": "Shuto de la main gauche au pli du coude, Teisho de la main droite au menton, O-Soto-Gari",
+        "techniquesFinales": ["O-Soto-Gari"]
+      },
+      {
+        "numero": 2,
+        "categorie": "Étranglement",
+        "attaque": "Étranglement en poussant",
+        "riposte": "Saisie des revers, Tomoe-Nage",
+        "techniquesFinales": ["Tomoe-Nage"]
+      },
+      {
+        "numero": 3,
+        "categorie": "Étranglement arrière",
+        "attaque": "Étranglement arrière (Hadaka-Jime)",
+        "riposte": "Igi droit, Ippon-Seoi-Nage",
+        "techniquesFinales": ["Ippon-Seoi-Nage"]
+      },
+      {
+        "numero": 4,
+        "categorie": "Coup de pied",
+        "attaque": "Mawashi-Geri droit",
+        "riposte": "Parade basse sous cuisse (avec bras gauche), Teisho droit sous le menton, O-Uchi-Gari",
+        "techniquesFinales": ["O-Uchi-Gari"]
+      },
+      {
+        "numero": 5,
+        "categorie": "Saisie cou",
+        "attaque": "Saisie du cou par le côté droit",
+        "riposte": "Main droite sous le nez (par dessus le bras droit de Uke) renverse la tête de Uke vers l'arrière, Uchi-Oroshi gauche à l'estomac, saisie du revers droit de Uke avec la main droite, Te-Guruma",
+        "techniquesFinales": ["Te-Guruma"]
+      },
+      {
+        "numero": 6,
+        "categorie": "Saisie arrière",
+        "attaque": "Saisie arrière du revers gauche en tirant",
+        "riposte": "Retournement, contrôle du poignet, Mae-Geri droit au ventre, Ippon-Seoi-Nage",
+        "techniquesFinales": ["Ippon-Seoi-Nage"]
+      },
+      {
+        "numero": 7,
+        "categorie": "Poussée / Sol",
+        "attaque": "Poussée à deux mains de face (Tori chute et se place sur le côté), et tentative d'attaque au sol",
+        "riposte": "Saisie du revers droit, pied droit dans l'aine gauche, bloque le talon droit avec le bras gauche et le talon gauche avec la jambe gauche. Tire Uke à lui, qui se redresse, et le renverse alors en arrière et vient le contrôler en Kata-Juji-Jime",
+        "techniquesFinales": ["Kata-Juji-Jime"]
+      },
+      {
+        "numero": 8,
+        "categorie": "Menace de face",
+        "attaque": "Menace de face",
+        "riposte": "Yoko-Geri droit (sur épaule gauche), O-Soto-Gari gauche",
+        "techniquesFinales": ["O-Soto-Gari"]
+      },
+      {
+        "numero": 9,
+        "categorie": "Saisie cheveux",
+        "attaque": "Saisie des cheveux de la main droite",
+        "riposte": "Mae-Geri droit au ventre et clé à deux mains sur le poignet en reculant pour traîner Uke à plat ventre au sol, puis Igi milieu du dos",
+        "techniquesFinales": ["Clé poignet", "Contrôle au sol"]
+      },
+      {
+        "numero": 10,
+        "categorie": "Attaque arrière",
+        "attaque": "Attaque par l'arrière droit, saisie de l'épaule gauche avec le bras gauche",
+        "riposte": "Igi droit au ventre, O-Goshi, retournement dos-ventre (initiative de Uke), contrôle en Ude-Gatame",
+        "techniquesFinales": ["O-Goshi", "Ude-Gatame"]
+      },
+      {
+        "numero": 11,
+        "categorie": "Poussée / Sol",
+        "attaque": "Poussée des épaules à deux mains de face (Tori chute sur le dos), et tentative d'attaque au sol",
+        "riposte": "Travail d'action-réaction qui permet à Tori de projeter Uke en Tomoe-Nage avec les deux pieds",
+        "techniquesFinales": ["Tomoe-Nage (deux pieds)"]
+      },
+      {
+        "numero": 12,
+        "categorie": "Coup de poing",
+        "attaque": "Naname-Tsuki en avançant pied droit",
+        "riposte": "Esquive à gauche en s'abaissant, saisie épaule gauche de la main droite, balayage pied gauche (Ko-Soto-Gari)",
+        "techniquesFinales": ["Ko-Soto-Gari"]
+      },
+      {
+        "numero": 13,
+        "categorie": "Menace arrière",
+        "attaque": "Menace arrière (Uke avance sur Tori)",
+        "riposte": "Ushiro-Geri, Harai-Goshi, Uke s'assied pour se relever, Tori fait Hadaka-Jime genou gauche au sol",
+        "techniquesFinales": ["Harai-Goshi", "Hadaka-Jime"],
+        "transition": "Uke va prendre le couteau sans cérémonial"
+      },
+      {
+        "numero": 14,
+        "categorie": "Défense couteau",
+        "attaque": "Menace par couteau de face (main droite), avec pied droit devant",
+        "riposte": "Mikazuki-Geri gauche, Ura-Uchi gauche au visage (en contrôlant le bras armé avec le bras droit), Kote-Gaeshi sur main gauche avec Taï-Sabaki, contrôle au sol. Tori désarme Uke, puis lui rend l'arme.",
+        "techniquesFinales": ["Kote-Gaeshi", "Contrôle au sol"],
+        "arme": "Couteau (Tanto)",
+        "transition": "Uke va poser le couteau et prendre le bâton sans cérémonial"
+      },
+      {
+        "numero": 15,
+        "categorie": "Défense bâton",
+        "attaque": "Attaque au bâton à une main de haut en bas (main droite)",
+        "riposte": "Esquive gauche (sous le bâton), Yoko-Geri droit sur genou droit de Uke (dans poplité), O-Soto-Otoshi droit, contrôle du bras. Tori désarme Uke, puis lui rend l'arme.",
+        "techniquesFinales": ["O-Soto-Otoshi", "Contrôle bras"],
+        "arme": "Bâton (Jo)",
+        "transition": "Uke va poser le bâton et prendre le revolver sans cérémonial"
+      },
+      {
+        "numero": 16,
+        "categorie": "Défense arme à feu",
+        "attaque": "Menace par revolver de face (main droite)",
+        "riposte": "Dans le même temps, Taï-Sabaki gauche, saisie main armée (paume en bas et pouce à gauche) amenée vers le bas, Tsukkake visage, clé à deux mains sur poignet droit avec amenée au sol (revolver toujours pointé vers Uke). Tori désarme Uke, puis lui rend l'arme.",
+        "techniquesFinales": ["Clé poignet", "Contrôle au sol"],
+        "arme": "Revolver"
+      }
+    ]
+  }
+}

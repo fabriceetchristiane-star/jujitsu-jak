@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les 16 Techniques Imposées — Jujitsu JAK</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    .historique-bloc {
+      background: linear-gradient(135deg, #1a3a5c, #2e6da4);
+      color: white;
+      border-radius: 14px;
+      padding: 22px 26px;
+      margin-bottom: 30px;
+    }
+    .historique-bloc h2 {
+      margin: 0 0 12px 0;
+      font-size: 1.25em;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+      padding-bottom: 10px;
+    }
+    .historique-bloc p { margin: 6px 0; font-size: 0.97em; line-height: 1.6; }
+    .historique-bloc .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      border-radius: 20px;
+      padding: 3px 12px;
+      margin: 4px 4px 4px 0;
+      font-size: 0.88em;
+    }
+
+    .protocole-bloc {
+      background: #f5f5f5;
+      border-left: 5px solid #888;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 28px;
+    }
+    .protocole-bloc h3 { margin: 0 0 10px 0; color: #555; font-size: 1em; }
+    .protocole-bloc ol { margin: 0; padding-left: 20px; }
+    .protocole-bloc li { padding: 3px 0; color: #666; font-size: 0.93em; }
+
+    .techniques-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 18px;
+      margin-top: 10px;
+    }
+    .technique-carte {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+    .technique-carte:hover { transform: translateY(-3px); }
+    .technique-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 18px;
+      color: white;
+      background: #1a3a5c;
+    }
+    .technique-numero {
+      font-size: 1.6em;
+      font-weight: bold;
+      opacity: 0.9;
+      min-width: 36px;
+    }
+    .technique-categorie { font-size: 0.95em; opacity: 0.85; }
+    .technique-body { padding: 14px 18px; }
+    .attaque-label {
+      font-size: 0.78em;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #c62828;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .attaque-texte { color: #444; font-size: 0.93em; margin-bottom: 12px; }
+    .riposte-label {
+      font-size: 0.78em;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #2e7d32;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .riposte-texte { color: #333; font-size: 0.93em; }
+    .techniques-finales {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .tag-technique {
+      background: #e3f2fd;
+      color: #1a3a5c;
+      border-radius: 20px;
+      padding: 3px 10px;
+      font-size: 0.82em;
+      font-weight: bold;
+    }
+    .tag-arme {
+      background: #fce4ec;
+      color: #c62828;
+      border-radius: 20px;
+      padding: 3px 10px;
+      font-size: 0.82em;
+    }
+    .transition-note {
+      margin-top: 10px;
+      font-size: 0.82em;
+      color: #888;
+      font-style: italic;
+      border-top: 1px solid #eee;
+      padding-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🥋 Les 16 Techniques Imposées</h1>
+  <p>Programme historique du Jujitsu français — FFJDA</p>
+</header>
+
+<section>
+  <div class="historique-bloc" id="historiqueBloc">
+    <!-- généré par JS -->
+  </div>
+
+  <h2>📋 Protocole d'ouverture</h2>
+  <div class="protocole-bloc" id="ouvertureBloc">
+    <!-- généré par JS -->
+  </div>
+
+  <h2>🥋 Les 16 techniques</h2>
+  <div class="techniques-grid" id="techniquesContainer">
+    <!-- généré par JS -->
+  </div>
+
+  <h2>📋 Protocole de fermeture</h2>
+  <div class="protocole-bloc" id="fermetureBloc">
+    <!-- généré par JS -->
+  </div>
+
+  <div style="margin-top:30px;">
+    <a class="lien-bleu" href="attaques-imposees.html">➡ Voir les 20 techniques actuelles</a>
+    <a class="lien-bleu" href="index.html">🏠 Accueil</a>
+  </div>
+</section>
+
+<footer>
+  <p>🥋 Club JAK Lambersart — Judo · Aïkido · Karaté · Jujitsu</p>
+</footer>
+
+<script>
+async function chargerDonnees() {
+  try {
+    const response = await fetch('16-techniques.json');
+    const data = await response.json();
+    const d = data.seizeTechniques;
+
+    // Historique
+    const h = d.historique;
+    document.getElementById('historiqueBloc').innerHTML = `
+      <h2>📜 Historique</h2>
+      <p>${h.note}</p>
+      <div style="margin-top:14px;">
+        <span class="badge">📅 Créées dans les ${h.creation}</span>
+        <span class="badge">👤 ${h.createur}</span>
+        <span class="badge">🔄 Remplacées en ${h.remplacement}</span>
+      </div>
+      <p style="margin-top:12px;font-size:0.88em;opacity:0.85;">
+        Remplacées par : <strong>${h.remplaceesPar}</strong>
+      </p>
+    `;
+
+    // Protocole ouverture
+    const ouv = d.protocole.ouverture;
+    document.getElementById('ouvertureBloc').innerHTML = `
+      <h3>Avant les techniques</h3>
+      <ol>${ouv.map(e => `<li>${e}</li>`).join('')}</ol>
+    `;
+
+    // Techniques
+    const container = document.getElementById('techniquesContainer');
+    const couleurs = [
+      '#1a3a5c','#c62828','#2e7d32','#e65100','#6a1b9a',
+      '#00695c','#ad1457','#0277bd','#558b2f','#bf360c',
+      '#455a64','#f57f17','#37474f','#4527a0','#00838f','#283593'
+    ];
+    d.techniques.forEach((t, i) => {
+      const carte = document.createElement('div');
+      carte.className = 'technique-carte';
+      let tagsHTML = t.techniquesFinales.map(tf =>
+        `<span class="tag-technique">${tf}</span>`).join('');
+      if (t.arme) tagsHTML += `<span class="tag-arme">⚔️ ${t.arme}</span>`;
+      const transitionHTML = t.transition
+        ? `<div class="transition-note">➡ ${t.transition}</div>` : '';
+      carte.innerHTML = `
+        <div class="technique-header" style="background:${couleurs[i]}">
+          <span class="technique-numero">T${t.numero}</span>
+          <span class="technique-categorie">${t.categorie}</span>
+        </div>
+        <div class="technique-body">
+          <div class="attaque-label">⚡ Attaque (Uke)</div>
+          <div class="attaque-texte">${t.attaque}</div>
+          <div class="riposte-label">🛡️ Riposte (Tori)</div>
+          <div class="riposte-texte">${t.riposte}</div>
+          <div class="techniques-finales">${tagsHTML}</div>
+          ${transitionHTML}
+        </div>
+      `;
+      container.appendChild(carte);
+    });
+
+    // Protocole fermeture
+    const fer = d.protocole.fermeture;
+    document.getElementById('fermetureBloc').innerHTML = `
+      <h3>Après les techniques</h3>
+      <ol>${fer.map(e => `<li>${e}</li>`).join('')}</ol>
+    `;
+
+  } catch (err) {
+    console.error('Erreur chargement:', err);
+    document.getElementById('techniquesContainer').innerHTML =
+      '<p style="color:#c62828;">Erreur de chargement du fichier JSON.</p>';
+  }
+}
+
+chargerDonnees();
+</script>
+
+</body>
+</html>
