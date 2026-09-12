@@ -1,0 +1,98 @@
+{
+  "general": {
+    "titre": "Règlement Général",
+    "icone": "📋",
+    "contenu": [
+      {
+        "sous_titre": "Structure commune des 4 UV",
+        "texte": "Les grades de Jujitsu Traditionnel sont structurés en 4 unités de valeur, avec le même niveau d'exigence que le judo : UV1 Forme imposée, UV2 Épreuve technique, UV3 Épreuve d'efficacité, UV4 Engagement personnel dans le développement de l'activité. L'ordre de présentation des épreuves est laissé au libre choix du candidat. Une UV4 acquise pour un dan donné est équivalente en judo, jujitsu traditionnel, jiu-jitsu brésilien et jujitsu contact (principe de transversalité)."
+      },
+      {
+        "sous_titre": "Conditions d'éligibilité",
+        "texte": "L'engagement d'un candidat doit être validé par l'enseignant licencié FFJDA de son club, en conformité avec les statuts de la FFJDA et de la CSDGE. Pour le 1er dan, le candidat doit justifier d'au moins 2 licences FFJDA. Un certificat médical de non contre-indication (CACI) est obligatoire pour l'UV3. Pour les non-licenciés FFJDA, un carnet de grades spécifique et 2 ans de pratique minimum sont requis."
+      },
+      {
+        "sous_titre": "Délais et âges entre les grades — saison 2026/2027",
+        "texte": "Les délais et âges planchers sont identiques à ceux du judo : 1er dan — homologation à 15 ans révolus minimum, après 1 an de ceinture marron. 2ème dan — 17 ans révolus, après 1 an de 1er dan. 3ème dan — 20 ans révolus, après 1 an de 2ème dan. 4ème dan — 24 ans révolus, après 2 ans de 3ème dan. 5ème dan — 29 ans révolus, après 3 ans de 4ème dan. 6ème dan — 40 ans révolus, après 4 ans de 5ème dan. 7ème dan — 53 ans révolus, après 13 ans de 6ème dan."
+      },
+      {
+        "sous_titre": "Sémantique : Jujitsu Traditionnel et Jiu-Jitsu Brésilien",
+        "texte": "Le club JAK Lambersart pratique le Jujitsu Traditionnel FFJDA (16 techniques imposées historiques, 20 attaques imposées du Duo System, séries A/B/C/D). Cette page ne résume que cette discipline. Le Jiu-Jitsu Brésilien et le Jujitsu Contact suivent des règlements de grades distincts, non traités ici (à vérifier avec Marc Antoine si le club souhaite les intégrer un jour)."
+      }
+    ]
+  },
+  "juges": {
+    "titre": "Guide des Juges & Arbitres",
+    "icone": "⚖️",
+    "contenu": [
+      {
+        "sous_titre": "Organisation des examens — 1er au 4ème dan",
+        "texte": "UV1 et UV2 : 2 évaluateurs minimum, certifiés de niveau régional pour le grade postulé. Au moins 1 session par ligue (ou interligue), coordination assurée par la CORG, territoires fixés pour favoriser la proximité. Différence notable avec le judo : 1 session minimum par ligue au lieu de 3, le nombre de pratiquants étant plus restreint."
+      },
+      {
+        "sous_titre": "Organisation des examens — 5ème au 7ème dan",
+        "texte": "UV1 et UV2 : 3 évaluateurs certifiés de niveau national pour le grade postulé. Minimum une session par saison, organisation au niveau national, même circuit que pour le judo (CODG puis CORG puis CSDGE)."
+      },
+      {
+        "sous_titre": "UV3 Efficacité — corps arbitral",
+        "texte": "Corps arbitral validé par la CRA et évaluateurs certifiés pour le grade postulé, niveau régional ou interligue, coordination CORG. Pas de restriction de ligue : les sessions sont ouvertes aux licenciés d'autres ligues."
+      }
+    ]
+  },
+  "criteres": {
+    "titre": "Critères d'Évaluation",
+    "icone": "📊",
+    "contenu": [
+      {
+        "sous_titre": "UV1 — Forme imposée, par grade",
+        "texte": "1er dan : 12 premières techniques du Goshin-jitsu, en tori et en uke (dispense de uke à 40 ans et plus).\n2ème dan : Goshin-jitsu en totalité, en tori et en uke (tori seul à 40 ans et plus).\n3ème dan : réponses libres sur les 3 séries imposées du Duo System — Série A (préhension, étreinte, blocage du cou), Série B (coups de poing, coups de pied), Série C (attaques avec armes).\n4ème dan : les 3 séries A/B/C ci-dessus + 1 série issue des 20 attaques imposées de la progression française.\n5ème dan : Kime-no-kata en tori (par dérogation, Ju-no-kata pour les candidats ayant obtenu le 4ème dan sous l'ancien règlement).\n6ème dan : Koshiki-no-kata en tori, cérémonial complet.\n7ème dan : Itsutsu-no-kata en tori."
+      },
+      {
+        "sous_titre": "UV2 — Technique, par grade",
+        "texte": "1er dan : 10 techniques tirées au sort dans l'annexe de la progression française, 2 méconnaissances tolérées, 5 min max.\n2ème dan : 20 techniques tirées au sort, 2 méconnaissances tolérées, 5 min max.\n3ème dan : enchaînements à partir de 3 positions au choix avec finalisation au sol (3-6 min) + 6 techniques tirées au sort (9 min max au total).\n4ème dan : démonstration du système d'attaque personnel (tokui-waza de projection puis système d'attaque au sol), 10 min max dont 5 min minimum en nage-waza et 3 min en ne-waza.\n5ème dan : expression technique debout et sol (défenses et ripostes toutes familles, armes limitées au bâton long, bâton court, poignard, revolver), 10 min ; document écrit à envoyer 1 mois avant à grade@ffjudo.com.\n6ème dan : prestation technique 15-20 min + entretien 10 min max.\n7ème dan : partie technique pédagogique 15-20 min + entretien 10-15 min."
+      },
+      {
+        "sous_titre": "UV3 — Efficacité Jujitsu Fighting (1er au 4ème dan)",
+        "texte": "Option 1 — Efficacité sportive : cumul de 100 points en relation grade-championnat ou en shiai/test d'efficacité jujitsu fighting sur plusieurs épreuves, OU 5 victoires consécutives totalisant 44 points minimum en une seule compétition.\nOption 2 — Efficacité combinée : 20 points en shiai/RGC jujitsu fighting (dispense à partir de 40 ans) + épreuve technique non fractionnable (uchi-komi, nage-komi, kakari-geiko et/ou yaku-soku-geiko sur des enchaînements atemi-waza/projection/contrôle au sol), dont le contenu et la durée augmentent avec le dan.\nComptage jujitsu fighting : victoire par full ippon (1 ippon dans chacune des 3 parties) = 10 points ; victoire avec 1 ippon dans 2 secteurs différents = 7 points."
+      },
+      {
+        "sous_titre": "UV4 — Engagement personnel",
+        "texte": "1/2 journée de stage ou de mise en situation (commissaire sportif ou arbitre) pour le 1er et le 2ème dan ; 1 journée pour le 3ème et le 4ème dan. Équivalences : commissaire sportif ou arbitre départemental en activité, participation à la coupe du jeune officiel. Validation par l'OTD. Une UV4 acquise en jujitsu traditionnel est aussi valable en judo, jiu-jitsu brésilien et jujitsu contact."
+      },
+      {
+        "sous_titre": "5ème, 6ème, 7ème dan — conditions et jugement",
+        "texte": "Critères de présentation équivalents au judo, appliqués au parcours jujitsu : titre ou fonction ≥ 4 ans (commission technique, équipe technique régionale, juge régional, élu, conseiller technique, arbitre/commissaire régional, compétiteur championnat de France seniors jujitsu) ou formation continue (28h/56h). 6ème dan : 25 ans d'ancienneté ceinture noire + 2 titres/fonctions. Jury de 3 évaluateurs minimum (6ème dan certifié N5 pour le 5ème dan candidat, 7ème dan certifié N6/N7 pour le 6ème/7ème dan) ; notation Excellent/Bien/Insuffisant, admission à l'unanimité ; mentions « Excellent » (3x excellent) ou « Très bien » (2 excellent + 1 bien) pour le 6ème et le 7ème dan."
+      }
+    ]
+  },
+  "procedure": {
+    "titre": "Procédure d'Examen",
+    "icone": "🎯",
+    "contenu": [
+      {
+        "sous_titre": "Inscription aux examens",
+        "texte": "Les inscriptions se font par l'extranet fédéral. Responsabilité du président de club et du professeur de valider les inscriptions sur la liste d'ayants droit du club. Le licencié peut ensuite s'inscrire ou se désinscrire lui-même, sous réserve des délais fixés par la Ligue organisatrice."
+      },
+      {
+        "sous_titre": "Circuit selon le grade",
+        "texte": "Du 1er au 4ème dan : relais privilégié via la Ligue (CORG), organisation régionale ou interligue. Du 5ème au 7ème dan : dossier envoyé à la CODG de rattachement, transmis à la CORG puis étudié par le Comité des Hauts Grades avant présentation à la CSDGE en plénière."
+      },
+      {
+        "sous_titre": "Shiai / Tests d'efficacité Jujitsu Fighting",
+        "texte": "Accès dès l'homologation du grade précédent, à partir des cadets. Poules homogènes par poids, 5 combats maximum par compétiteur. Durée du combat jujitsu traditionnel (fighting) : 2 minutes, récupération 2 minutes entre chaque combat. Pas de golden score, égalité (hiki-wake) possible. Seuil de validation : 5 victoires consécutives et 44 points minimum sur une même animation."
+      },
+      {
+        "sous_titre": "Relation Grade-Championnat (RGC) Jujitsu Fighting",
+        "texte": "Accessible dès l'homologation du grade précédent, à partir des cadets. Mêmes principes de comptabilisation que le shiai (full ippon = 10 pts, ippon dans 2 secteurs = 7 pts), sur les compétitions officielles de jujitsu fighting reconnues par la FFJDA."
+      },
+      {
+        "sous_titre": "Année de référence",
+        "texte": "Les âges planchers sont calculés en référence à l'année de naissance correspondant au 1er janvier de la saison en cours. Exemple : pour la saison 2026-2027, les personnes de 40 ans correspondent aux personnes nées en 1987."
+      },
+      {
+        "sous_titre": "Points de vigilance 2026/2027 à valider avec Marc Antoine",
+        "texte": "Ce résumé est établi à partir des Textes Officiels FFJDA 2026/2027 (section Jujitsu Traditionnel, distincte de la section Judo). Points à faire confirmer par Marc Antoine avant mise en ligne : le passage de la Série C (au lieu de A et B) au 3ème dan et l'ajout de la Série D au niveau supérieur mentionnés dans la documentation existante du club — la formulation officielle 2026/2027 regroupe désormais les séries A, B et C dès le 3ème dan, à recouper avec les 20 attaques imposées déjà présentes sur ce site (attaques-imposees.json, 16-techniques.json) ; le contenu exact de l'annexe de progression française citée pour l'UV2, non extractible automatiquement du PDF fédéral."
+      }
+    ]
+  }
+}
