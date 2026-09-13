@@ -94,5 +94,27 @@
         "texte": "Ce résumé est établi à partir des Textes Officiels FFJDA 2026/2027 (section Jujitsu Traditionnel, distincte de la section Judo). Points à faire confirmer par Marc Antoine avant mise en ligne : le passage de la Série C (au lieu de A et B) au 3ème dan et l'ajout de la Série D au niveau supérieur mentionnés dans la documentation existante du club — la formulation officielle 2026/2027 regroupe désormais les séries A, B et C dès le 3ème dan, à recouper avec les 20 attaques imposées déjà présentes sur ce site (attaques-imposees.json, 16-techniques.json) ; le contenu exact de l'annexe de progression française citée pour l'UV2, non extractible automatiquement du PDF fédéral."
       }
     ]
+  },
+  "transitoires": {
+    "titre": "Dispositions Transitoires & Équivalences",
+    "icone": "🔄",
+    "contenu": [
+      {
+        "sous_titre": "Disposition transitoire kata 4ème/5ème dan",
+        "texte": "Comme en judo, le règlement 2026/2027 inverse le kata du 4ème dan (désormais partie du travail des Séries A/B/C du Duo System) et du 5ème dan (Kime-no-kata). Disposition transitoire officielle : par dérogation, le Ju-no-kata sera demandé pour les candidats ayant obtenu leur 4ème dan sous l'ancien règlement lorsqu'ils se présenteront au 5ème dan. Automatique, gérée par le jury le jour de l'examen."
+      },
+      {
+        "sous_titre": "Équivalences UV4 — engagement personnel",
+        "texte": "Sont reconnus équivalents à l'UV4 : être commissaire sportif ou arbitre départemental en activité, ou avoir participé à la coupe du jeune officiel. Une UV4 acquise à un dan donné en jujitsu traditionnel est aussi valable en judo, jiu-jitsu brésilien et jujitsu contact (principe de transversalité) — et réciproquement."
+      },
+      {
+        "sous_titre": "Dispositions pour sportifs de haut niveau",
+        "texte": "La promotion des judokas et jujitsukas de niveau continental, mondial, olympique ou paralympique est proposée par le DTN à la CSDGE. Pour les disciplines non-olympiques comme le jujitsu, les performances mondiales, continentales ou d'épreuves équivalentes (combat-games, deaflympics) permettent l'accession au 5ème dan de la discipline."
+      },
+      {
+        "sous_titre": "Non-licenciés FFJDA",
+        "texte": "Les pratiquants de fédérations multisports/affinitaires/scolaires/universitaires agréées peuvent se présenter avec un carnet de grades spécifique délivré par la Ligue, après 2 ans de pratique minimum et paiement d'un droit de présentation."
+      }
+    ]
   }
 }
