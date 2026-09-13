@@ -60,8 +60,12 @@
         "texte": "UV1 Kanzen : forme de synthèse intégrant les 3 distances (percussion, corps-à-corps, sol), semi-libre. Uke offre une résistance dynamique et réaliste (80-90%). Critères : précision technique (25%), fluidité globale (25%), efficacité gestuelle (25%), présence martiale (25%).\nUV2 : tirage de 10 techniques parmi 27 disponibles (tout le référentiel adulte), maîtrise complète face à uke résistant.\nUV3 : 100 points contre 3ème dan, même barème.\nUV4 Responsabilité : responsable technique de club, membre d'une commission fédérale, encadrement d'un stage national, ou équivalent reconnu par la fédération."
       },
       {
-        "sous_titre": "5ème et 6ème dan Jujitsu Contact",
-        "texte": "Rupture avec les grades précédents : ces dans ne se valident plus par des points ou une liste imposée, mais par une prestation construite et argumentée révélant la profondeur de la réflexion martiale et la maturité technique du candidat (« la qualité prime sur la quantité »). Protocole détaillé non finalisé dans la documentation récupérée — à obtenir précisément auprès de Marc Antoine ou du secrétariat des grades FFJDA avant toute communication aux élèves. Aucun 7ème dan Jujitsu Contact n'est mentionné à ce jour."
+        "sous_titre": "5ème dan Jujitsu Contact",
+        "texte": "Conditions : titulaire du 4ème dan depuis 4 ans minimum, accord de la CSDGE.\nÉpreuve : prestation personnelle de 25 à 30 minutes (repos compris), en 2 parties capitalisables séparément — Partie A : prestation imposée (contenu défini par la CSDGE) ; Partie B : prestation personnelle (système d'attaque et/ou de défense), le candidat peut commenter ses démonstrations.\nDossier : PDF envoyé à grade@ffjudo.com 1 mois avant + 2 exemplaires papier le jour J, avec présentation succincte du candidat en début de document, plan détaillé et justification des choix.\nJury : 3 membres minimum, 6ème dan minimum, unanimité requise.\nReprésentation libre, sans limite de tentatives."
+      },
+      {
+        "sous_titre": "6ème dan Jujitsu Contact",
+        "texte": "Conditions : titulaire du 5ème dan depuis 5 ans minimum, accord de la CSDGE. Une « fiche guide » de recommandations est mise à disposition des candidats.\nÉpreuve : Partie A : exercice imposé (défini par la CSDGE) ; Partie B : prestation sectorielle de 20 min sur 1, 2 ou 3 secteurs au choix (pieds-poings, projections, sol) — cohérence obligatoire en cas de pluralité de secteurs ; suivie d'un entretien de 10 min maximum.\nDossier : PDF envoyé à grade@ffjudo.com 1 mois avant + 2 exemplaires papier le jour J (support de l'entretien), description détaillée de la prestation et justification des choix.\nJury : 3 membres minimum, 7ème dan minimum. Appréciations possibles : Excellent / Bien / Insuffisant / Très insuffisant. Admission à l'unanimité.\nMentions : « Excellent » = 3 appréciations Excellent ; « Très Bien » = 2 Excellent + 1 Bien.\nReprésentation libre, sans limite de tentatives ni délai minimum. Aucun 7ème dan Jujitsu Contact n'est mentionné à ce jour."
       }
     ]
   },
@@ -88,8 +92,8 @@
     "icone": "🔄",
     "contenu": [
       {
-        "sous_titre": "Discipline en construction réglementaire",
-        "texte": "Le Jujitsu Contact est la discipline la plus récemment structurée dans les textes FFJDA : contrairement au judo, au jujitsu traditionnel et au JJB, elle n'a pas encore de calendrier de sessions fixe ni de tableau d'âges/délais entre dans publié. Se référer directement à Marc Antoine ou au secrétariat des grades FFJDA pour toute question précise avant d'inscrire un candidat."
+        "sous_titre": "Discipline avec un fonctionnement propre",
+        "texte": "Contrairement au judo, au jujitsu traditionnel et au JJB, le Jujitsu Contact n'a pas de calendrier de sessions fixe ni de tableau d'âges/délais entre dans publié pour le 1er au 4ème dan : le nombre de sessions s'adapte aux candidatures. Pour le 5ème et le 6ème dan, en revanche, les conditions sont précises : 4 ans dans le grade précédent pour le 5ème dan, 5 ans pour le 6ème dan, accord de la CSDGE dans les deux cas."
       },
       {
         "sous_titre": "Équivalences UV4 — engagement personnel",
