@@ -1,0 +1,104 @@
+{
+  "general": {
+    "titre": "Règlement Général",
+    "icone": "📋",
+    "contenu": [
+      {
+        "sous_titre": "Discipline réservée aux 16 ans et plus",
+        "texte": "Le protocole de grade Jujitsu Contact s'applique exclusivement aux pratiquants âgés de 16 ans et plus. L'intégralité du référentiel technique (192 techniques et situations réparties en 3 familles : pieds/poings, projections, ne-waza) est accessible à cette tranche d'âge. Ne pas inscrire de mineur de moins de 16 ans à ce parcours."
+      },
+      {
+        "sous_titre": "Structure des 4 UV et capitalisation",
+        "texte": "UV1 Forme imposée, UV2 Technique (tirage au sort), UV3 Efficacité, UV4 Engagement. Particularité du Jujitsu Contact : les 4 UV sont évaluées indépendamment et chaque UV est capitalisable — une UV validée reste acquise d'une session à l'autre, sans délai de péremption. Le grade est attribué quand les 4 UV du niveau considéré sont validées."
+      },
+      {
+        "sous_titre": "Vue d'ensemble par dan (1er au 4ème)",
+        "texte": "1er dan — UV1 : Kihon (12-13 séquences fondamentales) ; UV2 : 10 techniques niveau 1 (exécution correcte, uke statique) ; UV3 : 100 points contre ceinture marron ; UV4 : Participation.\n2ème dan — UV1 : Renzoku (enchaînements en continuité) ; UV2 : 10 techniques niveau 2 + enchaînement, uke léger ; UV3 : 100 points contre 1er dan ; UV4 : Participation régulière.\n3ème dan — UV1 : Henka (défense et contre-attaque) ; UV2 : 10 techniques niveau 3 + adaptation, uke semi-résistant ; UV3 : 100 points contre 2ème dan ; UV4 : Implication.\n4ème dan — UV1 : Kanzen (maîtrise des 3 distances) ; UV2 : 10 techniques niveau 4, maîtrise complète, uke résistant ; UV3 : 100 points contre 3ème dan ; UV4 : Responsabilité."
+      },
+      {
+        "sous_titre": "Conditions générales",
+        "texte": "Conditions d'éligibilité identiques aux autres disciplines (licences FFJDA, validation par l'enseignant du club, CACI pour l'UV3). Le règlement fédéral ne précise pas de tableau d'âges/délais spécifique entre dans pour le Jujitsu Contact comme pour les autres disciplines : à confirmer avec Marc Antoine avant d'afficher des délais aux élèves."
+      }
+    ]
+  },
+  "juges": {
+    "titre": "Guide des Juges & Arbitres",
+    "icone": "⚖️",
+    "contenu": [
+      {
+        "sous_titre": "Nombre de sessions et organisation",
+        "texte": "Contrairement aux autres disciplines, le règlement fédéral ne fixe pas de nombre minimum de sessions annuelles pour le Jujitsu Contact : le nombre de sessions est adapté suivant le nombre de candidatures. La répartition territoriale et les UV accessibles par dan sont précisées en amont de chaque session."
+      },
+      {
+        "sous_titre": "Composition du jury",
+        "texte": "Le jury de grade est composé d'au moins 3 membres titulaires du grade supérieur à celui évalué, ou, pour le 4ème dan, de membres de la commission nationale des grades désignés par le Directeur Technique National. La présence d'un représentant fédéral est obligatoire pour les 3ème et 4ème dans."
+      },
+      {
+        "sous_titre": "Adversaire réglementaire en UV3",
+        "texte": "L'adversaire en UV3 est obligatoirement titulaire du grade immédiatement inférieur à celui visé par le candidat (contrairement aux autres disciplines où les points peuvent venir de compétitions ouvertes)."
+      }
+    ]
+  },
+  "criteres": {
+    "titre": "Critères d'Évaluation",
+    "icone": "📊",
+    "contenu": [
+      {
+        "sous_titre": "1er dan Jujitsu Contact — Kihon",
+        "texte": "UV1 Kihon : forme de 13 séquences en continuité, couvrant les 4 registres techniques. Uke statique-coopératif (offre une cible fixe et réaliste sans résister). Critères : exactitude technique (30%), placement/équilibre (25%), continuité (25%), ritualisation début/fin (20%).\nUV2 : tirage au sort de 10 techniques parmi 32 disponibles (3 pieds/poings + 3 projections + 4 ne-waza), exécution correcte en mode statique coopératif, 2 méconnaissances tolérées, 5 min de préparation mentale.\nUV3 : seuil de 100 points contre adversaires ceinture marron, barème 10 pts (victoire avant la limite/décision unanime) ou 7 pts (décision partagée), capitalisation illimitée.\nUV4 Participation : présence à 1 stage fédéral ou 1 compétition officielle (participant ou bénévole)."
+      },
+      {
+        "sous_titre": "2ème dan Jujitsu Contact — Renzoku",
+        "texte": "UV1 Renzoku : forme d'enchaînement en continuité, sans rupture de rythme, combinaisons pieds-poings et projections liées au sol. Uke offre une résistance légère et réaliste. Critères : continuité (35%), précision technique (30%), contrôle/placement (20%), présence martiale (15%).\nUV2 : tirage de 10 techniques parmi 41 disponibles, exécution + enchaînement, uke dynamique léger.\nUV3 : 100 points contre 1er dan, même barème.\nUV4 Participation régulière : au moins 2 événements fédéraux dans l'année (stages, compétitions, arbitrage, commissariat)."
+      },
+      {
+        "sous_titre": "3ème dan Jujitsu Contact — Henka",
+        "texte": "UV1 Henka : première forme interactive, uke initie les attaques (intention réelle, vitesse 70%), le candidat répond selon la forme codifiée. Critères : timing (35%), crédibilité martiale (30%), maîtrise technique (25%), adaptation libre (10%).\nUV2 : tirage de 10 techniques parmi 36 disponibles, exécution + adaptation à une variation proposée par uke (uke semi-résistant).\nUV3 : 100 points contre 2ème dan, même barème.\nUV4 Implication : rôle actif — arbitre officiel, membre du commissariat sportif, formateur lors d'un stage fédéral, ou responsable d'organisation d'un événement."
+      },
+      {
+        "sous_titre": "4ème dan Jujitsu Contact — Kanzen",
+        "texte": "UV1 Kanzen : forme de synthèse intégrant les 3 distances (percussion, corps-à-corps, sol), semi-libre. Uke offre une résistance dynamique et réaliste (80-90%). Critères : précision technique (25%), fluidité globale (25%), efficacité gestuelle (25%), présence martiale (25%).\nUV2 : tirage de 10 techniques parmi 27 disponibles (tout le référentiel adulte), maîtrise complète face à uke résistant.\nUV3 : 100 points contre 3ème dan, même barème.\nUV4 Responsabilité : responsable technique de club, membre d'une commission fédérale, encadrement d'un stage national, ou équivalent reconnu par la fédération."
+      },
+      {
+        "sous_titre": "5ème et 6ème dan Jujitsu Contact",
+        "texte": "Rupture avec les grades précédents : ces dans ne se valident plus par des points ou une liste imposée, mais par une prestation construite et argumentée révélant la profondeur de la réflexion martiale et la maturité technique du candidat (« la qualité prime sur la quantité »). Protocole détaillé non finalisé dans la documentation récupérée — à obtenir précisément auprès de Marc Antoine ou du secrétariat des grades FFJDA avant toute communication aux élèves. Aucun 7ème dan Jujitsu Contact n'est mentionné à ce jour."
+      }
+    ]
+  },
+  "procedure": {
+    "titre": "Procédure d'Examen",
+    "icone": "🎯",
+    "contenu": [
+      {
+        "sous_titre": "Inscription et traçabilité",
+        "texte": "Inscriptions par l'extranet, responsabilité du président de club et du professeur. Chaque résultat de compétition compté en UV3 doit être attesté par un document officiel (feuille de résultats signée, rapport du commissariat sportif) — pas de plafond de points par combat, plusieurs victoires lors d'un même tournoi s'additionnent."
+      },
+      {
+        "sous_titre": "Combats et compétitions valides",
+        "texte": "Durée du combat : 3 minutes (comme le Jiu-Jitsu Brésilien). Pas de sur-classement d'âge en Jujitsu Contact (contrairement au jujitsu traditionnel et au JJB qui autorisent U18 avec U21, U21 avec Adultes). Compétitions valides pour l'UV3 : tournois officiels reconnus par la fédération (championnats régionaux, nationaux, stages compétitifs labellisés)."
+      },
+      {
+        "sous_titre": "Année de référence",
+        "texte": "Les âges planchers, quand ils sont précisés, sont calculés en référence à l'année de naissance correspondant au 1er janvier de la saison en cours."
+      }
+    ]
+  },
+  "transitoires": {
+    "titre": "Dispositions Transitoires & Équivalences",
+    "icone": "🔄",
+    "contenu": [
+      {
+        "sous_titre": "Discipline en construction réglementaire",
+        "texte": "Le Jujitsu Contact est la discipline la plus récemment structurée dans les textes FFJDA : contrairement au judo, au jujitsu traditionnel et au JJB, elle n'a pas encore de calendrier de sessions fixe ni de tableau d'âges/délais entre dans publié. Se référer directement à Marc Antoine ou au secrétariat des grades FFJDA pour toute question précise avant d'inscrire un candidat."
+      },
+      {
+        "sous_titre": "Équivalences UV4 — engagement personnel",
+        "texte": "Une UV4 acquise pour un dan en Jujitsu Contact est équivalente en judo, jujitsu traditionnel et jiu-jitsu brésilien (principe de transversalité), même si les modes de validation UV4 spécifiques au Contact (participation, implication, responsabilité) sont plus détaillés que dans les autres disciplines."
+      },
+      {
+        "sous_titre": "Capitalisation des UV",
+        "texte": "Particularité à bien faire comprendre aux élèves : en Jujitsu Contact, chaque UV est indépendante et capitalisable sans délai de péremption. Un élève peut par exemple valider son UV3 (100 points) une saison, puis ses UV1/UV2/UV4 plus tard, sans repasser ce qui est déjà acquis."
+      }
+    ]
+  }
+}

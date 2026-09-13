@@ -3,40 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Règlement des Grades — Jujitsu Traditionnel — JAK</title>
+  <title>Règlement des Grades — Jujitsu Contact — JAK</title>
   <link rel="stylesheet" href="styles/style.css">
   <style>
     .onglets { display:flex; flex-wrap:wrap; gap:0.4rem; padding:0.8rem 0; justify-content:center; }
     .onglet { padding:0.45rem 1rem; border-radius:20px; border:none; cursor:pointer; font-size:0.82rem; font-weight:bold; background:#eee; color:#333; transition:all .2s; }
-    .onglet.active { background:#1a3a5c; color:white; }
+    .onglet.active { background:#1a1a1a; color:white; }
     .section { display:none; padding:1rem 0; max-width:900px; margin:0 auto; }
     .section.active { display:block; }
     .section-intro { color:#666; font-size:0.9rem; padding:0.5rem 0 1rem; text-align:center; }
     .bloc { background:white; border-radius:12px; padding:1.5rem; margin-bottom:1.2rem; box-shadow:0 2px 10px rgba(0,0,0,0.08); transition:box-shadow .3s; }
-    .bloc h3 { color:#1a3a5c; margin:0 0 0.8rem; font-size:1rem; border-left:4px solid #1565c0; padding-left:0.7rem; }
+    .bloc h3 { color:#1a1a1a; margin:0 0 0.8rem; font-size:1rem; border-left:4px solid #e65100; padding-left:0.7rem; }
     .bloc p { color:#555; font-size:0.9rem; line-height:1.7; margin:0; white-space:pre-wrap; }
-    .bloc.surlignee { box-shadow:0 0 0 3px #1565c0; }
+    .bloc.surlignee { box-shadow:0 0 0 3px #e65100; }
     .discipline-switch { display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; margin:1rem 0; }
     .discipline-btn { padding:0.5rem 1rem; border-radius:20px; text-decoration:none; font-size:0.85rem; font-weight:bold; background:#eee; color:#333; }
-    .discipline-btn.actif { background:#1a3a5c; color:white; }
-    .dan-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(110px,1fr)); gap:0.6rem; max-width:900px; margin:0.5rem auto 1.5rem; padding:0 1rem; }
-    .dan-btn { display:block; padding:0.7rem 0.4rem; background:#1565c0; color:white; text-decoration:none; text-align:center; border-radius:8px; font-weight:bold; font-size:0.85rem; cursor:pointer; border:none; }
+    .discipline-btn.actif { background:#1a1a1a; color:white; }
+    .dan-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:0.6rem; max-width:900px; margin:0.5rem auto 1.5rem; padding:0 1rem; }
+    .dan-btn { display:block; padding:0.7rem 0.4rem; background:#e65100; color:white; text-decoration:none; text-align:center; border-radius:8px; font-weight:bold; font-size:0.85rem; cursor:pointer; border:none; }
     .dan-btn small { display:block; font-weight:normal; font-size:0.72rem; opacity:0.9; }
-    .dan-btn:hover { background:#0d47a1; }
+    .dan-btn:hover { background:#a83c00; }
+    .alerte { max-width:900px; margin:0 auto 1rem; padding:0.8rem 1rem; background:#fff3cd; border:1px solid #ffeaa7; border-radius:8px; font-size:0.82rem; color:#7a5c00; text-align:center; }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>📝 Règlement des Grades — Jujitsu Traditionnel</h1>
-  <p>Textes officiels FFJDA 2026/2027 — dissocié du règlement Judo</p>
+  <h1>📝 Règlement des Grades — Jujitsu Contact</h1>
+  <p>Textes officiels FFJDA 2026/2027 — réservé aux 16 ans et plus</p>
 </header>
 
 <section class="discipline-switch">
-  <a class="discipline-btn actif" href="reglement.html">🥋 Jujitsu Traditionnel</a>
+  <a class="discipline-btn" href="reglement.html">🥋 Jujitsu Traditionnel</a>
   <a class="discipline-btn" href="reglement-bresilien.html">🇧🇷 Jiu-Jitsu Brésilien</a>
-  <a class="discipline-btn" href="reglement-contact.html">🥊 Jujitsu Contact</a>
+  <a class="discipline-btn actif" href="reglement-contact.html">🥊 Jujitsu Contact</a>
 </section>
+
+<div class="alerte">⚠️ Discipline réservée aux pratiquants de 16 ans et plus. Protocole des 5ème/6ème dan non finalisé dans les textes disponibles — voir Dispositions Transitoires.</div>
 
 <section style="text-align:center;">
   <p style="font-size:0.82rem;color:#666;margin:0 0 0.5rem;">📄 Ce résumé n'a pas de valeur réglementaire. En cas de doute, seul le texte officiel fait foi :</p>
@@ -44,15 +47,13 @@
   <a href="https://www.ffjudo.com/textes-officiels" target="_blank" class="lien-bleu">📚 Tous les Textes Officiels FFJDA</a>
 </section>
 
-<p style="text-align:center;font-size:0.85rem;color:#666;margin-top:1rem;">🎯 Accès rapide par dan (ouvre directement les critères) :</p>
+<p style="text-align:center;font-size:0.85rem;color:#666;margin-top:1rem;">🎯 Accès rapide par dan (avec la forme imposée correspondante) :</p>
 <div class="dan-grid">
-  <button class="dan-btn" onclick="allerAuDan(0)">1er Dan</button>
-  <button class="dan-btn" onclick="allerAuDan(1)">2ème Dan</button>
-  <button class="dan-btn" onclick="allerAuDan(2)">3ème Dan</button>
-  <button class="dan-btn" onclick="allerAuDan(3)">4ème Dan</button>
-  <button class="dan-btn" onclick="allerAuDan(4)">5ème Dan</button>
-  <button class="dan-btn" onclick="allerAuDan(5)">6ème Dan</button>
-  <button class="dan-btn" onclick="allerAuDan(6)">7ème Dan</button>
+  <button class="dan-btn" onclick="allerAuDan(0)">1er Dan<br><small>Kihon</small></button>
+  <button class="dan-btn" onclick="allerAuDan(1)">2ème Dan<br><small>Renzoku</small></button>
+  <button class="dan-btn" onclick="allerAuDan(2)">3ème Dan<br><small>Henka</small></button>
+  <button class="dan-btn" onclick="allerAuDan(3)">4ème Dan<br><small>Kanzen</small></button>
+  <button class="dan-btn" onclick="allerAuDan(4)">5ème/6ème<br><small>Prestation</small></button>
 </div>
 
 <section>
@@ -69,7 +70,7 @@
 </footer>
 
 <script>
-fetch('reglement.json')
+fetch('reglement-contact.json')
   .then(function(r) { return r.json(); })
   .then(function(data) {
     var onglets = document.getElementById('onglets-container');
@@ -92,7 +93,7 @@ fetch('reglement.json')
       div.id = 'sec-' + key;
       div.className = 'section' + (premier ? ' active' : '');
 
-      var intro = '<p class="section-intro">' + section.icone + ' ' + section.titre + ' — Jujitsu Traditionnel FFJDA 2026/2027</p>';
+      var intro = '<p class="section-intro">' + section.icone + ' ' + section.titre + ' — Jujitsu Contact FFJDA 2026/2027</p>';
       var blocs = section.contenu.map(function(item) {
         return '<div class="bloc"><h3>' + item.sous_titre + '</h3><p>' + item.texte + '</p></div>';
       }).join('');
@@ -102,7 +103,7 @@ fetch('reglement.json')
       premier = false;
     });
   })
-  .catch(function(e) { console.error('Erreur chargement reglement.json :', e); });
+  .catch(function(e) { console.error('Erreur chargement reglement-contact.json :', e); });
 
 function afficher(key, btn) {
   document.querySelectorAll('.section').forEach(function(s) { s.classList.remove('active'); });

@@ -1,0 +1,108 @@
+{
+  "general": {
+    "titre": "Règlement Général",
+    "icone": "📋",
+    "contenu": [
+      {
+        "sous_titre": "Structure commune des 4 UV",
+        "texte": "Comme les autres disciplines, le Jiu-Jitsu Brésilien (JJB) est structuré en 4 unités de valeur : UV1 Forme imposée, UV2 Épreuve technique, UV3 Épreuve d'efficacité, UV4 Engagement personnel. Une UV4 acquise pour un dan donné est équivalente en judo, jujitsu traditionnel, jiu-jitsu brésilien et jujitsu contact (principe de transversalité)."
+      },
+      {
+        "sous_titre": "Tenue réglementaire",
+        "texte": "Pour le Jiu-Jitsu Brésilien, il s'agit d'une tenue blanche conforme à la réglementation sportive en vigueur (Règles de compétition – Article 16), à distinguer du judogi blanc sans dossard utilisé pour le judo et le jujitsu traditionnel."
+      },
+      {
+        "sous_titre": "Conditions d'éligibilité et délais",
+        "texte": "Conditions générales identiques aux autres disciplines (2 licences FFJDA pour le 1er dan, CACI pour l'UV3, validation par l'enseignant du club). Délais et âges planchers 2026/2027 identiques au tableau commun : 1er dan à 15 ans révolus (1 an de ceinture marron), jusqu'au 4ème dan à 24 ans révolus (2 ans de ceinture noire 3ème dan)."
+      },
+      {
+        "sous_titre": "Plafond actuel des grades",
+        "texte": "Actuellement, le plus haut grade en Jiu-Jitsu Brésilien est le 5ème dan. Une commission ad hoc de la CSDGE étudie l'opportunité de proposer des sessions de passage aux dans supérieurs (6ème, 7ème). Il n'y a donc pas encore de 6ème ou 7ème dan JJB accessible."
+      }
+    ]
+  },
+  "juges": {
+    "titre": "Guide des Juges & Arbitres",
+    "icone": "⚖️",
+    "contenu": [
+      {
+        "sous_titre": "Organisation des examens — 1er au 4ème dan",
+        "texte": "UV1 et UV2 : 2 évaluateurs minimum, certifiés de niveau régional pour le grade postulé. Au moins 4 sessions réparties au niveau national, coordination assurée par la CORG de la région où se déroule le passage. Territoires fixés au niveau national pour favoriser la proximité selon les candidatures."
+      },
+      {
+        "sous_titre": "UV3 Efficacité — corps arbitral",
+        "texte": "Corps arbitral validé par la CRA et évaluateurs certifiés pour le grade postulé. Sessions organisées par ligue ou interligues, coordination CORG. Pas de restriction : ouvertes aux licenciés d'autres ligues."
+      },
+      {
+        "sous_titre": "Organisation des examens — 5ème dan",
+        "texte": "3 évaluateurs certifiés de niveau national. Contrairement aux autres disciplines, il n'y a pas de session minimum fixée par saison : le passage est organisé uniquement si une candidature est formulée."
+      }
+    ]
+  },
+  "criteres": {
+    "titre": "Critères d'Évaluation",
+    "icone": "📊",
+    "contenu": [
+      {
+        "sous_titre": "1er dan Jiu-Jitsu Brésilien",
+        "texte": "UV1 : 1ère série des imposées JJB (12 techniques de self-défense).\nUV2 : 10 techniques tirées au sort dans l'annexe de progression française JJB (2 méconnaissances tolérées), 5 min max.\nUV3 : victoire par soumission (clé/étranglement/compression) = 10 pts, ou écart de 7 points = 7 pts, seuil 44 pts et 5 victoires consécutives ; option combinée = 20 pts + uchi-komi/drill 1'30'' sur 2 positions de base + 2 exercices kakari-geiko/yaku-soku-geiko au sol de 2 min.\nUV4 : 1/2 journée de stage ou mise en situation commissaire/arbitre."
+      },
+      {
+        "sous_titre": "2ème dan Jiu-Jitsu Brésilien",
+        "texte": "UV1 : 2ème série des imposées JJB.\nUV2 : démonstration d'une évolution à partir d'une position référencée (3-4 min) + 10 techniques tirées au sort (5 min max).\nUV3 : mêmes principes que le 1er dan ; option combinée = drill de 2' sur 3 positions de base + 2 exercices d'application de 2'.\nUV4 : 1/2 journée de stage ou mise en situation commissaire/arbitre."
+      },
+      {
+        "sous_titre": "3ème dan Jiu-Jitsu Brésilien",
+        "texte": "UV1 : 3ème série des imposées JJB.\nUV2 : démonstration d'une évolution à partir de 3 positions référencées (3-6 min) + 6 techniques tirées au sort, 9 min max.\nUV3 : mêmes principes ; option combinée = drill de 2'30'' sur 4 positions de base + 2 exercices d'application de 2'.\nUV4 : 1 journée de stage ou mise en situation commissaire/arbitre."
+      },
+      {
+        "sous_titre": "4ème dan Jiu-Jitsu Brésilien",
+        "texte": "UV1 : 4ème série des imposées JJB.\nUV2 : démonstration du système d'attaque personnel, 10 min maximum.\nUV3 : mêmes principes ; option combinée = drill sur 4 positions de base + 2 exercices d'application de 2'.\nUV4 : 1 journée de stage ou mise en situation commissaire/arbitre."
+      },
+      {
+        "sous_titre": "5ème dan Jiu-Jitsu Brésilien (plus haut grade actuel)",
+        "texte": "Prestation technique personnelle devant un comité d'experts désignés par la CSDGE, couvrant différents aspects du JJB. Document écrit à envoyer 1 mois avant à grade@ffjudo.com, 2 exemplaires papier remis au jury le jour de l'examen. Aucun 6ème ou 7ème dan n'est actuellement ouvert (voir Dispositions Transitoires)."
+      }
+    ]
+  },
+  "procedure": {
+    "titre": "Procédure d'Examen",
+    "icone": "🎯",
+    "contenu": [
+      {
+        "sous_titre": "Inscription et circuit",
+        "texte": "Inscriptions par l'extranet, responsabilité du président de club et du professeur. Du 1er au 4ème dan : relais via la Ligue (CORG). Pour le 5ème dan : dossier envoyé à la CODG puis CORG, étudié par la commission ad hoc CSDGE."
+      },
+      {
+        "sous_titre": "Shiai / Tests d'efficacité JJB",
+        "texte": "Accès dès l'homologation du grade précédent, à partir des cadets. Les U18 peuvent combattre avec les U21, et les U21 avec les Adultes. Durée du combat : 3 minutes (contre 2 minutes en judo et jujitsu traditionnel). Récupération 2 minutes. Pas de golden score, égalité possible."
+      },
+      {
+        "sous_titre": "Relation Grade-Championnat (RGC) JJB",
+        "texte": "Mêmes principes que le shiai. Comptabilisation : victoire par soumission (clé, étranglement, compression) = 10 points ; victoire avec un écart d'au moins 7 points = 7 points."
+      },
+      {
+        "sous_titre": "Année de référence",
+        "texte": "Les âges planchers sont calculés en référence à l'année de naissance correspondant au 1er janvier de la saison en cours. Pour 2026-2027, 40 ans correspond aux personnes nées en 1987."
+      }
+    ]
+  },
+  "transitoires": {
+    "titre": "Dispositions Transitoires & Équivalences",
+    "icone": "🔄",
+    "contenu": [
+      {
+        "sous_titre": "Grades supérieurs pas encore ouverts",
+        "texte": "Le 6ème et le 7ème dan JJB ne sont pas encore accessibles : une commission ad hoc de la CSDGE étudie actuellement l'évolution des hauts grades en JJB. Ne pas inscrire de candidats à ces niveaux tant que la CSDGE n'aura pas formellement ouvert les sessions correspondantes — à vérifier régulièrement avec Marc Antoine."
+      },
+      {
+        "sous_titre": "Équivalences UV4 — engagement personnel",
+        "texte": "Être commissaire sportif ou arbitre départemental en activité, ou avoir participé à la coupe du jeune officiel, valent équivalence pour l'UV4. Une UV4 acquise en JJB est aussi valable en judo, jujitsu traditionnel et jujitsu contact (transversalité)."
+      },
+      {
+        "sous_titre": "Sportifs de haut niveau",
+        "texte": "Pour les disciplines non-olympiques comme le JJB, les performances mondiales, continentales ou d'épreuves équivalentes (combat-games, deaflympics) permettent l'accession au 5ème dan de la discipline, sur proposition du DTN à la CSDGE."
+      }
+    ]
+  }
+}

@@ -44,24 +44,32 @@
     "icone": "📊",
     "contenu": [
       {
-        "sous_titre": "UV1 — Forme imposée, par grade",
-        "texte": "1er dan : 12 premières techniques du Goshin-jitsu, en tori et en uke (dispense de uke à 40 ans et plus).\n2ème dan : Goshin-jitsu en totalité, en tori et en uke (tori seul à 40 ans et plus).\n3ème dan : réponses libres sur les 3 séries imposées du Duo System — Série A (préhension, étreinte, blocage du cou), Série B (coups de poing, coups de pied), Série C (attaques avec armes).\n4ème dan : les 3 séries A/B/C ci-dessus + 1 série issue des 20 attaques imposées de la progression française.\n5ème dan : Kime-no-kata en tori (par dérogation, Ju-no-kata pour les candidats ayant obtenu le 4ème dan sous l'ancien règlement).\n6ème dan : Koshiki-no-kata en tori, cérémonial complet.\n7ème dan : Itsutsu-no-kata en tori."
+        "sous_titre": "1er dan Jujitsu Traditionnel",
+        "texte": "UV1 : 12 premières techniques du Goshin-jitsu, en tori et en uke (dispense de uke à 40 ans et plus).\nUV2 : 10 techniques tirées au sort dans l'annexe de la progression française, 2 méconnaissances tolérées, 5 min max.\nUV3 : full ippon = 10 pts, ippon dans 2 secteurs = 7 pts ; seuil 44 pts / 5 victoires consécutives ; option combinée = 20 pts + uchi-komi 1'30'' sur 3 techniques + 2 exercices d'application de 2'.\nUV4 : 1/2 journée de stage ou mise en situation commissaire/arbitre."
       },
       {
-        "sous_titre": "UV2 — Technique, par grade",
-        "texte": "1er dan : 10 techniques tirées au sort dans l'annexe de la progression française, 2 méconnaissances tolérées, 5 min max.\n2ème dan : 20 techniques tirées au sort, 2 méconnaissances tolérées, 5 min max.\n3ème dan : enchaînements à partir de 3 positions au choix avec finalisation au sol (3-6 min) + 6 techniques tirées au sort (9 min max au total).\n4ème dan : démonstration du système d'attaque personnel (tokui-waza de projection puis système d'attaque au sol), 10 min max dont 5 min minimum en nage-waza et 3 min en ne-waza.\n5ème dan : expression technique debout et sol (défenses et ripostes toutes familles, armes limitées au bâton long, bâton court, poignard, revolver), 10 min ; document écrit à envoyer 1 mois avant à grade@ffjudo.com.\n6ème dan : prestation technique 15-20 min + entretien 10 min max.\n7ème dan : partie technique pédagogique 15-20 min + entretien 10-15 min."
+        "sous_titre": "2ème dan Jujitsu Traditionnel",
+        "texte": "UV1 : Goshin-jitsu en totalité, en tori et en uke (tori seul à 40 ans et plus).\nUV2 : 20 techniques tirées au sort, 2 méconnaissances tolérées, 5 min max.\nUV3 : mêmes principes qu'au 1er dan ; option combinée = uchi-komi 1'30'' sur des enchaînements (2 techniques différentes) + 2 exercices d'application de 2'.\nUV4 : 1/2 journée de stage ou mise en situation commissaire/arbitre."
       },
       {
-        "sous_titre": "UV3 — Efficacité Jujitsu Fighting (1er au 4ème dan)",
-        "texte": "Option 1 — Efficacité sportive : cumul de 100 points en relation grade-championnat ou en shiai/test d'efficacité jujitsu fighting sur plusieurs épreuves, OU 5 victoires consécutives totalisant 44 points minimum en une seule compétition.\nOption 2 — Efficacité combinée : 20 points en shiai/RGC jujitsu fighting (dispense à partir de 40 ans) + épreuve technique non fractionnable (uchi-komi, nage-komi, kakari-geiko et/ou yaku-soku-geiko sur des enchaînements atemi-waza/projection/contrôle au sol), dont le contenu et la durée augmentent avec le dan.\nComptage jujitsu fighting : victoire par full ippon (1 ippon dans chacune des 3 parties) = 10 points ; victoire avec 1 ippon dans 2 secteurs différents = 7 points."
+        "sous_titre": "3ème dan Jujitsu Traditionnel",
+        "texte": "UV1 : réponses libres sur les 3 séries imposées du Duo System — Série A (préhension, étreinte, blocage du cou), Série B (coups de poing/pied), Série C (armes).\nUV2 : enchaînements à partir de 3 positions au choix avec finalisation au sol (3-6 min) + 6 techniques tirées au sort (9 min max au total).\nUV3 : mêmes principes ; option combinée = uchi-komi 1' sur 3 enchaînements + nage-komi 1' + 2 exercices d'application de 2'.\nUV4 : 1 journée de stage ou mise en situation commissaire/arbitre."
       },
       {
-        "sous_titre": "UV4 — Engagement personnel",
-        "texte": "1/2 journée de stage ou de mise en situation (commissaire sportif ou arbitre) pour le 1er et le 2ème dan ; 1 journée pour le 3ème et le 4ème dan. Équivalences : commissaire sportif ou arbitre départemental en activité, participation à la coupe du jeune officiel. Validation par l'OTD. Une UV4 acquise en jujitsu traditionnel est aussi valable en judo, jiu-jitsu brésilien et jujitsu contact."
+        "sous_titre": "4ème dan Jujitsu Traditionnel",
+        "texte": "UV1 : les 3 séries A/B/C ci-dessus + 1 série issue des 20 attaques imposées de la progression française.\nUV2 : démonstration du système d'attaque personnel (tokui-waza de projection puis système d'attaque au sol), 10 min max dont 5 min minimum en nage-waza et 3 min en ne-waza.\nUV3 : mêmes principes ; option combinée = uchi-komi 1' sur au moins 3 enchaînements + nage-komi + 2 exercices d'application de 2'.\nUV4 : 1 journée de stage ou mise en situation commissaire/arbitre."
       },
       {
-        "sous_titre": "5ème, 6ème, 7ème dan — conditions et jugement",
-        "texte": "Critères de présentation équivalents au judo, appliqués au parcours jujitsu : titre ou fonction ≥ 4 ans (commission technique, équipe technique régionale, juge régional, élu, conseiller technique, arbitre/commissaire régional, compétiteur championnat de France seniors jujitsu) ou formation continue (28h/56h). 6ème dan : 25 ans d'ancienneté ceinture noire + 2 titres/fonctions. Jury de 3 évaluateurs minimum (6ème dan certifié N5 pour le 5ème dan candidat, 7ème dan certifié N6/N7 pour le 6ème/7ème dan) ; notation Excellent/Bien/Insuffisant, admission à l'unanimité ; mentions « Excellent » (3x excellent) ou « Très bien » (2 excellent + 1 bien) pour le 6ème et le 7ème dan."
+        "sous_titre": "5ème dan Jujitsu Traditionnel",
+        "texte": "UV1 : Kime-no-kata en tori (par dérogation, Ju-no-kata pour les candidats ayant obtenu le 4ème dan sous l'ancien règlement — voir Dispositions Transitoires).\nUV2 : expression technique debout et sol (défenses et ripostes toutes familles, armes limitées au bâton long, bâton court, poignard, revolver), 10 min ; document écrit à envoyer 1 mois avant à grade@ffjudo.com.\nCritères de présentation : titre/fonction ≥ 4 ans ou formation continue (28h/56h). Jury de 3 évaluateurs minimum, 6ème dan certifié N5."
+      },
+      {
+        "sous_titre": "6ème dan Jujitsu Traditionnel",
+        "texte": "UV1 : Koshiki-no-kata en tori, cérémonial complet.\nUV2 : prestation technique 15-20 min + entretien 10 min max.\nCritères de présentation : 25 ans d'ancienneté ceinture noire + 2 titres/fonctions. Jury de 3 évaluateurs minimum, 7ème dan certifié N6. Mentions « Excellent » (3x excellent) ou « Très bien » (2 excellent + 1 bien)."
+      },
+      {
+        "sous_titre": "7ème dan Jujitsu Traditionnel",
+        "texte": "UV1 : Itsutsu-no-kata en tori.\nUV2 : partie technique pédagogique 15-20 min + entretien 10-15 min.\nCandidat = figure emblématique régionale, niveau sportif national ou 3 expériences niveau national. Jury de 3 évaluateurs minimum, 7ème dan certifié N7."
       }
     ]
   },
