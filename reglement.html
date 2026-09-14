@@ -13,9 +13,12 @@
     .section { display:none; padding:1rem 0; max-width:900px; margin:0 auto; }
     .section.active { display:block; }
     .section-intro { color:#666; font-size:0.9rem; padding:0.5rem 0 1rem; text-align:center; }
-    .bloc { background:white; border-radius:12px; padding:1.5rem; margin-bottom:1.2rem; box-shadow:0 2px 10px rgba(0,0,0,0.08); transition:box-shadow .3s; }
-    .bloc h3 { color:#1a3a5c; margin:0 0 0.8rem; font-size:1rem; border-left:4px solid #1565c0; padding-left:0.7rem; }
-    .bloc p { color:#555; font-size:0.9rem; line-height:1.7; margin:0; white-space:pre-wrap; }
+    .bloc { background:white; border-radius:12px; padding:0; margin-bottom:1.2rem; box-shadow:0 2px 10px rgba(0,0,0,0.08); transition:box-shadow .3s; overflow:hidden; }
+    .bloc summary { color:#1a3a5c; margin:0; font-size:1rem; font-weight:bold; border-left:4px solid #1565c0; padding:1rem 1.2rem; cursor:pointer; list-style:none; }
+    .bloc summary::-webkit-details-marker { display:none; }
+    .bloc summary::before { content:'▸ '; color:#1565c0; }
+    .bloc[open] summary::before { content:'▾ '; }
+    .bloc p { color:#555; font-size:0.9rem; line-height:1.7; margin:0; padding:0 1.2rem 1.2rem 1.7rem; white-space:pre-wrap; }
     .bloc.surlignee { box-shadow:0 0 0 3px #1565c0; }
     .discipline-switch { display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; margin:1rem 0; }
     .discipline-btn { padding:0.5rem 1rem; border-radius:20px; text-decoration:none; font-size:0.85rem; font-weight:bold; background:#eee; color:#333; }
@@ -95,7 +98,7 @@ fetch('reglement.json')
 
       var intro = '<p class="section-intro">' + section.icone + ' ' + section.titre + ' — Jujitsu Traditionnel FFJDA 2026/2027</p>';
       var blocs = section.contenu.map(function(item) {
-        return '<div class="bloc"><h3>' + item.sous_titre + '</h3><p>' + item.texte + '</p></div>';
+        return '<details class="bloc"><summary>' + item.sous_titre + '</summary><p>' + item.texte + '</p></details>';
       }).join('');
       div.innerHTML = intro + blocs;
       sections.appendChild(div);
@@ -120,6 +123,7 @@ function allerAuDan(index) {
   setTimeout(function() {
     var blocs = document.querySelectorAll('#sec-criteres .bloc');
     if (blocs[index]) {
+      blocs[index].open = true;
       blocs[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
       blocs.forEach(function(b) { b.classList.remove('surlignee'); });
       blocs[index].classList.add('surlignee');
