@@ -11,8 +11,9 @@
     .serie-bloc { background: white; border-radius: 12px; box-shadow: 0 3px 8px rgba(0,0,0,0.1); overflow: hidden; }
     .serie-header { padding: 14px 18px; color: white; font-weight: bold; font-size: 1.15em; }
     .serie-body { padding: 12px 18px; }
-    .attaque-item { padding: 10px 0; border-bottom: 1px solid #eee; }
+    .attaque-item { padding: 10px 0; border-bottom: 1px solid #eee; display: flex; gap: 12px; align-items: flex-start; }
     .attaque-item:last-child { border-bottom: none; }
+    .attaque-img { width: 90px; height: auto; border-radius: 6px; flex-shrink: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.15); }
     .attaque-nom { font-weight: bold; color: #1a3a5c; }
     .attaque-desc { color: #666; font-size: 0.92em; margin-top: 2px; }
   </style>
@@ -26,6 +27,8 @@
 
 <section>
   <p style="color:#666;margin-bottom:10px;">Source : Fédération Française de Judo, Jujitsu, Kendo et Disciplines Associées</p>
+
+  <div class="video-item" style="text-align:center;" id="videoBloc"></div>
 
   <div class="attaque-grid" id="attaquesContainer">
     <!-- généré par JS -->
@@ -44,8 +47,16 @@
   fetch('attaques-imposees.json')
     .then(r => r.json())
     .then(data => {
+      const d = data.attaquesImposees;
+
+      if (d.video) {
+        document.getElementById('videoBloc').innerHTML =
+          '<p style="margin:0 0 10px;"><a href="' + d.video + '" target="_blank" style="color:#1a3a5c;font-weight:bold;font-size:1.1em;">▶ Voir la vidéo des 20 Attaques Imposées</a></p>' +
+          '<p style="margin:0;color:#888;font-size:0.85em;font-style:italic;">⚠️ ' + (d.avertissement || '') + '</p>';
+      }
+
       const container = document.getElementById('attaquesContainer');
-      data.attaquesImposees.series.forEach(serie => {
+      d.series.forEach(serie => {
         const bloc = document.createElement('div');
         bloc.className = 'serie-bloc';
 
@@ -61,8 +72,10 @@
         serie.attaques.forEach(att => {
           const item = document.createElement('div');
           item.className = 'attaque-item';
-          item.innerHTML = '<div class="attaque-nom">' + att.numero + '. ' + att.nom + '</div>' +
-                            '<div class="attaque-desc">' + att.description + '</div>';
+          const img = att.image ? '<img class="attaque-img" src="' + att.image + '" alt="' + att.nom + '" loading="lazy">' : '';
+          item.innerHTML = img +
+                            '<div><div class="attaque-nom">' + att.numero + '. ' + att.nom + '</div>' +
+                            '<div class="attaque-desc">' + att.description + '</div></div>';
           body.appendChild(item);
         });
 
