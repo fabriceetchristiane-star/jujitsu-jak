@@ -436,6 +436,56 @@
           { "terme": "Tsugi", "traduction": "L'un après l'autre" },
           { "terme": "Tsuri", "traduction": "Lever, pêcher" }
         ]
+      },
+      {
+        "id": "nomenclature-jujitsu",
+        "nom": "Nomenclature spécifique Jujitsu Traditionnel",
+        "icone": "🥋",
+        "couleur": "#4527a0",
+        "termes": [
+          { "terme": "Jodan-age-uke", "traduction": "Blocage haut en remontant avec l'avant-bras" },
+          { "terme": "Gedan-barai", "traduction": "Défense en balayant avec l'avant-bras de l'intérieur vers l'extérieur d'une attaque basse" },
+          { "terme": "Uchi-uke", "traduction": "Blocage de l'intérieur vers l'extérieur" },
+          { "terme": "Soto-uke", "traduction": "Blocage de l'extérieur vers l'intérieur" },
+          { "terme": "Tekubi-osae / Kote-osae", "traduction": "Luxation par pression du poignet en direction du coude" },
+          { "terme": "Kote-hineri", "traduction": "Luxation de poignet en rotation interne" },
+          { "terme": "Yubi-kansetsu", "traduction": "Luxation des doigts en hyperextension" },
+          { "terme": "Yuki-chigae", "traduction": "Luxation par hyperpronation du poignet et appui sur le coude" },
+          { "terme": "Shiho-nage", "traduction": "Projection dans les 4 directions" },
+          { "terme": "Kokyu-nage", "traduction": "Projection par la respiration" },
+          { "terme": "Tenchi-nage", "traduction": "Projection par bras en extension" },
+          { "terme": "Irimi-nage", "traduction": "Projection en entrant" },
+          { "terme": "Ude-kime-nage", "traduction": "Projection en avant par blocage du coude" },
+          { "terme": "Kaiten-nage", "traduction": "Projection rotatoire" },
+          { "terme": "Haito-uchi", "traduction": "Coup frappé avec le tranchant intérieur de la main" },
+          { "terme": "Yoko-uchi", "traduction": "Coup de poing de côté" },
+          { "terme": "Age-tsuki", "traduction": "Coup de poing en remontant" },
+          { "terme": "Ago-tsuki", "traduction": "Coup de poing au menton" },
+          { "terme": "Gyaku-tsuki", "traduction": "Coup de poing direct donné avec le poing situé du côté de l'appui arrière" },
+          { "terme": "Hiza-geri", "traduction": "Coup de genou" },
+          { "terme": "Teisoku-geri", "traduction": "Atemi avec le dessous du pied" },
+          { "terme": "Kin-geri", "traduction": "Atemi du pied aux parties génitales" },
+          { "terme": "Fumi-komi-geri", "traduction": "Coup de pied avec action d'écrasement" },
+          { "terme": "O-mawashi-barai", "traduction": "Projection par application de O-mawashi-geri sur la jambe avancée" }
+        ]
+      },
+      {
+        "id": "concepts-tactiques",
+        "nom": "Concepts tactiques & pédagogiques",
+        "icone": "🎓",
+        "couleur": "#00838f",
+        "termes": [
+          { "terme": "Blocage", "traduction": "Action de défense « au contact » dans laquelle les combattants s'opposent force contre force" },
+          { "terme": "Confusion", "traduction": "Simulation d'attaque ayant pour but de créer une réaction chez l'adversaire et permettant d'exécuter une technique initialement prévue" },
+          { "terme": "Contre-prise", "traduction": "Séquence tactique dans laquelle celui qui fait la dernière action la réalise à partir d'une action déjà engagée par l'autre" },
+          { "terme": "Défense", "traduction": "Séquence tactique qui annihile une attaque de l'adversaire" },
+          { "terme": "Enchaînement ou combinaison", "traduction": "Séquence tactique dans laquelle celui qui a engagé sincèrement la 1re technique utilise la réaction de l'autre pour effectuer une nouvelle technique" },
+          { "terme": "Esquive", "traduction": "Action de défense dans laquelle l'attaqué se soustrait à l'action de l'attaquant par déplacement, en évitant d'opposer les forces" },
+          { "terme": "Kakari-geiko", "traduction": "Exercice d'entraînement où l'un des deux pratiquants joue le rôle de l'attaquant, alors que l'autre cultive l'esquive et la défense" },
+          { "terme": "Opportunité", "traduction": "Occasion favorable (offerte ou créée) à l'application d'une technique, à partir du kumi-kata, d'un déplacement, d'un changement de posture, etc." },
+          { "terme": "Séquence tactique", "traduction": "Phase d'opposition ou d'étude dans laquelle des actions d'attaque et de défense se succèdent" },
+          { "terme": "Situation de travail", "traduction": "Position respective de tori et de uke qui précède l'application d'une technique" }
+        ]
       }
     ]
   }
