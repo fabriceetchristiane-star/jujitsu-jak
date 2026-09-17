@@ -64,9 +64,12 @@ fetch('documents-grades.json')
     const container = document.getElementById('contenu-docs');
     let html = '<h2>📄 Fiches PDF</h2>';
     docs.forEach(doc => {
-      html += `<a class="doc-item" href="${doc.fichier}" target="_blank" download>
-        <span class="doc-icon">📥</span><span>${doc.titre}</span>
-      </a>`;
+      html += `<div class="doc-row">
+        <a class="doc-item" href="${doc.fichier}" target="_blank">
+          <span class="doc-icon">📄</span><span>${doc.titre}</span>
+        </a>
+        <a class="doc-download" href="${doc.fichier}" download title="Télécharger">⬇️</a>
+      </div>`;
     });
     container.innerHTML = html;
   });

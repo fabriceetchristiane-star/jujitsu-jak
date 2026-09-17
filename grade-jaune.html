@@ -67,10 +67,13 @@ fetch('documents-grades.json')
     let html = '<h2>📄 Fiches PDF</h2>';
     if (!docs.length) { html += '<p style="color:#888;">Aucun document.</p>'; }
     docs.forEach(doc => {
-      html += `<a class="doc-item" href="${doc.fichier}" target="_blank" download>
-        <span class="doc-icon">📥</span>
-        <span>${doc.titre}</span>
-      </a>`;
+      html += `<div class="doc-row">
+        <a class="doc-item" href="${doc.fichier}" target="_blank">
+          <span class="doc-icon">📄</span>
+          <span>${doc.titre}</span>
+        </a>
+        <a class="doc-download" href="${doc.fichier}" download title="Télécharger">⬇️</a>
+      </div>`;
     });
     container.innerHTML = html;
   });

@@ -44,10 +44,13 @@ fetch('documents-grades.json')
       if (data[g.key] && data[g.key].length) {
         html += `<h2 style="margin-top:30px;color:${g.couleur};border-bottom:3px solid ${g.couleur};padding-bottom:8px;">${g.label}</h2>`;
         data[g.key].forEach(doc => {
-          html += `<a class="doc-item" href="${doc.fichier}" target="_blank" download>
-            <span class="doc-icon">📥</span>
-            <span>${doc.titre}</span>
-          </a>`;
+          html += `<div class="doc-row">
+            <a class="doc-item" href="${doc.fichier}" target="_blank">
+              <span class="doc-icon">📄</span>
+              <span>${doc.titre}</span>
+            </a>
+            <a class="doc-download" href="${doc.fichier}" download title="Télécharger">⬇️</a>
+          </div>`;
         });
       }
     });
