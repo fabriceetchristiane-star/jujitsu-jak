@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techniques Jujitsu Contact — JAK</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    .onglets { display:flex; flex-wrap:wrap; gap:0.4rem; padding:0.8rem 0; justify-content:center; }
+    .onglet { padding:0.5rem 1.1rem; border-radius:20px; border:none; cursor:pointer; font-size:0.85rem; font-weight:bold; background:#eee; color:#333; }
+    .onglet.active { background:#1a1a1a; color:white; }
+    .dan-section { display:none; max-width:950px; margin:0 auto; padding:1rem; }
+    .dan-section.active { display:block; }
+    .dan-header { text-align:center; margin-bottom:1rem; }
+    .dan-header h2 { margin:0; color:#c62828; }
+    .dan-header p { color:#666; margin:0.2rem 0 0; }
+    .sous-onglets { display:flex; gap:0.4rem; justify-content:center; margin-bottom:1rem; }
+    .sous-onglet { padding:0.4rem 1rem; border-radius:16px; border:2px solid #c62828; background:white; color:#c62828; cursor:pointer; font-weight:bold; font-size:0.82rem; }
+    .sous-onglet.active { background:#c62828; color:white; }
+    .uv-bloc { display:none; }
+    .uv-bloc.active { display:block; }
+    table.seq-table { width:100%; border-collapse:collapse; font-size:0.82rem; margin-top:0.5rem; }
+    table.seq-table th { background:#c62828; color:white; padding:0.5rem; text-align:left; }
+    table.seq-table td { padding:0.5rem; border-bottom:1px solid #eee; vertical-align:top; }
+    table.seq-table tr:nth-child(even) { background:#fafafa; }
+    .nomenclature-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1rem; margin-top:0.5rem; }
+    .nomenclature-col h4 { color:#c62828; border-bottom:2px solid #c62828; padding-bottom:0.3rem; }
+    .nomenclature-col ul { padding-left:1.1rem; font-size:0.85rem; color:#444; line-height:1.6; }
+    .alerte { max-width:950px; margin:0 auto 1rem; padding:0.8rem 1rem; background:#fff3cd; border:1px solid #ffeaa7; border-radius:8px; font-size:0.82rem; color:#7a5c00; text-align:center; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🥊 Techniques Jujitsu Contact</h1>
+  <p>Formes imposées (UV1) et nomenclature (UV2) — du 1er au 4ème dan</p>
+</header>
+
+<div class="alerte">⚠️ Discipline réservée aux pratiquants de 16 ans et plus. Document officiel FFJDA 2026/2027 — ce résumé n'a pas de valeur réglementaire, seul le texte officiel fait foi.</div>
+
+<div class="onglets" id="dan-onglets"></div>
+<div id="dan-sections"></div>
+
+<section style="max-width:950px;margin:1.5rem auto;text-align:center;">
+  <a class="lien-bleu" href="reglement-contact.html">📝 Voir le règlement complet Jujitsu Contact</a><br><br>
+  <a class="lien-bleu" href="index.html">🏠 Retour à l'accueil</a>
+</section>
+
+<footer>
+  <p>🥋 Club JAK Lambersart — Judo · Aïkido · Karaté · Jujitsu</p>
+</footer>
+
+<script src="techniques-contact.js"></script>
+
+</body>
+</html>

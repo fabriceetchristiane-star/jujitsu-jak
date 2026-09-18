@@ -1,0 +1,266 @@
+{
+  "jujitsuContact": {
+    "titre": "Techniques Jujitsu Contact — Formes imposées (UV1) et Nomenclature (UV2)",
+    "source": "Annexes 5 et 6 — Textes officiels FFJDA 2026/2027",
+    "avertissement": "Discipline réservée aux 16 ans et plus. Document officiel — en cas de doute, seul le texte FFJDA fait foi.",
+    "dans": [
+      {
+        "id": "1er-dan",
+        "nom": "1er Dan",
+        "forme": "Kihon",
+        "sousTitre": "Fondamentaux",
+        "uv1": {
+          "colonnes": ["N°", "Registre", "Séquence", "Principe évalué"],
+          "lignes": [
+            [1, "Percussion", "Jab – Cross – Crochet", "Structure de garde, extension du bras"],
+            [2, "Percussion", "Jab → Décalage Low Kick jambe avant – Coup de Genou jambe arrière", "Équilibre, pivot, transfert d'appuis"],
+            [3, "Percussion", "Cross → Middle Kick jambe avant → blocage médiant jambe arrière (sur LK jambe avant de uke)", "Attaque de jambes + défense"],
+            [4, "Projection", "Single Leg avec pose du genou au sol – amenée au sol", "Descente, saisie, tai sabaki"],
+            [5, "Projection", "O Soto Gari – chute contrôlée arrivée dans le dos de uke", "Fauchage d'appuis, déséquilibre – préparation LDSO"],
+            [6, "Projection", "Ippon Seoi Nage – projection complète – uke chute en se replaçant pour 7", "Kusushi, rotation, fléchissement"],
+            [7, "Ne Waza", "Passage Garde Dessus → Yoko Shiho Gatame Dessus → Tate Shiho Gatame Dessus via Ushiro Gesa Gatame Dessus", "Posture, enchaînement des contrôles"],
+            [8, "Ne Waza", "Yoko Shiho Dessous → Prise de Dos quadrupédique Dessus via Slide", "Sortie de contrôle → transition → reprise d'initiative"],
+            [9, "Ne Waza", "Sortie de Demi-Garde Dessous → Garde Dessous → Tate Shiho Gatame via ciseaux", "Bouclier genou, contrôle manche"],
+            [10, "Transition", "Morote Gari (lever) → Genou Estomac → Juji Gatame (sur langouste de uke)", "Continuité debout–sol, contrôle + soumission"],
+            [11, "Transition", "O Goshi → Tate Shiho Gatame → Americana", "Enchaînement projection–immobilisation–soumission"],
+            [12, "Synthèse", "Jab – Cross – Crochet avant → Tai Otoshi → Juji Gatame", "Fluidité globale, présence martiale"],
+            [13, "Routine Anglaise", "14 premiers mouvements de la routine (terminé par un double Jab)", "Fluidité et placements"]
+          ]
+        },
+        "uv2": {
+          "piedsPoings": [
+            "Direct Bras Avant (Jab) — attaque",
+            "Direct Bras Arrière (Cross) — attaque",
+            "Crochet Bras Avant (Hook) — attaque",
+            "Esquive latérale Jambe Avant (Slipping) — défense",
+            "Blocage (Blocking) — défense",
+            "Coup de Pied Bas Jambe Arrière (Low Kick) — attaque",
+            "Coup de Pied Médian Jambe Avant (Middle Kick) — attaque",
+            "Retrait de Jambe (Back Step) — défense",
+            "Blocage Coup de Pied Bas (Low Kick Block) — défense",
+            "Blocage Coup de Pied Médian (Middle Kick Block) — défense"
+          ],
+          "projections": [
+            "Single Leg",
+            "Morote Gari (Double Leg — lever)",
+            "O Soto Gari",
+            "O Soto Otoshi",
+            "Uki Goshi",
+            "O Uchi Gari",
+            "Ippon Seoi Nage",
+            "O Goshi"
+          ],
+          "neWaza": [
+            "Garde Dessus → Yoko Shiho Gatame",
+            "Garde Dessus → Tate Shiho Gatame",
+            "Demi-Garde Dessus → Yoko Shiho Gatame",
+            "Demi-Garde Dessous → Garde Dessous",
+            "Demi-Garde Dessous → Demi-Garde Dessus",
+            "Yoko Shiho Gatame Dessus → Tate Shiho Gatame",
+            "Yoko Shiho Gatame Dessous → Garde Dessous",
+            "Genou Estomac Dessus → Tate Shiho Gatame",
+            "Genou Estomac Dessus → Yoko Shiho Gatame",
+            "Contrôle de Dos Plat Ventre Dessus → Tate Shiho Gatame",
+            "Hon Gesa Gatame Dessous → Contrôle de Dos Quadrupédique",
+            "Kuzure Gesa Gatame Dessus → Yoko Shiho Gatame",
+            "Contrôle de Dos Quadrupédique Dessus → Contrôle Plat Ventre",
+            "Tate Shiho Gatame Dessous → Garde Dessous"
+          ]
+        }
+      },
+      {
+        "id": "2eme-dan",
+        "nom": "2ème Dan",
+        "forme": "Renzoku",
+        "sousTitre": "Enchaînement",
+        "uv1": {
+          "colonnes": ["N°", "Registre", "Séquence", "Principe évalué"],
+          "lignes": [
+            [1, "Percussion", "Jab – Cross – Body Hook – Uppercut", "Combinaison 4 temps, engagement des hanches"],
+            [2, "Percussion", "Genou arrière en saisie, Genou arrière distance", "Enchaînement saisie + rupture"],
+            [3, "Percussion + Défense", "Middle Kick + Rolling avant-arrière + contre en Cross", "Esquive dynamique, riposte immédiate"],
+            [4, "Percussion", "Low Kick jambe avant + Parade Bras avant-Jab (sur cross de uke)", "Défense-attaque enchaînée"],
+            [5, "Projection", "Tai Otoshi en continuité avec un contrôle genou-estomac sur tentative de saisie de uke", "Création de déséquilibre par le mouvement + LDSO"],
+            [6, "Projection", "Morote Seoi Nage – chute complète suivie d'un contrôle bras", "Fléchissement profond, rotation du buste + LDSO"],
+            [7, "Projection", "Ko Uchi Gari → Harai Goshi (combinaison)", "Changement de direction, fauchage alterné"],
+            [8, "Transition", "Leg Grab → amené au sol → Genou Estomac → Tate Shiho Gatame", "Continuité debout-sol sans rupture"],
+            [9, "Ne Waza", "Yoko Shiho Gatame → Americana sur poussée tête de uke → Ude Gatame sur défense de uke", "Enchaînement immobilisation–soumission"],
+            [10, "Ne Waza", "Tate Shiho → Triangle → Juji Gatame sur défense de uke", "Enchaînement soumissions"],
+            [11, "Ne Waza", "Garde Dessous → Guillotine → renversement sur sortie de uke – Tori sécurise une Demi Garde Dessus sur la réaction de uke", "Attaque depuis l'infériorité, renversement + stabilisation"],
+            [12, "Transition", "Demi Garde Dessus → Clé de Jambe", "Changement de direction"],
+            [13, "Routine Anglaise", "20 premiers mouvements de la routine (terminé par un double Jab)", "Fluidité et placements"]
+          ]
+        },
+        "uv2": {
+          "piedsPoings": [
+            "Crochet Corps Bras Avant (Body Hook) — attaque",
+            "Crochet Corps Bras Arrière (Body Hook) — attaque",
+            "Uppercut Bras Avant — attaque",
+            "Uppercut Bras Arrière — attaque",
+            "Direct Corps Bras Avant (Body Jab) — attaque",
+            "Esquive Rotative Arrière-Avant (Rolling) — défense",
+            "Esquive Rotative Avant-Arrière (Rolling) — défense",
+            "Parade Bras Avant (Down Parry) — défense",
+            "Parade Bras Arrière (Side Parry) — défense",
+            "Coup de Pied Avant Jambe Avant (Front Kick) — attaque",
+            "Coup de Pied Avant Jambe Arrière (Front Kick) — attaque",
+            "Coup de Pied Latéral Jambe Avant (Side Kick) — attaque",
+            "Saisie de Jambe (Leg Grab) — défense jambes"
+          ],
+          "projections": [
+            "Tai Otoshi",
+            "Ashi Guruma",
+            "Hiza Guruma",
+            "Morote Seoi Nage",
+            "Eri Seoi Nage",
+            "Ko Soto Gake",
+            "Kubi Nage",
+            "Koshi Guruma",
+            "Harai Goshi",
+            "Okuri Ashi Barai"
+          ],
+          "neWaza": [
+            "Garde Dessous → Garde Papillon",
+            "Garde Dessous → Juji Gatame",
+            "Garde Dessous → Yoko Shiho Gatame",
+            "Garde Dessous → Triangle",
+            "Garde Dessous → Guillotine",
+            "Yoko Shiho Gatame Dessus → Americana",
+            "Yoko Shiho Gatame Dessus → Ude Gatame",
+            "Yoko Shiho Gatame Dessous → Ude Garami",
+            "Tate Shiho Gatame Dessus → Americana",
+            "Tate Shiho Gatame Dessus → Étranglement Bras-Tête",
+            "Tate Shiho Gatame Dessus → Triangle",
+            "Tate Shiho Gatame Dessus → Juji Gatame",
+            "Contrôle de Dos Dessus → Hadaka Jime",
+            "Contrôle de Dos Dessus → Juji Gatame",
+            "Kami Shiho Gatame Dessus → Étranglement Nord-Sud",
+            "Hon Gesa Gatame Dessus → Ude Gatame",
+            "Hon Gesa Gatame Dessus → Étranglement Bras-Tête",
+            "Contrôle de Dos Quadrupédique → Juji Gatame"
+          ]
+        }
+      },
+      {
+        "id": "3eme-dan",
+        "nom": "3ème Dan",
+        "forme": "Henka",
+        "sousTitre": "Adaptation",
+        "uv1": {
+          "colonnes": ["N°", "Attaque de uke", "Réponse de tori (forme codifiée)", "Principe évalué"],
+          "lignes": [
+            [1, "Jab", "Décalage intérieur → Cross → Low Kick jambe avant", "Lecture d'attaque, désaxement, riposte"],
+            [2, "Cross", "Décalage extérieur → Uppercut avant → Morote Gari genou au sol – enchaînement Yoko Shiho Gatame Dessus", "Esquive dynamique, projection sur attaque"],
+            [3, "Low Kick JA", "Blocage tibia → contre-Low Kick JA → O Soto Gari", "Défense basse, enchaînement attaque-projection"],
+            [4, "Middle Kick", "Leg Grab → Single Leg → Genou Estomac", "Capture de jambe, transition au sol"],
+            [5, "High Kick", "Retrait de buste → Cross – Crochet avant → Ippon Seoi Nage", "Timing sur attaque haute, enchaînement projection"],
+            [6, "Saisie + Coup de Genou", "Koshiki Taoshi en sen no sen + passage de garde en genou glissé, arrivée gesa gatame", "Utilisation de la force adverse, changement d'angle, reprise d'attaque"],
+            [7, "Tentative de Double Leg", "Sprawl → Contrôle de Dos Quadrupédique Dessus → Contrôle de Dos Dessus → Hadaka Jime", "Défense aux jambes, prise de dos - finalisation"],
+            [8, "Tai Otoshi", "Surpassement → Ko Soto Gake → Tate Shiho Gatame", "Contre-attaque, enchaînement au sol"],
+            [9, "Garde Dessous — attaque Triangle", "Posture haute → passage en Yoko Shiho Gatame Dessus", "Défense aux attaques du sol"],
+            [10, "Garde Dessous — attaque Guillotine", "Sortie de garde position haute → Tate Shiho Gatame → Juji Gatame", "Défense étranglement, enchaînement, finalisation"],
+            [11, "Americana depuis Yoko Shiho Dessus", "Sortie bras → Demi-Garde Dessous → renversement – demi garde dessus", "Défense soumission, inversion"],
+            [12, "Sortie de Yoko Shiho Gatame dessous", "Yoko Shiho Gatame dessus → D'Arce Choke", "Finalisation sur tentative de sortie"],
+            [13, "Routine Anglaise", "27 premiers mouvements de la routine", "Fluidité et placements"]
+          ]
+        },
+        "uv2": {
+          "piedsPoings": [
+            "Overhand — attaque",
+            "Coup de Poing Arrière (Back Fist) — attaque",
+            "Superman Punch — attaque",
+            "Coup de Poing Retourné (Spinning Back Fist) — attaque",
+            "Coup de Pied Haut Jambe Avant (High Kick) — attaque",
+            "Coup de Pied Haut Jambe Arrière (High Kick) — attaque",
+            "Coup de Pied Arrière (Back Kick) — attaque",
+            "Coup de Genou Jambe Avant (Knee) — attaque",
+            "Coup de Genou Jambe Arrière (Knee) — attaque",
+            "Blocage Coup de Pied Haut (High Kick Block) — défense",
+            "Retrait du Buste / Pull Away jambes — défense"
+          ],
+          "projections": [
+            "Ko Uchi Gari",
+            "Sasae Tsuri Komi Ashi",
+            "Uchi Mata",
+            "Yoko Tomoe Nage",
+            "Sumi Gaeshi",
+            "De Ashi Barai",
+            "Ko Uchi Gake",
+            "Ko Uchi Gari ⚠️ (doublon présent tel quel dans le document officiel FFJDA — à confirmer avec vos professeurs)"
+          ],
+          "neWaza": [
+            "Garde Dessous → Omoplata",
+            "Garde Dessous → Ude Gatame",
+            "Garde Dessous → Clé de Dos",
+            "Garde Dessous → Hélicoptère",
+            "Demi-Garde Dessus → Ude Garami / Americana",
+            "Demi-Garde Dessus → Étranglement Bras-Tête",
+            "Demi-Garde Dessus → Ude Garami / Kimura",
+            "Demi-Garde Dessus → Clé de Genou",
+            "Yoko Shiho Gatame Dessus → Étranglement Poignet",
+            "Yoko Shiho Gatame Dessus → Ude Garami",
+            "Yoko Shiho Gatame Dessus → D'Arce Choke",
+            "Yoko Shiho Gatame Dessus → Juji Gatame",
+            "Contrôle de Dos Dessus → Triangle Inversé",
+            "Contrôle de Dos Dessus → Hara Gatame",
+            "Genou Estomac Dessus → Étranglement Nord-Sud",
+            "Genou Estomac Dessus → Triangle",
+            "Genou Estomac Dessus → Juji Gatame via Pivot"
+          ]
+        }
+      },
+      {
+        "id": "4eme-dan",
+        "nom": "4ème Dan",
+        "forme": "Kanzen",
+        "sousTitre": "Achevé entièrement",
+        "uv1": {
+          "colonnes": ["N°", "Combinaisons", "Contenu obligatoire", "Marge d'expression"],
+          "lignes": [
+            [1, "1ère Combinaison (Tori)", "Jab – Cross – Décalage intérieur contre en Jab – Uppercut arrière – Crochet avant – saisie de Jambe – O Uchi Gari – Yoko Shiho Gatame Dessus – Ude Garami", "Combinaison à exécuter telle que présentée, sans rupture"],
+            [2, "2ème Combinaison", "Cross – Décalage intérieur – Cross - Low Kick jambe avant – Middle jambe arrière, Genou jambe avant – Harai Goshi – Contrôle de Dos Quadrupédique Dessus – Juji Gatame", "Combinaison à exécuter telle que présentée, sans rupture"],
+            [3, "3ème Combinaison", "Jab – Cross – Middle avant – Cross – Crochet avant – sprawl – Contrôle de Dos Quadrupédique Dessus – uke (pivot épaule) – Passage Yoko Shiho – Juji Gatame côté opposé", "Combinaison à exécuter telle que présentée, sans rupture"],
+            [4, "4ème Combinaison", "Décalage intérieur – Rolling extérieur Cross en contre – Crochet bras avant – Genou arrière – O Uchi Gari – Slide Yoko Shiho Gatame Dessus – Ude Garami", "Combinaison à exécuter telle que présentée, sans rupture"],
+            [5, "5ème Combinaison", "Décalage extérieur – retrait de Jambe – Blocage High Kick – De Ashi Barai – Genou estomac – Tate Shiho Gatame - Triangle sur le dos", "Combinaison à exécuter telle que présentée, sans rupture"],
+            [6, "Routine Anglaise", "Totalité des 38 mouvements de la routine", "Fluidité et placement"]
+          ]
+        },
+        "uv2": {
+          "piedsPoings": [
+            "Coup de Pied Arrière Sauté (Jumping Back Kick) — attaque",
+            "Superman Punch en enchaînement — combo complexe",
+            "Coup de Poing Retourné en contre (Spinning Back Fist) — contre",
+            "Enchaînement Jab-Cross-Hook-Low Kick — combinaison",
+            "Enchaînement Jab-Body Hook-Uppercut — combinaison"
+          ],
+          "projections": [
+            "Kata Guruma",
+            "Te Guruma",
+            "Ushiro Goshi",
+            "Tani Otoshi",
+            "Ura Nage",
+            "Yoko Guruma"
+          ],
+          "neWaza": [
+            "Garde Dessous → Garde en X",
+            "Demi-Garde Dessous → Yoko Shiho Gatame (Renversement Tibia)",
+            "Demi-Garde Dessous → Contrôle de Dos Quadrupédique",
+            "Yoko Shiho Gatame Dessus → Compression de Bras",
+            "Tate Shiho Gatame Dessus → Étranglement Poignet",
+            "Tate Shiho Gatame Dessus → Guillotine",
+            "Kami Shiho Gatame Dessus → Clé de Jambes (Saut de grenouille)",
+            "Kami Shiho Gatame Dessous → Renversement",
+            "Quadrupédique Nord-Sud Dessus → Anaconda Choke",
+            "Quadrupédique Nord-Sud Dessus → Sankaku",
+            "Quadrupédique Nord-Sud Dessus → Hara Gatame",
+            "Contrôle de Dos Dessous → Ude Gatame",
+            "Contrôle de Dos Dessous → Clé de Pied",
+            "Garde Papillon Dessus → Guillotine",
+            "Garde Papillon Dessus → Clé de Dos",
+            "Kuzure Gesa Gatame Dessus → D'Arce Choke"
+          ]
+        }
+      }
+    ]
+  }
+}
