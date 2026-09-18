@@ -20,6 +20,9 @@
     .bloc[open] summary::before { content:'▾ '; }
     .bloc p { color:#555; font-size:0.9rem; line-height:1.7; margin:0; padding:0 1.2rem 1.2rem 1.7rem; white-space:pre-wrap; }
     .bloc.surlignee { box-shadow:0 0 0 3px #1565c0; }
+    .bloc-liens { padding:0 1.2rem 1.2rem 1.7rem; display:flex; gap:0.5rem; flex-wrap:wrap; }
+    .bloc-liens a { padding:0.35rem 0.8rem; border-radius:14px; background:#eef4fa; color:#1565c0; text-decoration:none; font-size:0.78rem; font-weight:bold; border:1px solid #1565c0; }
+    .bloc-liens a:hover { background:#1565c0; color:white; }
     .discipline-switch { display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; margin:1rem 0; }
     .discipline-btn { padding:0.5rem 1rem; border-radius:20px; text-decoration:none; font-size:0.85rem; font-weight:bold; background:#eee; color:#333; }
     .discipline-btn.actif { background:#1a3a5c; color:white; }
@@ -98,7 +101,14 @@ fetch('reglement.json')
 
       var intro = '<p class="section-intro">' + section.icone + ' ' + section.titre + ' — Jujitsu Traditionnel FFJDA 2026/2027</p>';
       var blocs = section.contenu.map(function(item) {
-        return '<details class="bloc"><summary>' + item.sous_titre + '</summary><p>' + item.texte + '</p></details>';
+        var liens = '';
+        if (key === 'criteres') {
+          liens = '<div class="bloc-liens">' +
+            '<a href="lexique-general.html" target="_blank">📖 Lexique</a>' +
+            '<a href="lexique-general.html#nomenclature-jujitsu" target="_blank">📋 Nomenclature</a>' +
+            '</div>';
+        }
+        return '<details class="bloc" name="grp-' + key + '"><summary>' + item.sous_titre + '</summary><p>' + item.texte + '</p>' + liens + '</details>';
       }).join('');
       div.innerHTML = intro + blocs;
       sections.appendChild(div);

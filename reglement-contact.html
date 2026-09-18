@@ -20,6 +20,10 @@
     .bloc[open] summary::before { content:'▾ '; }
     .bloc p { color:#555; font-size:0.9rem; line-height:1.7; margin:0; padding:0 1.2rem 1.2rem 1.7rem; white-space:pre-wrap; }
     .bloc.surlignee { box-shadow:0 0 0 3px #e65100; }
+    .bloc-liens { padding:0 1.2rem 1.2rem 1.7rem; display:flex; gap:0.5rem; flex-wrap:wrap; }
+    .toggle-btn { padding:0.35rem 0.8rem; border-radius:14px; background:#fff3e0; color:#e65100; font-size:0.78rem; font-weight:bold; border:1px solid #e65100; cursor:pointer; }
+    .toggle-btn:hover, .toggle-btn.actif { background:#e65100; color:white; }
+    .embed-content { padding:0 1.2rem 1.2rem 1.2rem; }
     .embed-tech { padding:0 1.2rem 1.2rem 1.2rem; border-top:1px dashed #eee; margin-top:0.5rem; }
     .embed-titre { color:#e65100; font-size:0.88rem; margin:1rem 0 0.4rem; }
     table.seq-table { width:100%; border-collapse:collapse; font-size:0.8rem; }
@@ -114,10 +118,19 @@ function construireEmbedTech(danId, techData) {
     '<div class="nomenclature-col"><h5>🔒 Ne Waza</h5>' + listeHtml(dan.uv2.neWaza) + '</div>' +
     '</div>';
 
-  return '<div class="embed-tech">' +
-    '<h4 class="embed-titre">📋 Forme imposée — UV1 (' + dan.forme + ')</h4>' + uv1Table +
-    '<h4 class="embed-titre">🎯 Nomenclature — UV2 (tirage au sort)</h4>' + uv2Html +
-    '</div>';
+  return '<div class="bloc-liens">' +
+    '<button type="button" class="toggle-btn" onclick="toggleEmbed(\'' + danId + '-uv1\', this)">📋 Forme imposée (' + dan.forme + ')</button>' +
+    '<button type="button" class="toggle-btn" onclick="toggleEmbed(\'' + danId + '-uv2\', this)">🎯 Nomenclature</button>' +
+    '</div>' +
+    '<div class="embed-content" id="' + danId + '-uv1" style="display:none;">' + uv1Table + '</div>' +
+    '<div class="embed-content" id="' + danId + '-uv2" style="display:none;">' + uv2Html + '</div>';
+}
+
+function toggleEmbed(id, btn) {
+  var el = document.getElementById(id);
+  var visible = el.style.display !== 'none';
+  el.style.display = visible ? 'none' : 'block';
+  if (btn) { btn.classList.toggle('actif', !visible); }
 }
 
 Promise.all([
@@ -149,7 +162,7 @@ Promise.all([
     var intro = '<p class="section-intro">' + section.icone + ' ' + section.titre + ' — Jujitsu Contact FFJDA 2026/2027</p>';
     var blocs = section.contenu.map(function(item) {
       var embed = (key === 'criteres' && DAN_MAP[item.sous_titre]) ? construireEmbedTech(DAN_MAP[item.sous_titre], techData) : '';
-      return '<details class="bloc"><summary>' + item.sous_titre + '</summary><p>' + item.texte + '</p>' + embed + '</details>';
+      return '<details class="bloc" name="grp-' + key + '"><summary>' + item.sous_titre + '</summary><p>' + item.texte + '</p>' + embed + '</details>';
     }).join('');
     div.innerHTML = intro + blocs;
     sections.appendChild(div);
