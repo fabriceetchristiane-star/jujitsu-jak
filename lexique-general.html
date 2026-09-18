@@ -169,6 +169,7 @@ async function chargerLexique() {
     const data = await response.json();
     lexiqueData = data.lexiqueGeneral;
     afficherCategories(lexiqueData.categories);
+    ouvrirCategorieDepuisAncre();
   } catch (erreur) {
     document.getElementById('categoriesContainer').innerHTML =
       '<p style="color:#c62828;text-align:center;padding:20px;">Erreur de chargement du lexique. Vérifiez que le fichier lexique-general.json est bien présent.</p>';
@@ -224,6 +225,17 @@ function toggleCategorie(index) {
   const contenu = document.getElementById('contenu-' + index);
   bouton.classList.toggle('ouvert');
   contenu.classList.toggle('ouvert');
+}
+
+function ouvrirCategorieDepuisAncre() {
+  const id = window.location.hash.replace('#', '');
+  if (!id) return;
+  const wrapper = document.querySelector('.categorie-wrapper[data-cat-id="' + id + '"]');
+  if (!wrapper) return;
+  const index = Array.from(document.querySelectorAll('.categorie-wrapper')).indexOf(wrapper);
+  document.getElementById('bouton-' + index).classList.add('ouvert');
+  document.getElementById('contenu-' + index).classList.add('ouvert');
+  setTimeout(function() { wrapper.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);
 }
 
 function filtrerLexique() {
