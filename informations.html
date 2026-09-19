@@ -27,6 +27,15 @@
 </footer>
 
 <script>
+function rendreLiens(liens) {
+  if (!liens || !liens.length) return '';
+  return '<div style="margin-top:10px;display:flex;flex-wrap:wrap;gap:8px;">' +
+    liens.map(function(l) {
+      return '<a class="lien-bleu" href="' + l.url + '" target="_blank" style="font-size:0.85em;">' + l.label + '</a>';
+    }).join('') +
+    '</div>';
+}
+
 fetch('informations.json')
   .then(r => r.json())
   .then(data => {
@@ -36,19 +45,19 @@ fetch('informations.json')
     if (data.stages && data.stages.length) {
       html += '<h2>🏅 Stages</h2>';
       data.stages.forEach(s => {
-        html += `<div class="video-block"><strong>${s.titre}</strong><p style="margin-top:8px;color:#555;">${s.contenu}</p></div>`;
+        html += `<div class="video-block"><strong>${s.titre}</strong><p style="margin-top:8px;color:#555;">${s.contenu}</p>${rendreLiens(s.liens)}</div>`;
       });
     }
     if (data.club && data.club.length) {
       html += '<h2 style="margin-top:30px;">🏛️ Infos Club</h2>';
       data.club.forEach(s => {
-        html += `<div class="video-block"><strong>${s.titre}</strong><p style="margin-top:8px;color:#555;">${s.contenu}</p></div>`;
+        html += `<div class="video-block"><strong>${s.titre}</strong><p style="margin-top:8px;color:#555;">${s.contenu}</p>${rendreLiens(s.liens)}</div>`;
       });
     }
     if (data.federation && data.federation.length) {
       html += '<h2 style="margin-top:30px;">📋 Fédération</h2>';
       data.federation.forEach(s => {
-        html += `<div class="video-block"><strong>${s.titre}</strong><p style="margin-top:8px;color:#555;">${s.contenu}</p></div>`;
+        html += `<div class="video-block"><strong>${s.titre}</strong><p style="margin-top:8px;color:#555;">${s.contenu}</p>${rendreLiens(s.liens)}</div>`;
       });
     }
     container.innerHTML = html;

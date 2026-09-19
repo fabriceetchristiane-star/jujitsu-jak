@@ -2,19 +2,50 @@
   "stages": [
     {
       "titre": "Stages à venir",
-      "contenu": "Les informations sur les prochains stages fédéraux seront publiées ici."
+      "contenu": "Les dates de stages changent régulièrement — consultez directement le calendrier officiel de la Ligue Hauts-de-France pour être à jour.",
+      "liens": [
+        { "label": "📅 Calendrier des événements — Ligue Hauts-de-France", "url": "https://hautsdefrancejudo.ffjudo.com/evenement" },
+        { "label": "📰 Actualités de la Ligue Hauts-de-France", "url": "https://hautsdefrancejudo.ffjudo.com/actualite" }
+      ]
     }
   ],
   "club": [
     {
       "titre": "Club JAK Lambersart",
-      "contenu": "Judo · Aïkido · Karaté · Jujitsu. Retrouvez toutes les informations pratiques du club ici."
+      "contenu": "Judo · Aïkido · Karaté · Jujitsu. Retrouvez toutes les informations pratiques du club ici.",
+      "liens": []
     }
   ],
   "federation": [
     {
-      "titre": "Informations Fédération",
-      "contenu": "Actualités et textes officiels de la FFJDA concernant le jujitsu."
+      "titre": "FFJDA — Fédération Française de Judo, Jujitsu, Kendo et Disciplines Associées",
+      "contenu": "Site national : actualités, textes officiels, résultats et vie fédérale.",
+      "liens": [
+        { "label": "🌐 Site officiel FFJDA", "url": "https://www.ffjudo.com" },
+        { "label": "📚 Textes Officiels FFJDA", "url": "https://www.ffjudo.com/textes-officiels" }
+      ]
+    },
+    {
+      "titre": "Ligue Hauts-de-France de Judo, Jujitsu et D.A.",
+      "contenu": "Notre ligue régionale (Aisne, Nord, Oise, Pas-de-Calais, Somme). C'est elle qui organise les stages techniques, les examens de grade et les compétitions loisir régionales.",
+      "liens": [
+        { "label": "🌐 Site de la Ligue Hauts-de-France", "url": "https://hautsdefrancejudo.ffjudo.com" }
+      ]
+    },
+    {
+      "titre": "Passage de grades — C.O.R.G. (Commission d'Organisation Régionale des Grades)",
+      "contenu": "La C.O.R.G. organise les examens de passage de grade (SHIAI et KATA) en Hauts-de-France. Inscriptions exclusivement via l'Extranet fédéral.",
+      "liens": [
+        { "label": "🥋 Page C.O.R.G. — Passage de grades", "url": "https://hautsdefrancejudo.ffjudo.com/calendrier-2023-2024" },
+        { "label": "📄 Calendrier des passages de grades (PDF)", "url": "https://hautsdefrancejudo.ffjudo.com/uploads/sites/hautsdefrancejudo/userfiles/fichier/CORG/NOUVEAU%20CALENDRIER(1).pdf" }
+      ]
+    },
+    {
+      "titre": "Compétitions & résultats régionaux",
+      "contenu": "Résultats des compétitions loisir, shiai et championnats organisés par la Ligue Hauts-de-France, tous grades et catégories confondus.",
+      "liens": [
+        { "label": "🏆 Résultats — Ligue Hauts-de-France", "url": "https://hautsdefrancejudo.ffjudo.com/resultat/" }
+      ]
     }
   ]
 }
