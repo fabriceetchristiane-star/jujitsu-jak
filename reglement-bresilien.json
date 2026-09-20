@@ -104,5 +104,23 @@
         "texte": "Pour les disciplines non-olympiques comme le JJB, les performances mondiales, continentales ou d'épreuves équivalentes (combat-games, deaflympics) permettent l'accession au 5ème dan de la discipline, sur proposition du DTN à la CSDGE."
       }
     ]
+  },
+  "competitions": {
+    "titre": "Compétitions & Calendrier",
+    "icone": "🏆",
+    "contenu": [
+      {
+        "sous_titre": "Deux circuits distincts en France",
+        "texte": "Le JJB existe en France à travers deux organisations non affiliées entre elles : la FFJDA (fédération délégataire, qui gère désormais aussi le passage de grades officiel depuis le 1er septembre 2026), et la CFJJB (Confédération Française de Jiu-Jitsu Brésilien), qui représente l'IBJJF en France avec ses propres standards de ceintures. Les deux ne sont pas exclusives et peuvent être complémentaires selon les objectifs."
+      },
+      {
+        "sous_titre": "Circuit FFJDA — Open JJB France Jujitsu",
+        "texte": "Circuit national en expansion (Villebon, Paris, Lormont...). Championnat de France Élites prévu les 12-13 décembre 2026 (lieu à confirmer). Calendrier complet sur le site FFJDA."
+      },
+      {
+        "sous_titre": "Circuit CFJJB/IBJJF — Open Hauts-de-France",
+        "texte": "Open des Hauts-de-France — samedi 25 octobre 2026, à Verquin. Organisé selon les standards IBJJF (ceintures blanche/bleue/violette/marron/noire)."
+      }
+    ]
   }
 }

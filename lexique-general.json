@@ -486,6 +486,34 @@
           { "terme": "Séquence tactique", "traduction": "Phase d'opposition ou d'étude dans laquelle des actions d'attaque et de défense se succèdent" },
           { "terme": "Situation de travail", "traduction": "Position respective de tori et de uke qui précède l'application d'une technique" }
         ]
+      },
+      {
+        "id": "nomenclature-jjb",
+        "nom": "Nomenclature Jiu-Jitsu Brésilien (JJB)",
+        "icone": "🇧🇷",
+        "couleur": "#2e7d32",
+        "termes": [
+          { "terme": "Garde (Guard)", "traduction": "Position au sol où le pratiquant contrôle l'adversaire avec ses jambes, offensive ou défensive" },
+          { "terme": "Demi-garde (Half Guard)", "traduction": "Variante de la garde où une seule jambe contrôle une jambe de l'adversaire" },
+          { "terme": "Garde papillon (Butterfly Guard)", "traduction": "Garde où les pieds/tibias servent de crochets sous les cuisses de l'adversaire" },
+          { "terme": "Montée (Mount)", "traduction": "Position de contrôle assis à califourchon sur le torse de l'adversaire" },
+          { "terme": "Contrôle latéral (Side Control)", "traduction": "Contrôle par le travers, équivalent du kesa-gatame judo" },
+          { "terme": "Prise de dos (Back Control / Back Take)", "traduction": "Contrôle depuis le dos de l'adversaire, souvent avec crochets de jambes" },
+          { "terme": "Passage de garde (Guard Pass)", "traduction": "Action de neutraliser la garde adverse pour progresser vers une position dominante" },
+          { "terme": "Balayage (Sweep)", "traduction": "Technique permettant d'inverser les positions depuis une position inférieure" },
+          { "terme": "Soumission (Submission)", "traduction": "Technique de contrôle articulaire ou d'étranglement forçant l'abandon de l'adversaire" },
+          { "terme": "Étranglement (Choke)", "traduction": "Soumission par restriction de la respiration ou de la circulation sanguine" },
+          { "terme": "Clé de bras (Armbar / Juji-Gatame)", "traduction": "Luxation du coude en hyperextension" },
+          { "terme": "Kimura", "traduction": "Clé d'épaule en rotation interne, nommée d'après Masahiko Kimura" },
+          { "terme": "Americana", "traduction": "Clé d'épaule en rotation externe" },
+          { "terme": "Triangle", "traduction": "Étranglement réalisé avec les jambes formant un triangle autour du cou et d'un bras adverse" },
+          { "terme": "Guillotine", "traduction": "Étranglement frontal du cou avec le bras" },
+          { "terme": "Anaconda / D'Arce Choke", "traduction": "Étranglements latéraux réalisés sur un adversaire penché en avant" },
+          { "terme": "Rouleau (Roll)", "traduction": "Session d'entraînement libre, équivalent du randori judo" },
+          { "terme": "Abandon (Tap / Tap Out)", "traduction": "Signal donné en tapant pour signifier la soumission" },
+          { "terme": "Gi", "traduction": "Kimono utilisé en pratique traditionnelle du JJB" },
+          { "terme": "No-Gi", "traduction": "Pratique du JJB sans kimono, en tenue de sport moulante" }
+        ]
       }
     ]
   }
