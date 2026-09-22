@@ -126,5 +126,67 @@
         "texte": "Open des Hauts-de-France — samedi 25 octobre 2026, à Verquin. Organisé selon les standards IBJJF (ceintures blanche/bleue/violette/marron/noire)."
       }
     ]
+  },
+  "graduation-ibjjf": {
+    "titre": "Système de Graduation IBJJF",
+    "icone": "🇧🇷",
+    "contenu": [
+      {
+        "sous_titre": "À propos de ce système",
+        "texte": "L'IBJJF (International Brazilian Jiu-Jitsu Federation) est la fédération internationale de référence historique du JJB — indépendante de la FFJDA, représentée en France par la CFJJB (voir onglet Compétitions). Ce système de ceintures, mondialement reconnu, est très détaillé et documenté publiquement, contrairement à l'annexe technique FFJDA encore non disponible. Il est présenté ici à titre informatif et pour référence pédagogique — c'est un système différent, non interchangeable avec les dans FFJDA présentés dans les autres onglets."
+      },
+      {
+        "sous_titre": "Ceintures — Athlètes de 4 à 15 ans",
+        "texte": "13 ceintures en 4 groupes de couleur, chacun subdivisé en 3 (X-et-Blanche / X / X-et-Noire) : Blanche (sans subdivision) → Groupe Gris (Grise-et-Blanche, Grise, Grise-et-Noire) → Groupe Jaune (Jaune-et-Blanche, Jaune, Jaune-et-Noire) → Groupe Orange (Orange-et-Blanche, Orange, Orange-et-Noire) → Groupe Vert (Verte-et-Blanche, Verte, Verte-et-Noire)."
+      },
+      {
+        "sous_titre": "Ceintures — Athlètes à partir de 16 ans",
+        "texte": "Blanche → Bleue → Violette → Marron → Noire → Rouge-et-Noire (7ème degré) → Rouge-et-Blanche (8ème degré) → Rouge (9ème et 10ème degrés)."
+      },
+      {
+        "sous_titre": "Âges minimums — 4 à 15 ans",
+        "texte": "Blanche : pas d'âge minimum. Groupe Gris : 4 à 15 ans. Groupe Jaune : 7 à 15 ans. Groupe Orange : 10 à 15 ans. Groupe Vert : 13 à 15 ans."
+      },
+      {
+        "sous_titre": "Âges minimums — à partir de 16 ans",
+        "texte": "Blanche : pas d'âge minimum. Bleue : dès 16 ans. Violette : dès 16 ans. Marron : dès 18 ans. Noire : dès 19 ans. Rouge-et-Noire : dès 50 ans. Rouge-et-Blanche : dès 57 ans. Rouge : dès 67 ans."
+      },
+      {
+        "sous_titre": "Passage à 16 ans (transition enfant → adulte)",
+        "texte": "L'année où l'athlète a 16 ans, il bascule dans le système adulte : ceinture Blanche → reste Blanche ; Grise, Jaune ou Orange → passe Bleue ; Verte → passe Bleue ou Violette selon décision du professeur."
+      },
+      {
+        "sous_titre": "Durée minimum par ceinture",
+        "texte": "4 à 15 ans : aucun temps minimum. 16-17 ans : Violette = 2 ans (Blanche et Bleue sans minimum). À partir de 18 ans : Bleue = 2 ans, Violette = 1 an et demi, Marron = 1 an. Ceinture Noire et suivantes (durées fixes, pas des minimums) : Noire = 31 ans, Rouge-et-Noire = 7 ans, Rouge-et-Blanche = 10 ans, Rouge = indéfini."
+      },
+      {
+        "sous_titre": "Système de degrés (barrettes)",
+        "texte": "4 à 15 ans : système à la discrétion du professeur (voir méthodes suggérées ci-dessous). 16 ans et plus : Blanche à Marron divisées en 4 degrés (à l'appréciation du professeur, non obligatoire) ; Ceinture Noire obligatoirement divisée en 6 degrés selon le système IBJJF."
+      },
+      {
+        "sous_titre": "Degrés de ceinture noire — délais obligatoires",
+        "texte": "1er degré : 3 ans minimum après la ceinture noire. 2ème et 3ème degrés : 3 ans minimum après la dernière graduation. 4ème, 5ème, 6ème degrés : 5 ans minimum après la dernière graduation. 7ème et 8ème degrés (Rouge-et-Noire) : 7 ans minimum. 9ème degré (Rouge) : 10 ans minimum. Le 10ème degré n'a été attribué qu'aux pionniers du JJB, les frères Gracie (Carlos, Oswaldo, George, Gaston, Helio)."
+      },
+      {
+        "sous_titre": "Obtenir le certificat de ceinture noire et les degrés",
+        "texte": "Licence IBJJF à jour, non en statut provisoire, certificat de premiers secours (PSC1), séminaire sur le règlement IBJJF suivi dans les 12 mois précédents, et soit être professeur/assistant d'une académie affiliée IBJJF, soit être pratiquant dans une académie affiliée dont le professeur est ceinture noire avec au moins 2 degrés certifiés IBJJF."
+      },
+      {
+        "sous_titre": "Professeurs & Instructeurs",
+        "texte": "Un athlète gradé (Grise à Marron) doit avoir son formulaire signé par une ceinture noire licenciée IBJJF. La ceinture noire ne peut être signée que par l'instructeur ceinture noire ayant fait passer le grade, avec au moins 2 degrés certifiés. Où les ceintures noires manquent, une ceinture violette peut grader jusqu'à la Bleue, une ceinture marron jusqu'à la Violette."
+      },
+      {
+        "sous_titre": "Graduation provisoire",
+        "texte": "Statut appliqué à un athlète prenant sa licence IBJJF directement en Marron ou Noire sans historique de grades antérieurs. Statut \"provisoire\" pendant 2 ans, pendant lesquels il doit rester dans la même académie et ne peut pas être professeur responsable (seulement instructeur assistant). Une ceinture noire provisoire ne peut pas demander le \"Black Belt Certificate\" IBJJF."
+      },
+      {
+        "sous_titre": "Méthodes suggérées pour les 4-15 ans (annexe IBJJF)",
+        "texte": "3 méthodes au choix du professeur, chacune sur 1 an : Trimestrielle (3 degrés par ceinture, tous les 3 mois, le 4ème degré fait changer de couleur) ; Quadrimestrielle/triannuelle (2 degrés, tous les 4 mois) ; Mensuelle (11 degrés, un par mois, le 12ème fait changer de couleur). Pour Blanche et Grise-et-Blanche spécifiquement : 1 degré par mois sur 6 mois chacune (total 1 an pour les deux)."
+      },
+      {
+        "sous_titre": "Source",
+        "texte": "IBJJF — Système de Graduation, version 2.0 (2015). Document fourni par le club, à conserver comme référence si des familles pratiquent aussi en club affilié CFJJB/IBJJF."
+      }
+    ]
   }
 }
