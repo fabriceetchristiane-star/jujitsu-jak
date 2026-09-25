@@ -80,7 +80,6 @@
       margin-top: -10px;
     }
     .categorie-contenu.ouvert {
-      max-height: 3000px;
       margin-bottom: 10px;
     }
     .terme-table {
@@ -223,8 +222,10 @@ function afficherCategories(categories) {
 function toggleCategorie(index) {
   const bouton = document.getElementById('bouton-' + index);
   const contenu = document.getElementById('contenu-' + index);
+  const ouverture = !bouton.classList.contains('ouvert');
   bouton.classList.toggle('ouvert');
   contenu.classList.toggle('ouvert');
+  contenu.style.maxHeight = ouverture ? (contenu.scrollHeight + 20) + 'px' : '0';
 }
 
 function ouvrirCategorieDepuisAncre() {
@@ -233,8 +234,11 @@ function ouvrirCategorieDepuisAncre() {
   const wrapper = document.querySelector('.categorie-wrapper[data-cat-id="' + id + '"]');
   if (!wrapper) return;
   const index = Array.from(document.querySelectorAll('.categorie-wrapper')).indexOf(wrapper);
-  document.getElementById('bouton-' + index).classList.add('ouvert');
-  document.getElementById('contenu-' + index).classList.add('ouvert');
+  const bouton = document.getElementById('bouton-' + index);
+  const contenu = document.getElementById('contenu-' + index);
+  bouton.classList.add('ouvert');
+  contenu.classList.add('ouvert');
+  contenu.style.maxHeight = (contenu.scrollHeight + 20) + 'px';
   setTimeout(function() { wrapper.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);
 }
 
@@ -260,6 +264,7 @@ function filtrerLexique() {
     if (recherche !== '' && resultatsCategorie > 0) {
       bouton.classList.add('ouvert');
       contenu.classList.add('ouvert');
+      contenu.style.maxHeight = (contenu.scrollHeight + 20) + 'px';
       wrapper.style.display = '';
     } else if (recherche !== '' && resultatsCategorie === 0) {
       wrapper.style.display = 'none';
@@ -268,6 +273,7 @@ function filtrerLexique() {
       if (recherche === '') {
         bouton.classList.remove('ouvert');
         contenu.classList.remove('ouvert');
+        contenu.style.maxHeight = '0';
       }
     }
   });
