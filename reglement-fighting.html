@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jujitsu Fighting — JAK</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    .onglets { display:flex; flex-wrap:wrap; gap:0.4rem; padding:0.8rem 0; justify-content:center; }
+    .onglet { padding:0.45rem 1rem; border-radius:20px; border:none; cursor:pointer; font-size:0.82rem; font-weight:bold; background:#eee; color:#333; transition:all .2s; }
+    .onglet.active { background:#004d40; color:white; }
+    .section { display:none; padding:1rem 0; max-width:900px; margin:0 auto; }
+    .section.active { display:block; }
+    .section-intro { color:#666; font-size:0.9rem; padding:0.5rem 0 1rem; text-align:center; }
+    .bloc { background:white; border-radius:12px; padding:0; margin-bottom:1.2rem; box-shadow:0 2px 10px rgba(0,0,0,0.08); overflow:hidden; }
+    .bloc summary { color:#00332b; margin:0; font-size:1rem; font-weight:bold; border-left:4px solid #00897b; padding:1rem 1.2rem; cursor:pointer; list-style:none; }
+    .bloc summary::-webkit-details-marker { display:none; }
+    .bloc summary::before { content:'▸ '; color:#00897b; }
+    .bloc[open] summary::before { content:'▾ '; }
+    .bloc p { color:#555; font-size:0.9rem; line-height:1.7; margin:0; padding:0 1.2rem 1.2rem 1.7rem; white-space:pre-wrap; }
+    .discipline-switch { display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; margin:1rem 0; }
+    .discipline-btn { padding:0.5rem 1rem; border-radius:20px; text-decoration:none; font-size:0.85rem; font-weight:bold; background:#eee; color:#333; }
+    .discipline-btn.actif { background:#004d40; color:white; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🥊 Jujitsu Fighting</h1>
+  <p>Textes officiels FFJDA 2026/2027</p>
+</header>
+
+<section class="discipline-switch">
+  <a class="discipline-btn" href="reglement.html">🥋 Jujitsu Traditionnel</a>
+  <a class="discipline-btn" href="reglement-bresilien.html">🇧🇷 Jiu-Jitsu Brésilien</a>
+  <a class="discipline-btn" href="reglement-contact.html">🥊 Jujitsu Contact</a>
+  <a class="discipline-btn actif" href="reglement-fighting.html">🥊 Jujitsu Fighting</a>
+</section>
+
+<section style="text-align:center;">
+  <p style="font-size:0.82rem;color:#666;margin:0 0 0.5rem;">📄 Ce résumé n'a pas de valeur réglementaire. En cas de doute, seul le texte officiel fait foi :</p>
+  <a href="https://www.ffjudo.com/jujitsu-fighting" target="_blank" class="lien-bleu">📖 Présentation officielle FFJDA</a>
+  <a href="https://www.ffjudo.com/reglements-arbitrage-3" target="_blank" class="lien-bleu">⚖️ Règlements Arbitrage FFJDA</a>
+</section>
+
+<section>
+  <div class="onglets" id="onglets-container"></div>
+  <div id="sections-container"></div>
+</section>
+
+<section>
+  <a class="lien-bleu" href="index.html">🏠 Retour à l'accueil</a>
+</section>
+
+<footer>
+  <p>🥋 Club JAK Lambersart — Judo · Aïkido · Karaté · Jujitsu</p>
+</footer>
+
+<script>
+fetch('reglement-fighting.json')
+  .then(function(r) { return r.json(); })
+  .then(function(data) {
+    var onglets = document.getElementById('onglets-container');
+    var sections = document.getElementById('sections-container');
+    var keys = Object.keys(data);
+    var premier = true;
+
+    keys.forEach(function(key) {
+      var section = data[key];
+
+      var btn = document.createElement('button');
+      btn.className = 'onglet' + (premier ? ' active' : '');
+      btn.textContent = section.icone + ' ' + section.titre;
+      btn.onclick = (function(k, b) {
+        return function() { afficher(k, b); };
+      })(key, btn);
+      onglets.appendChild(btn);
+
+      var div = document.createElement('div');
+      div.id = 'sec-' + key;
+      div.className = 'section' + (premier ? ' active' : '');
+
+      var intro = '<p class="section-intro">' + section.icone + ' ' + section.titre + ' — Jujitsu Fighting FFJDA 2026/2027</p>';
+      var blocs = section.contenu.map(function(item) {
+        return '<details class="bloc" name="grp-' + key + '"><summary>' + item.sous_titre + '</summary><p>' + item.texte + '</p></details>';
+      }).join('');
+      div.innerHTML = intro + blocs;
+      sections.appendChild(div);
+
+      premier = false;
+    });
+  })
+  .catch(function(e) { console.error('Erreur chargement reglement-fighting.json :', e); });
+
+function afficher(key, btn) {
+  document.querySelectorAll('.section').forEach(function(s) { s.classList.remove('active'); });
+  document.querySelectorAll('.onglet').forEach(function(o) { o.classList.remove('active'); });
+  document.getElementById('sec-' + key).classList.add('active');
+  if (btn) { btn.classList.add('active'); }
+}
+</script>
+
+</body>
+</html>

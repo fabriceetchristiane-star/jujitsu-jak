@@ -1,0 +1,32 @@
+{
+  "general": {
+    "titre": "Présentation & Règlement de Compétition",
+    "icone": "🥊",
+    "contenu": [
+      {
+        "sous_titre": "✅ Confirmé — Qu'est-ce que le Jujitsu Fighting ?",
+        "texte": "Le Jujitsu Fighting (ou Jujitsu Combat) est une des expressions sportives du jujitsu — un mélange de combat à distance et de corps à corps (debout et au sol) où l'intégrité de l'adversaire est préservée. Approche pragmatique, capacité à s'adapter à des situations imprévisibles. Valeurs mises en avant : contrôle, respect, maîtrise de soi. C'est une discipline distincte du Jujitsu Contact (mélange judo/JJB/lutte/kick-boxing introduit en 2023) — les deux existent en parallèle à la FFJDA."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Les 3 parties du combat",
+        "texte": "Le combat se divise en 3 séquences, les combattants passant indifféremment de l'une à l'autre :\n\n🥊 Partie 1 — Distance : coups de poing et de pied contrôlés, au-dessus de la ceinture. Les atemis directs à la tête sont interdits.\n\n🤼 Partie 2 — Saisie et projection : dès qu'un combattant saisit l'autre, les coups ne sont plus autorisés. Tentatives de projection.\n\n🔒 Partie 3 — Travail au sol : immobilisations et soumissions (étranglements, clés de bras/jambes)."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Système de points",
+        "texte": "Partie 1 (distance) :\n• Coup de pied circulaire à la tête = ippon 3 points\n• Touche parfaite = ippon 2 points\n• Touche imparfaite = waza-ari 1 point\n\nPartie 2 (projection) :\n• Projection avec force et contrôle (adversaire sur le dos ou à plat ventre) = ippon 2 points\n• Technique réalisée mais manquant de contrôle/efficacité = waza-ari\n\nPartie 3 (sol) :\n• Immobilisation 15 secondes = ippon 2 points\n• Immobilisation de moins de 15 secondes = waza-ari 1 point\n• Abandon suite à étranglement ou clé (membres supérieurs ou inférieurs) = ippon 3 points"
+      },
+      {
+        "sous_titre": "✅ Confirmé — Comment le combat se termine",
+        "texte": "Full ippon : un combattant marquant un ippon dans les 3 parties avant la fin du temps réglementaire est déclaré vainqueur.\n\nDurée du combat : 3 minutes.\n\nSi le temps s'écoule sans full ippon, c'est le combattant ayant accumulé le plus de points qui l'emporte."
+      },
+      {
+        "sous_titre": "❌ Non confirmé",
+        "texte": "Les catégories de poids et d'âge, le système de passage de grade (UV1-4) spécifique au Jujitsu Fighting, les fautes et pénalités précises, et les règles d'arbitrage détaillées n'ont pas encore été publiées par la FFJDA (page \"Règlements Arbitrage\" indiquée comme \"disponible prochainement\" au moment de la rédaction). À vérifier régulièrement."
+      },
+      {
+        "sous_titre": "Source",
+        "texte": "Page officielle FFJDA \"Présentation de la discipline\" — Jujitsu Fighting (www.ffjudo.com/jujitsu-fighting)."
+      }
+    ]
+  }
+}
