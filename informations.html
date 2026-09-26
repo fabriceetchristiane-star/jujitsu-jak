@@ -54,6 +54,12 @@ fetch('informations.json')
         html += `<div class="video-block"><strong>${s.titre}</strong><p style="margin-top:8px;color:#555;">${s.contenu}</p>${rendreLiens(s.liens)}</div>`;
       });
     }
+    if (data.contact && data.contact.length) {
+      html += '<h2 style="margin-top:30px;">📞 Contact</h2>';
+      data.contact.forEach(s => {
+        html += `<div class="video-block"><strong>${s.titre}</strong><p style="margin-top:8px;color:#555;">${s.contenu}</p>${rendreLiens(s.liens)}</div>`;
+      });
+    }
     if (data.federation && data.federation.length) {
       html += '<h2 style="margin-top:30px;">📋 Fédération</h2>';
       data.federation.forEach(s => {
