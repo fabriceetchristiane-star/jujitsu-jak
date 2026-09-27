@@ -20,20 +20,118 @@
         "texte": "Full ippon : un combattant marquant un ippon dans les 3 parties avant la fin du temps réglementaire est déclaré vainqueur.\n\nDurée du combat : 3 minutes.\n\nSi le temps s'écoule sans full ippon, c'est le combattant ayant accumulé le plus de points qui l'emporte."
       },
       {
-        "sous_titre": "🌍 Règlement international JJIF (Fighting Rules 2026)",
-        "texte": "La fédération internationale (JJIF) publie son propre règlement Fighting System, utilisé en compétition internationale :\n\n• Durée : 3 minutes.\n• Partie 1 : coup non bloqué = ippon 2 pts ; coup partiellement bloqué = waza-ari 1 pt.\n• Partie 2 : projection parfaite = 2 pts ; imparfaite = 1 pt ; clé ou étranglement avec abandon = 2 pts.\n• Partie 3 : clé ou étranglement avec abandon = 3 pts ; osae-komi 15 s = 2 pts ; osae-komi 10 s = 1 pt.\n• Full ippon (ippon dans les 3 parties) = victoire immédiate ; sinon victoire aux points.\n• Pénalités : shido = 1 waza-ari pour l'adversaire ; chui = 2 waza-ari pour l'adversaire ; hansoku-make (disqualification) après deux infractions graves.\n• Catégories : hommes -56, -62, -69, -77, -85, -94, +94 kg ; femmes -45, -48, -52, -57, -63, -70, +70 kg."
-      },
-      {
         "sous_titre": "🎓 Fighting et passage de grades (UV3)",
         "texte": "Les compétitions de jujitsu fighting servent à valider l'UV3 Efficacité :\n• 5 victoires consécutives et 44 points minimum en une seule compétition (full ippon = 10 pts, 2 parties validées = 7 pts) ;\n• ou 100 points cumulés sur plusieurs épreuves ;\n• ou, en option combinée (technique), 20 points + exercices conventionnels — dispense des 20 points à 40 ans et plus.\n\nDétail par dan : page Jujitsu Traditionnel, onglet Critères d'Évaluation."
       },
       {
-        "sous_titre": "❌ Non confirmé",
-        "texte": "Les catégories d'âge, les fautes et pénalités précises et les règles d'arbitrage détaillées version FFJDA n'ont pas encore été publiées (page \"Règlements Arbitrage\" indiquée comme \"disponible prochainement\" au moment de la rédaction). En attendant, voir le règlement international JJIF ci-dessus. À vérifier régulièrement."
-      },
-      {
         "sous_titre": "Sources",
         "texte": "Page officielle FFJDA \"Présentation de la discipline\" — Jujitsu Fighting (www.ffjudo.com/jujitsu-fighting).\nJJIF — Fighting System (www.ju-jitsu.sport/the-sport/fighting-system) et Fighting Rules 2026 V5.1.\nFFJDA — Textes officiels 2026/2027, Règlement des grades, p. 96-97 (UV3)."
+      }
+    ]
+  },
+  "categories": {
+    "titre": "Catégories & Durée",
+    "icone": "📏",
+    "contenu": [
+      {
+        "sous_titre": "Catégories d'âge",
+        "texte": "• Masters : plus de 34 ans\n• Adultes : plus de 18 ans\n• U21 : 18, 19 et 20 ans\n• U18 : 16 et 17 ans\n• U16 : 14 et 15 ans\n• U14 : 12 et 13 ans\n• U12 : 10 et 11 ans\n• U10 : 9 ans et moins\n\nL'âge retenu est celui atteint dans l'année (du 1er janvier au 31 décembre). Un combattant peut concourir dans plus d'une catégorie d'âge lors d'une même compétition."
+      },
+      {
+        "sous_titre": "Durée des combats et récupération",
+        "texte": "• 3 minutes : Adultes, U21, U18 et U16.\n• 2 minutes : équipes, Masters, U14 et plus jeunes.\n\nRécupération : 5 minutes entre deux combats, 10 minutes avant les combats pour les médailles."
+      },
+      {
+        "sous_titre": "Catégories de poids — Hommes (U16 à Adultes)",
+        "texte": "• U16 : -40, -44, -48, -52, -56, -62, -69, -77, +77 kg\n• U18 : -48, -52, -56, -62, -69, -77, -85, +85 kg\n• U21 et Adultes : -56, -62, -69, -77, -85, -94, +94 kg\n\nUn combattant ne peut être inscrit que dans une seule catégorie de poids : la sienne ou celle immédiatement supérieure."
+      },
+      {
+        "sous_titre": "Catégories de poids — Femmes (U16 à Adultes)",
+        "texte": "• U16 : -32, -36, -40, -44, -48, -52, -57, -63, +63 kg\n• U18 : -40, -44, -48, -52, -57, -63, -70, +70 kg\n• U21 et Adultes : -45, -48, -52, -57, -63, -70, +70 kg"
+      },
+      {
+        "sous_titre": "Catégories de poids — Jeunes (U10 à U14, recommandées)",
+        "texte": "Garçons :\n• U10 : -22, -25, -28, -32, -36, -40, -44, +44 kg\n• U12 : -25, -28, -32, -36, -40, -44, -48, -52, +52 kg\n• U14 : -32, -36, -40, -44, -48, -52, -56, -62, -69, +69 kg\n\nFilles :\n• U10 : -20, -22, -25, -28, -32, -36, -40, +40 kg\n• U12 : -22, -25, -28, -32, -36, -40, -44, -48, +48 kg\n• U14 : -25, -28, -32, -36, -40, -44, -48, -52, -57, +57 kg"
+      }
+    ]
+  },
+  "points": {
+    "titre": "Points en détail",
+    "icone": "🎯",
+    "contenu": [
+      {
+        "sous_titre": "Partie 1 — Atemis",
+        "texte": "Zones autorisées : le haut du corps (avant, arrière, côtés) au-dessus de la ceinture et sous la ligne des épaules ; la tête uniquement en mouvement semi-circulaire.\n\n3 critères pour marquer :\n1. Toucher l'adversaire en contact léger (U16 : la touche à la tête doit aussi être légère ; U14 et moins : aucune attaque à la tête).\n2. Utiliser le hikite / hikiashi.\n3. Frapper de façon dynamique, en équilibre et avec contrôle.\n\nBarème :\n• Ippon 3 points : (ura) mawashi-geri à la tête remplissant les 3 critères, non bloqué.\n• Ippon 2 points : atemi remplissant les 3 critères, non bloqué.\n• Waza-ari 1 point : atemi remplissant les 3 critères mais partiellement bloqué, ou atemi qui touche en ne remplissant qu'un seul autre critère sans être bloqué.\n\nUne seule technique est marquée par échange. Priorité au premier ippon, puis au premier waza-ari. Deux touches simultanées de même valeur : pas de point."
+      },
+      {
+        "sous_titre": "Partie 2 — Projections et soumissions debout",
+        "texte": "• Ippon 3 points : clé ou étranglement debout amenant l'abandon (interdit en U16 et moins).\n• Ippon 2 points : projection avec contrôle total et dynamique sur toute la technique.\n• Waza-ari 1 point : projection partiellement contrôlée.\n\nPrécisions :\n• L'adversaire doit tomber à plat sur le dos, le côté, le ventre ou la poitrine, tori restant au-dessus ou au même niveau.\n• Chute sur les genoux, les coudes, à quatre pattes ou assis : pas de point.\n• Les balayages (ex. de-ashi-barai) marquent même sans saisie.\n• Chute en 2 temps (assis puis couché), perte de la saisie pendant la projection, ou défense en pont suivie d'une chute sur le dos : waza-ari maximum.\n• Projection après avoir relevé l'adversaire depuis la partie 3 : pas de point."
+      },
+      {
+        "sous_titre": "Partie 3 — Sol",
+        "texte": "• Ippon 3 points : clé ou étranglement amenant l'abandon. En U16 et moins, l'arbitre arrête le combat et accorde les 3 points dès que la soumission est techniquement correcte. Clés de jambes interdites en U16 et moins.\n• Ippon 2 points : osae-komi tenu 15 secondes.\n• Waza-ari 1 point : osae-komi tenu de 10 à 14 secondes.\n\nOsae-komi annoncé si : uke est au sol (dos, côté ou ventre), les jambes de tori sont libres (en contrôle arrière, elles sont considérées libres), uke est bien contrôlé ; ou si tori tient une soumission contrôlant le haut du corps en position haute (ex. sankaku-jime, juji-gatame).\n\nToketa annoncé si : uke attrape les deux jambes de tori (garde fermée), retourne tori, se relève ou se redresse à genoux, passe à quatre pattes genoux au sol, ou si les deux combattants sortent de la surface.\n\nPas de cumul : un osae-komi de plus de 10 s terminé par une soumission rapporte seulement les 3 points de la soumission. Une soumission qui est aussi un osae-komi et n'aboutit pas en 15 s rapporte 2 points."
+      }
+    ]
+  },
+  "arbitrage": {
+    "titre": "Arbitrage",
+    "icone": "🧑‍⚖️",
+    "contenu": [
+      {
+        "sous_titre": "Le corps arbitral",
+        "texte": "• Arbitre de tapis (MR) : dirige le combat, accorde points et pénalités.\n• Arbitre vidéo (VR) : près de la table, 2 caméras aux coins opposés. Il revoit toute action ayant causé une blessure ou un full ippon.\n• Arbitre de table (TR) : supervise la table, annonce points et pénalités, gère le temps de soins.\n• Superviseur de tapis : tranche en cas de désaccord entre MR et VR.\n• Arbitre en chef (HR) : confirme toute décision de hansoku-make direct.\n\nSans vidéo : le MR est assisté de 2 arbitres de coin (SR). Les points sont accordés à la majorité (2 arbitres sur 3). En cas de désaccord, la plus petite valeur de la même couleur est retenue."
+      },
+      {
+        "sous_titre": "Les commandements",
+        "texte": "• Hajime : commencer ou reprendre le combat.\n• Mate : arrêter le combat (sortie de surface en partie 1, perte de contact en partie 2 ou 3, fin d'osae-komi, abandon, pénalité en partie 1, blessure, fin du combat).\n• Sonomama : figer les combattants en partie 2 ou 3 (pénalité, avertissement). Ils ne doivent plus bouger.\n• Yoshi : reprendre le combat après sonomama, dans la même position.\n• Osae-komi : début d'une immobilisation.\n• Toketa : fin de l'immobilisation."
+      },
+      {
+        "sous_titre": "Déroulement du combat",
+        "texte": "Les combattants se placent au centre à environ 2 m l'un de l'autre, le rouge à droite de l'arbitre. Salut à l'arbitre puis entre eux, puis hajime.\n\nLe combat commence en partie 1 et y revient après chaque mate, ou si la saisie est perdue en partie 2 ou 3.\n• Partie 2 : dès qu'une saisie est établie, jusqu'à ce que les deux combattants aient les deux genoux au sol ou que l'un soit assis ou couché. Atemis interdits, sauf s'ils sont simultanés à la prise de saisie.\n• Partie 3 : dès que les deux ont les deux genoux au sol ou que l'un est assis ou couché. Atemis interdits, projections non comptées.\n\nLes techniques commencées hors de la surface de combat ne comptent pas. Après mate, les combattants remettent leur tenue et protections en place (15 s supplémentaires possibles sur signe de l'arbitre)."
+      }
+    ]
+  },
+  "penalites": {
+    "titre": "Pénalités",
+    "icone": "🟥",
+    "contenu": [
+      {
+        "sous_titre": "Principe",
+        "texte": "• Faute mineure = shido : 1 waza-ari pour l'adversaire.\n• Faute majeure = chui : 2 waza-ari pour l'adversaire.\n• Faute grave = hansoku-make : défaite (score 0 contre 50).\n\n6 points de pénalité ou 2 chui dans un même combat = hansoku-make. La 3e faute mineure identique devient un chui. Si plusieurs pénalités s'appliquent, la plus sévère est retenue."
+      },
+      {
+        "sous_titre": "Fautes mineures — Shido",
+        "texte": "• Mubobi : se mettre soi-même en danger.\n• Sortie de surface : sortir des deux pieds en partie 1 ou 2, pousser volontairement l'adversaire dehors en partie 2, provoquer la sortie des deux combattants en partie 3 (pas de pénalité pour une sortie brève suivie d'un retour immédiat, ni pour échapper à une technique dure).\n• Saisie et frappe : atemi en partie 2 ou 3.\n• Passivité : ne pas chercher à marquer ; passer en partie 2 sans au moins 2 échanges réels en partie 1 ; aller directement en partie 3 ou fausse attaque pour y aller ; refuser le combat au sol ; ne faire que bloquer.\n• Perte de temps : tenue ou protections non remises à temps, arranger volontairement sa tenue, arriver non prêt.\n• Action interdite : agir après mate ou sonomama, clé sur doigts ou orteils, main ou pied sur le visage en partie 2 ou 3, frapper avec une partie non protégée (gifle, genou, coude).\n• Atemi sous la ceinture."
+      },
+      {
+        "sous_titre": "Fautes majeures — Chui",
+        "texte": "• Ne pas respecter les consignes de l'arbitre, améliorer sa saisie après sonomama, 3e faute mineure identique.\n• Remarques inutiles : parler pendant le combat (adversaire, coach, arbitre), gestes ou célébrations antisportifs, contestation des points. Autorisé : demander un temps médical, faire signe au coach de demander un challenge (sans lui parler).\n• Contact dur : atemi plus fort qu'un contact léger.\n• Technique non contrôlée : atemi horizontal qui dépasse l'axe de l'adversaire, atemi vertical qui dépasse la ligne des épaules, projection dure ou violente, chute sur le visage, la tête ou la nuque.\n• U14 et moins : atemi à la tête. U16 et moins : clé ou étranglement en partie 2, clé de jambe, compression des reins ou des côtes en garde.\n• Projeter l'adversaire à plus de 2 m au-delà de la surface de combat.\n• Atemi direct vers la tête, même sans toucher."
+      },
+      {
+        "sous_titre": "Fautes graves — Hansoku-make",
+        "texte": "Fautes graves techniques (perte du combat) :\n• 6 points de pénalité ou 2 chui.\n• Action pouvant blesser l'adversaire.\n• Techniques interdites : clé sur la nuque ou la colonne, kani-basami, étranglement à mains nues, projection combinée à une soumission présentant un risque réel, clés de genou en torsion.\n\nFautes graves disciplinaires (exclusion de toute la compétition, perte de tous les combats, médailles et points, toutes disciplines) :\n• Intention de blesser.\n• Comportement antisportif grave (simulation de blessure, insultes, propos ou gestes offensants).\n• Morsure, tirage de cheveux, frappe ou pression sur les parties génitales ou les yeux.\n• Manque de respect envers l'adversaire ou le public.\n• Combat non sérieux ou simulé.\n• Tout comportement contraire à l'esprit du budo.\n\nSi les deux combattants prennent hansoku-make : nouveau combat immédiat, sans report des points ni des pénalités."
+      }
+    ]
+  },
+  "fin": {
+    "titre": "Fin du combat",
+    "icone": "🏁",
+    "contenu": [
+      {
+        "sous_titre": "Victoire avant la fin du temps",
+        "texte": "Full ippon : au moins un ippon dans chacune des 3 parties. Victoire immédiate, score 50 contre 0."
+      },
+      {
+        "sous_titre": "Victoire à la fin du temps",
+        "texte": "1. Le plus grand nombre de points.\n2. À égalité : celui qui a marqué des ippons dans le plus grand nombre de parties différentes.\n3. Toujours à égalité : celui qui a marqué le plus d'ippons."
+      },
+      {
+        "sous_titre": "Égalité parfaite — prolongation",
+        "texte": "Après 1 minute de pause, prolongation de 2/3 du temps normal : 120 secondes (U16 à Adultes), 80 secondes (Masters, U14 et moins). Répétée tant que l'égalité persiste. Points, ippons et pénalités sont conservés. Au tableau, le score reste celui du temps réglementaire."
+      },
+      {
+        "sous_titre": "Forfait et abandon",
+        "texte": "• Fusen-gashi (forfait) : combattant absent après 3 appels sur 3 minutes. Shido pour perte de temps dès le 2e appel. Score 50 contre 0.\n• Kiken-gashi (abandon) : un combattant se retire pendant le combat. Score 50 contre 0."
       }
     ]
   }

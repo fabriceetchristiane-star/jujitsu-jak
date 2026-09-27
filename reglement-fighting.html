@@ -28,7 +28,7 @@
 
 <header>
   <h1>🥊 Jujitsu Fighting</h1>
-  <p>Textes officiels FFJDA 2026/2027</p>
+  <p>Textes officiels FFJDA 2026/2027 · Règlement JJIF 2026</p>
 </header>
 
 <section class="discipline-switch">
@@ -84,7 +84,7 @@ fetch('reglement-fighting.json')
       div.id = 'sec-' + key;
       div.className = 'section' + (premier ? ' active' : '');
 
-      var intro = '<p class="section-intro">' + section.icone + ' ' + section.titre + ' — Jujitsu Fighting FFJDA 2026/2027</p>';
+      var intro = '<p class="section-intro">' + section.icone + ' ' + section.titre + ' — Jujitsu Fighting</p>';
       var blocs = section.contenu.map(function(item) {
         return '<details class="bloc" name="grp-' + key + '"><summary>' + item.sous_titre + '</summary><p>' + item.texte + '</p></details>';
       }).join('');
