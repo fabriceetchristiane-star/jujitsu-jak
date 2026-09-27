@@ -20,12 +20,20 @@
         "texte": "Full ippon : un combattant marquant un ippon dans les 3 parties avant la fin du temps réglementaire est déclaré vainqueur.\n\nDurée du combat : 3 minutes.\n\nSi le temps s'écoule sans full ippon, c'est le combattant ayant accumulé le plus de points qui l'emporte."
       },
       {
-        "sous_titre": "❌ Non confirmé",
-        "texte": "Les catégories de poids et d'âge, le système de passage de grade (UV1-4) spécifique au Jujitsu Fighting, les fautes et pénalités précises, et les règles d'arbitrage détaillées n'ont pas encore été publiées par la FFJDA (page \"Règlements Arbitrage\" indiquée comme \"disponible prochainement\" au moment de la rédaction). À vérifier régulièrement."
+        "sous_titre": "🌍 Règlement international JJIF (Fighting Rules 2026)",
+        "texte": "La fédération internationale (JJIF) publie son propre règlement Fighting System, utilisé en compétition internationale :\n\n• Durée : 3 minutes.\n• Partie 1 : coup non bloqué = ippon 2 pts ; coup partiellement bloqué = waza-ari 1 pt.\n• Partie 2 : projection parfaite = 2 pts ; imparfaite = 1 pt ; clé ou étranglement avec abandon = 2 pts.\n• Partie 3 : clé ou étranglement avec abandon = 3 pts ; osae-komi 15 s = 2 pts ; osae-komi 10 s = 1 pt.\n• Full ippon (ippon dans les 3 parties) = victoire immédiate ; sinon victoire aux points.\n• Pénalités : shido = 1 waza-ari pour l'adversaire ; chui = 2 waza-ari pour l'adversaire ; hansoku-make (disqualification) après deux infractions graves.\n• Catégories : hommes -56, -62, -69, -77, -85, -94, +94 kg ; femmes -45, -48, -52, -57, -63, -70, +70 kg.\n\nEn cas de différence avec le règlement FFJDA, c'est le texte fédéral qui s'applique pour les compétitions françaises et les grades."
       },
       {
-        "sous_titre": "Source",
-        "texte": "Page officielle FFJDA \"Présentation de la discipline\" — Jujitsu Fighting (www.ffjudo.com/jujitsu-fighting)."
+        "sous_titre": "🎓 Fighting et passage de grades (UV3)",
+        "texte": "Les compétitions de jujitsu fighting servent à valider l'UV3 Efficacité :\n• 5 victoires consécutives et 44 points minimum en une seule compétition (full ippon = 10 pts, 2 parties validées = 7 pts) ;\n• ou 100 points cumulés sur plusieurs épreuves ;\n• ou, en option combinée (technique), 20 points + exercices conventionnels — dispense des 20 points à 40 ans et plus.\n\nDétail par dan : page Jujitsu Traditionnel, onglet Critères d'Évaluation."
+      },
+      {
+        "sous_titre": "❌ Non confirmé",
+        "texte": "Les catégories d'âge, les fautes et pénalités précises et les règles d'arbitrage détaillées version FFJDA n'ont pas encore été publiées (page \"Règlements Arbitrage\" indiquée comme \"disponible prochainement\" au moment de la rédaction). En attendant, voir le règlement international JJIF ci-dessus. À vérifier régulièrement."
+      },
+      {
+        "sous_titre": "Sources",
+        "texte": "Page officielle FFJDA \"Présentation de la discipline\" — Jujitsu Fighting (www.ffjudo.com/jujitsu-fighting).\nJJIF — Fighting System (www.ju-jitsu.sport/the-sport/fighting-system) et Fighting Rules 2026 V5.1.\nFFJDA — Textes officiels 2026/2027, Règlement des grades, p. 96-97 (UV3)."
       }
     ]
   }
