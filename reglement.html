@@ -69,6 +69,7 @@
 </section>
 
 <section>
+  <a class="lien-bleu" href="disciplines.html">⬅ Retour aux Disciplines</a>
   <a class="lien-bleu" href="index.html">🏠 Retour à l'accueil</a>
 </section>
 
@@ -104,10 +105,17 @@ fetch('reglement.json')
       var blocs = section.contenu.map(function(item) {
         var liens = '';
         if (key === 'criteres') {
-          liens = '<div class="bloc-liens">' +
-            '<a href="lexique-general.html" target="_blank">📖 Lexique</a>' +
-            '<a href="lexique-general.html#nomenclature-jujitsu" target="_blank">📋 Nomenclature</a>' +
-            '</div>';
+          var m = item.sous_titre.match(/^(\d)/);
+          var dan = (m && parseInt(m[1], 10) <= 4) ? '&dan=' + m[1] : '';
+          if (item.sous_titre.indexOf('UV3') === 0) {
+            liens = '<div class="bloc-liens">' +
+              '<a href="lexique-discipline.html?d=fighting">📖 Lexique Jujitsu Fighting</a>' +
+              '</div>';
+          } else {
+            liens = '<div class="bloc-liens">' +
+              '<a href="lexique-discipline.html?d=traditionnel' + dan + '">📖 Lexique Jujitsu Traditionnel</a>' +
+              '</div>';
+          }
         }
         return '<details class="bloc" name="grp-' + key + '"><summary>' + item.sous_titre + '</summary><p>' + item.texte + '</p>' + liens + '</details>';
       }).join('');

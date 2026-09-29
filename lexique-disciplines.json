@@ -1,0 +1,577 @@
+{
+  "traditionnel": {
+    "titre": "Jujitsu Traditionnel",
+    "icone": "🥋",
+    "couleur": "#1a3a5c",
+    "intro": "Annexe 3 : Référentiel des techniques de la progression française d'enseignement jujitsu traditionnel",
+    "source": "FFJDA — Grades, Annexes 3 et 4 (2026/2027)",
+    "categories": [
+      {
+        "id": "uke-waza",
+        "jp": "Uke-waza",
+        "fr": "Blocages",
+        "icone": "🛡️",
+        "couleur": "#1565c0",
+        "termes": [
+          {
+            "terme": "jodan-age-uke",
+            "traduction": "Blocage haut en remontant avec l'avant-bras"
+          },
+          {
+            "terme": "gedan-barai",
+            "traduction": "Défense en balayant avec l'avant-bras de l'intérieur vers l'extérieur d'une attaque partie basse"
+          },
+          {
+            "terme": "uchi-uke",
+            "traduction": "Blocage de l'intérieur vers l'extérieur"
+          },
+          {
+            "terme": "soto-uke",
+            "traduction": "Blocage de l'extérieur vers l'intérieur"
+          }
+        ]
+      },
+      {
+        "id": "kansetsu-waza",
+        "jp": "Kansetsu-waza",
+        "fr": "Clés de contrôle",
+        "icone": "🦴",
+        "couleur": "#ad1457",
+        "termes": [
+          {
+            "terme": "kote-mawashi",
+            "traduction": "Luxation de poignet en flexion en rotation interne"
+          },
+          {
+            "terme": "kote-gaeshi",
+            "traduction": "Luxation de poignet en flexion en rotation externe"
+          },
+          {
+            "terme": "tekubi-osae ou kote-osae",
+            "traduction": "Luxation par pression du poignet en direction du coude"
+          },
+          {
+            "terme": "kote-hineri",
+            "traduction": "Luxation de poignet en rotation interne"
+          },
+          {
+            "terme": "ude-gatame",
+            "traduction": "Luxation du bras en hyper extension"
+          },
+          {
+            "terme": "waki-gatame",
+            "traduction": "Clé sur le coude par l'aisselle"
+          },
+          {
+            "terme": "hara-gatame",
+            "traduction": "Clé de coude par le ventre"
+          },
+          {
+            "terme": "ude-nobashi",
+            "traduction": "Luxation de neutralisation par étirement du bras et torsion du poignet"
+          },
+          {
+            "terme": "yubi-kansetsu",
+            "traduction": "Luxation des doigts en hyper extension"
+          },
+          {
+            "terme": "yuki-chigae",
+            "traduction": "Luxation par hyper pronation du poignet et appui sur le coude"
+          },
+          {
+            "terme": "ude-osae",
+            "traduction": "Luxation du bras par contrôle en appui au sol"
+          }
+        ]
+      },
+      {
+        "id": "kansetsu-nage-waza",
+        "jp": "Kansetsu-nage-waza",
+        "fr": "Clés avec projection",
+        "icone": "🌀",
+        "couleur": "#6a1b9a",
+        "termes": [
+          {
+            "terme": "shiho-nage",
+            "traduction": "Projection dans les 4 directions"
+          },
+          {
+            "terme": "kokyu-nage",
+            "traduction": "Projection par la respiration"
+          },
+          {
+            "terme": "tenchi-nage",
+            "traduction": "Projection par bras en extension"
+          },
+          {
+            "terme": "irimi-nage",
+            "traduction": "Projection en entrant"
+          },
+          {
+            "terme": "ude-kime-nage",
+            "traduction": "Projection en avant par blocage du coude"
+          },
+          {
+            "terme": "kaiten-nage",
+            "traduction": "Projection rotatoire"
+          }
+        ]
+      },
+      {
+        "id": "ude-ate-waza",
+        "jp": "Ude-ate-waza",
+        "fr": "Coups membres supérieurs",
+        "icone": "👊",
+        "couleur": "#c62828",
+        "termes": [
+          {
+            "terme": "tettsui-oroshi",
+            "traduction": "Coup de poing du haut vers le bas frappé avec le poing fermé en marteau"
+          },
+          {
+            "terme": "oi-tsuki",
+            "traduction": "Coup de poing direct donné avec le poing situé du côté de l'appui avant"
+          },
+          {
+            "terme": "haito-uchi",
+            "traduction": "Coup frappé avec le tranchant intérieur de la main"
+          },
+          {
+            "terme": "yoko-uchi",
+            "traduction": "Coup de poing de côté"
+          },
+          {
+            "terme": "haishu",
+            "traduction": "Coup frappé avec le revers de la main"
+          },
+          {
+            "terme": "shuto",
+            "traduction": "Coup frappé avec le tranchant extérieur de la main"
+          },
+          {
+            "terme": "naname-tsuki",
+            "traduction": "Coup circulaire avec le dessus du poing"
+          },
+          {
+            "terme": "mawashi-tsuki",
+            "traduction": "Coup de poing circulaire"
+          },
+          {
+            "terme": "teisho-tsuki",
+            "traduction": "Coup donné avec la paume de la main"
+          },
+          {
+            "terme": "ura-uchi",
+            "traduction": "Coup de poing de revers avec le dos de la main"
+          },
+          {
+            "terme": "age-tsuki",
+            "traduction": "Coup de poing en remontant"
+          },
+          {
+            "terme": "ago-tsuki",
+            "traduction": "Coup de poing au menton"
+          },
+          {
+            "terme": "gyaku-tsuki",
+            "traduction": "Coup de poing direct donné avec le poing situé du côté de l'appui arrière"
+          },
+          {
+            "terme": "atama",
+            "traduction": "Coup porté avec la tête"
+          },
+          {
+            "terme": "maete-tsuki",
+            "traduction": "Coup de poing rebondissant par main avant"
+          },
+          {
+            "terme": "shito",
+            "traduction": "Coup donné avec la pointe des doigts, main tendue"
+          },
+          {
+            "terme": "hiji ou empi-uchi",
+            "traduction": "Coup frappé avec la pointe du coude"
+          }
+        ]
+      },
+      {
+        "id": "ashi-ate-waza",
+        "jp": "Ashi-ate-waza",
+        "fr": "Coups membres inférieurs",
+        "icone": "🦵",
+        "couleur": "#e65100",
+        "termes": [
+          {
+            "terme": "mae-geri",
+            "traduction": "Coup de pied avant (fouetté = Keage ou pénétrant = Kekomi)"
+          },
+          {
+            "terme": "yoko-geri",
+            "traduction": "Coup de pied de côté"
+          },
+          {
+            "terme": "mawashi-geri",
+            "traduction": "Coup de pied circulaire avant"
+          },
+          {
+            "terme": "hiza-geri",
+            "traduction": "Coup de genou"
+          },
+          {
+            "terme": "ura-mawashi-geri",
+            "traduction": "Coup de pied circulaire arrière"
+          },
+          {
+            "terme": "ushiro-geri",
+            "traduction": "Coup de pied arrière (fouetté = Keage ou pénétrant = Kekomi)"
+          },
+          {
+            "terme": "mikazuki-geri",
+            "traduction": "Coup de pied en croissant porté avec l'intérieur du pied, dans un mouvement de l'extérieur vers l'intérieur"
+          },
+          {
+            "terme": "ushiro-mawashi-geri",
+            "traduction": "Coup de pied en déplacement circulaire arrière"
+          },
+          {
+            "terme": "kakato-geri",
+            "traduction": "Coup avec le talon"
+          },
+          {
+            "terme": "teisoku-geri",
+            "traduction": "Atemi avec le dessous du pied"
+          },
+          {
+            "terme": "kin-geri",
+            "traduction": "Atemi du pied aux parties génitales"
+          },
+          {
+            "terme": "fumi-komi-geri",
+            "traduction": "Coup de pied avec action écraser"
+          },
+          {
+            "terme": "o-mawashi-barai",
+            "traduction": "Projection par application de O-mawashi-geri sur la jambe avancée"
+          },
+          {
+            "terme": "ura-mawashi-barai",
+            "traduction": "Projection par application de Ura-mawashi-geri sur la jambe avancée"
+          }
+        ]
+      },
+      {
+        "id": "lexique-technique",
+        "jp": "Lexique technique",
+        "fr": "Annexe 4",
+        "icone": "🎓",
+        "couleur": "#00838f",
+        "termes": [
+          {
+            "terme": "Blocage",
+            "traduction": "Action de défense « au contact » dans laquelle les combattants s'opposent force contre force."
+          },
+          {
+            "terme": "Confusion",
+            "traduction": "Simulation d'attaque ayant pour but de créer une réaction chez l'adversaire et permettant d'exécuter une technique initialement prévue."
+          },
+          {
+            "terme": "Contre-prise",
+            "traduction": "Séquence tactique dans laquelle celui qui fait la dernière action la réalise à partir d'une action déjà engagée par l'autre."
+          },
+          {
+            "terme": "Défense",
+            "traduction": "Séquence tactique qui annihile une attaque de l'adversaire."
+          },
+          {
+            "terme": "Enchaînement ou combinaison",
+            "traduction": "Séquence tactique dans laquelle celui qui a engagé sincèrement la 1re technique, utilise la réaction de l'autre pour effectuer une nouvelle technique."
+          },
+          {
+            "terme": "Esquive",
+            "traduction": "Action de défense dans laquelle l'attaqué se soustrait à l'action de l'attaquant par déplacement de tout ou partie de son corps en évitant d'opposer les forces."
+          },
+          {
+            "terme": "Kakari-geiko",
+            "traduction": "Exercice d'entraînement où l'un des deux pratiquants joue le rôle de l'attaquant, alors que l'autre cultive l'esquive, la défense.<br>Exercice à thème dont les consignes peuvent varier selon les intentions pédagogiques."
+          },
+          {
+            "terme": "Kata",
+            "traduction": "Ce sont les « exercices de style » du judo et du jujitsu. Ils doivent refléter le degré de connaissance et la maîtrise des exécutants. En japonais, le mot « kata » signifie : forme fondamentale.<br>Le kata du judo et du jujitsu c'est la démonstration des principes de base d'attaque et de défense suivant une progression rigoureuse, résultat de l'expérience et de la réflexion des meilleurs et des plus anciens maîtres du judo et du jujitsu. Le kata est l'une des unités de valeurs nécessaire à l'obtention de la ceinture noire ou des dan."
+          },
+          {
+            "terme": "Opportunité",
+            "traduction": "Occasion favorable (offerte ou créée) à l'application d'une technique. Elle s'organise par exemple à partir de composantes comme : action de kumi-kata, déplacement, changements de postures, attaques, etc."
+          },
+          {
+            "terme": "Randori",
+            "traduction": "Exercice libre d'attaque et de défense où les partenaires s'orientent vers l'attaque en assurant conjointement leur sécurité.<br>Cet exercice d'entraînement est sans consigne et sans attachement au résultat. Il se déroule dans un contexte dynamique et souple, où les partenaires adaptent leur comportement à leur niveau respectif."
+          },
+          {
+            "terme": "Séquence tactique",
+            "traduction": "Phase d'opposition ou d'étude dans laquelle des actions d'attaque et de défense se succèdent."
+          },
+          {
+            "terme": "Situation de travail",
+            "traduction": "Position respective de tori et de uke qui précède l'application d'une technique."
+          },
+          {
+            "terme": "Yaku soku geiko",
+            "traduction": "Exercice d'entraînement à l'attaque. Les deux partenaires recherchent les opportunités, la vitesse, l'efficacité, etc. Ils peuvent insister sur tel ou tel point de leur entraînement réciproque en modifiant la convention de cet exercice."
+          }
+        ]
+      }
+    ],
+    "liens": [
+      {
+        "texte": "🥋 Annexe 2 : 20 attaques imposées",
+        "href": "attaques-imposees.html"
+      }
+    ]
+  },
+  "contact": {
+    "titre": "Jujitsu Contact",
+    "icone": "🥊",
+    "couleur": "#e65100",
+    "intro": "Annexe 6 : Nomenclature technique pour l'UV2 du jujitsu contact",
+    "source": "FFJDA — Grades, Annexes 5 et 6 (2026/2027)",
+    "familles": [
+      {
+        "cle": "piedsPoings",
+        "jp": "Atemi-waza",
+        "fr": "Pieds / Poings",
+        "icone": "👊",
+        "couleur": "#c62828"
+      },
+      {
+        "cle": "projections",
+        "jp": "Nage-waza",
+        "fr": "Projections",
+        "icone": "🤸",
+        "couleur": "#2e7d32"
+      },
+      {
+        "cle": "neWaza",
+        "jp": "Ne-waza",
+        "fr": "Sol",
+        "icone": "🔒",
+        "couleur": "#6a1b9a"
+      }
+    ],
+    "liens": [
+      {
+        "texte": "📋 Annexe 5 : formes imposées UV1 (Kihon · Renzoku · Henka · Kanzen)",
+        "href": "techniques-contact.html"
+      }
+    ]
+  },
+  "fighting": {
+    "titre": "Jujitsu Fighting",
+    "icone": "🥊",
+    "couleur": "#004d40",
+    "intro": "Vocabulaire du combat Jujitsu Fighting (règlement JJIF 2026)",
+    "source": "FFJDA — Jujitsu Fighting · JJIF Fighting Rules 2026",
+    "categories": [
+      {
+        "id": "parties",
+        "jp": "Les 3 parties du combat",
+        "fr": "",
+        "icone": "🥊",
+        "couleur": "#00897b",
+        "termes": [
+          {
+            "terme": "Partie 1 — Distance",
+            "traduction": "Coups de poing et de pied contrôlés, au-dessus de la ceinture. Les atemis directs à la tête sont interdits."
+          },
+          {
+            "terme": "Partie 2 — Saisie et projection",
+            "traduction": "Dès qu'un combattant saisit l'autre, les coups ne sont plus autorisés. Tentatives de projection."
+          },
+          {
+            "terme": "Partie 3 — Travail au sol",
+            "traduction": "Immobilisations et soumissions (étranglements, clés de bras/jambes)."
+          }
+        ]
+      },
+      {
+        "id": "waza",
+        "jp": "Waza",
+        "fr": "Techniques citées au règlement",
+        "icone": "🤸",
+        "couleur": "#2e7d32",
+        "termes": [
+          {
+            "terme": "Atemi",
+            "traduction": "Coup frappé (point vital visé)"
+          },
+          {
+            "terme": "Hikite / Hikiashi",
+            "traduction": "Critère de marque en partie 1 : utiliser le hikite / hikiashi"
+          },
+          {
+            "terme": "Mawashi-geri",
+            "traduction": "Coup de pied circulaire"
+          },
+          {
+            "terme": "Ura-mawashi-geri",
+            "traduction": "Coup de pied circulaire en revers"
+          },
+          {
+            "terme": "De-ashi-barai",
+            "traduction": "Balayage du pied avancé"
+          },
+          {
+            "terme": "Kani-basami",
+            "traduction": "Pince de langouste (ciseau) — technique interdite (hansoku-make)"
+          },
+          {
+            "terme": "Osae-komi",
+            "traduction": "Immobilisation contre soi"
+          },
+          {
+            "terme": "Sankaku-jime",
+            "traduction": "Étranglement en triangle"
+          },
+          {
+            "terme": "Juji-gatame",
+            "traduction": "Contrôle en croix"
+          }
+        ]
+      },
+      {
+        "id": "commandements",
+        "jp": "Commandements",
+        "fr": "de l'arbitre",
+        "icone": "🗣️",
+        "couleur": "#bf360c",
+        "termes": [
+          {
+            "terme": "Hajime",
+            "traduction": "Commencer ou reprendre le combat."
+          },
+          {
+            "terme": "Mate",
+            "traduction": "Arrêter le combat (sortie de surface en partie 1, perte de contact en partie 2 ou 3, fin d'osae-komi, abandon, pénalité en partie 1, blessure, fin du combat)."
+          },
+          {
+            "terme": "Sonomama",
+            "traduction": "Figer les combattants en partie 2 ou 3 (pénalité, avertissement). Ils ne doivent plus bouger."
+          },
+          {
+            "terme": "Yoshi",
+            "traduction": "Reprendre le combat après sonomama, dans la même position."
+          },
+          {
+            "terme": "Osae-komi",
+            "traduction": "Début d'une immobilisation."
+          },
+          {
+            "terme": "Toketa",
+            "traduction": "Fin de l'immobilisation."
+          }
+        ]
+      },
+      {
+        "id": "points",
+        "jp": "Points",
+        "fr": "",
+        "icone": "🏆",
+        "couleur": "#f9a825",
+        "termes": [
+          {
+            "terme": "Ippon",
+            "traduction": "3 points ou 2 points selon la technique (voir « Points en détail »)."
+          },
+          {
+            "terme": "Waza-ari",
+            "traduction": "1 point."
+          },
+          {
+            "terme": "Full ippon",
+            "traduction": "Au moins un ippon dans chacune des 3 parties. Victoire immédiate, score 50 contre 0."
+          }
+        ]
+      },
+      {
+        "id": "penalites",
+        "jp": "Pénalités",
+        "fr": "",
+        "icone": "⚠️",
+        "couleur": "#c62828",
+        "termes": [
+          {
+            "terme": "Shido",
+            "traduction": "Faute mineure : 1 waza-ari pour l'adversaire."
+          },
+          {
+            "terme": "Chui",
+            "traduction": "Faute majeure : 2 waza-ari pour l'adversaire."
+          },
+          {
+            "terme": "Hansoku-make",
+            "traduction": "Faute grave : défaite (score 0 contre 50)."
+          },
+          {
+            "terme": "Mubobi",
+            "traduction": "Se mettre soi-même en danger."
+          }
+        ]
+      },
+      {
+        "id": "fin",
+        "jp": "Fin du combat",
+        "fr": "",
+        "icone": "🏁",
+        "couleur": "#455a64",
+        "termes": [
+          {
+            "terme": "Fusen-gashi",
+            "traduction": "Forfait : combattant absent après 3 appels sur 3 minutes. Score 50 contre 0."
+          },
+          {
+            "terme": "Kiken-gashi",
+            "traduction": "Abandon : un combattant se retire pendant le combat. Score 50 contre 0."
+          }
+        ]
+      },
+      {
+        "id": "arbitres",
+        "jp": "Corps arbitral",
+        "fr": "",
+        "icone": "⚖️",
+        "couleur": "#1a3a5c",
+        "termes": [
+          {
+            "terme": "MR — Arbitre de tapis",
+            "traduction": "Dirige le combat, accorde points et pénalités."
+          },
+          {
+            "terme": "VR — Arbitre vidéo",
+            "traduction": "Près de la table, 2 caméras aux coins opposés. Il revoit toute action ayant causé une blessure ou un full ippon."
+          },
+          {
+            "terme": "TR — Arbitre de table",
+            "traduction": "Supervise la table, annonce points et pénalités, gère le temps de soins."
+          },
+          {
+            "terme": "Superviseur de tapis",
+            "traduction": "Tranche en cas de désaccord entre MR et VR."
+          },
+          {
+            "terme": "HR — Arbitre en chef",
+            "traduction": "Confirme toute décision de hansoku-make direct."
+          },
+          {
+            "terme": "SR — Arbitres de coin",
+            "traduction": "Sans vidéo : assistent le MR. Les points sont accordés à la majorité (2 arbitres sur 3)."
+          }
+        ]
+      }
+    ],
+    "liens": [
+      {
+        "texte": "📖 Règlement Jujitsu Fighting complet",
+        "href": "reglement-fighting.html"
+      }
+    ]
+  }
+}

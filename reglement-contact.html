@@ -83,6 +83,7 @@
 </section>
 
 <section>
+  <a class="lien-bleu" href="disciplines.html">⬅ Retour aux Disciplines</a>
   <a class="lien-bleu" href="index.html">🏠 Retour à l'accueil</a>
 </section>
 
@@ -122,6 +123,7 @@ function construireEmbedTech(danId, techData) {
   return '<div class="bloc-liens">' +
     '<button type="button" class="toggle-btn" onclick="toggleEmbed(\'' + danId + '-uv1\', this)">📋 Forme imposée (' + dan.forme + ')</button>' +
     '<button type="button" class="toggle-btn" onclick="toggleEmbed(\'' + danId + '-uv2\', this)">🎯 Nomenclature</button>' +
+    '<a class="toggle-btn" style="text-decoration:none;" href="lexique-discipline.html?d=contact&dan=' + parseInt(danId, 10) + '">📖 Lexique Jujitsu Contact</a>' +
     '</div>' +
     '<div class="embed-content" id="' + danId + '-uv1" style="display:none;">' + uv1Table + '</div>' +
     '<div class="embed-content" id="' + danId + '-uv2" style="display:none;">' + uv2Html + '</div>';

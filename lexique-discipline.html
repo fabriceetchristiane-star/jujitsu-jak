@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lexique par discipline — Jujitsu JAK</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    :root { --disc: #1a3a5c; }
+    .disc-switch { display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; margin:0 0 1rem; }
+    .disc-btn { padding:0.55rem 1.1rem; border-radius:20px; border:2px solid #ddd; background:#f5f5f5; color:#333; font-weight:bold; font-size:0.9rem; cursor:pointer; font-family:Arial,sans-serif; }
+    .disc-btn.actif { background:var(--disc); border-color:var(--disc); color:white; }
+    .dan-switch { display:flex; flex-wrap:wrap; gap:0.4rem; justify-content:center; margin:0 0 1rem; }
+    .dan-chip { padding:0.4rem 0.9rem; border-radius:16px; border:1px solid var(--disc); background:white; color:var(--disc); font-weight:bold; font-size:0.82rem; cursor:pointer; font-family:Arial,sans-serif; }
+    .dan-chip.actif { background:var(--disc); color:white; }
+    .annexe-titre { text-align:center; color:var(--disc); font-weight:bold; margin:0.5rem 0 0.2rem; }
+    .annexe-source { text-align:center; color:#888; font-size:0.8rem; margin:0 0 1rem; }
+    .uv2-bloc { background:#f5f8fb; border-left:5px solid var(--disc); border-radius:8px; padding:0.8rem 1rem; margin:0 0 1rem; font-size:0.92rem; color:#444; }
+    .uv2-bloc strong { color:var(--disc); }
+    .lexique-search { width:100%; padding:12px 16px; font-size:1em; border:2px solid #ccdded; border-radius:10px; margin-bottom:18px; font-family:Arial,sans-serif; }
+    .lexique-search:focus { outline:none; border-color:var(--disc); }
+    .cat { margin:10px 0; }
+    .cat-bouton { width:100%; display:flex; align-items:center; justify-content:space-between; background:white; border:none; border-left:6px solid var(--cat, #1a3a5c); border-radius:10px; padding:14px 18px; cursor:pointer; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:left; font-family:Arial,sans-serif; transition:transform .2s; }
+    .cat-bouton:hover { transform:translateX(4px); }
+    .cat-gauche { display:flex; align-items:center; gap:12px; }
+    .cat-icone { font-size:1.4em; }
+    .cat-jp { display:block; font-size:1.12em; font-weight:bold; color:#222; }
+    .cat-fr { display:block; font-size:0.85em; color:#777; }
+    .cat-compte { font-size:0.8em; color:#999; margin-left:6px; font-weight:normal; }
+    .cat-chevron { color:var(--cat, #1a3a5c); transition:transform .25s; }
+    .cat.ouvert .cat-chevron { transform:rotate(180deg); }
+    .cat-contenu { display:none; background:#fafbfc; border-radius:0 0 10px 10px; }
+    .cat.ouvert .cat-contenu { display:block; }
+    .terme-table { width:100%; border-collapse:collapse; }
+    .terme-table tr { border-bottom:1px solid #eee; }
+    .terme-table tr:last-child { border-bottom:none; }
+    .terme-table td { padding:9px 18px; font-size:0.95em; vertical-align:top; }
+    .terme-table td.col-terme { font-weight:bold; color:var(--disc); width:35%; }
+    .terme-table td.col-trad { color:#555; }
+    .badge-dan { display:inline-block; font-size:0.72em; background:#eee; color:#555; border-radius:10px; padding:1px 7px; margin-left:6px; font-weight:normal; white-space:nowrap; }
+    .masque { display:none !important; }
+    .liens-annexes a { display:block; }
+    @media (max-width:600px) { .terme-table td { padding:8px 10px; } .terme-table td.col-terme { width:40%; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1 id="titre-page">📖 Lexique</h1>
+  <p>Vocabulaire officiel propre à chaque discipline — FFJDA 2026/2027</p>
+</header>
+
+<section>
+  <div class="disc-switch">
+    <button class="disc-btn" data-d="traditionnel">🥋 Jujitsu Traditionnel</button>
+    <button class="disc-btn" data-d="contact">🥊 Jujitsu Contact</button>
+    <button class="disc-btn" data-d="fighting">🥊 Jujitsu Fighting</button>
+  </div>
+
+  <div class="dan-switch" id="dan-switch"></div>
+
+  <p class="annexe-titre" id="annexe-titre"></p>
+  <p class="annexe-source" id="annexe-source"></p>
+
+  <div id="uv2"></div>
+
+  <input type="text" id="recherche" class="lexique-search" placeholder="🔍 Rechercher un terme (japonais ou français)...">
+
+  <div id="categories"></div>
+  <p id="aucun" class="masque" style="text-align:center;color:#888;font-style:italic;padding:20px;">Aucun terme ne correspond à votre recherche.</p>
+
+  <div class="liens-annexes" id="liens"></div>
+
+  <div style="margin-top:30px;">
+    <a class="lien-bleu" id="retour-reglement" href="reglement.html">⬅ Retour au règlement de la discipline</a>
+    <a class="lien-bleu" href="lexique.html">📖 Tous les lexiques</a>
+    <a class="lien-bleu" href="index.html">🏠 Accueil</a>
+  </div>
+</section>
+
+<footer>
+  <p>🥋 Club JAK Lambersart — Judo · Aïkido · Karaté · Jujitsu</p>
+</footer>
+
+<script>
+var REGLEMENTS = { traditionnel: 'reglement.json', contact: 'reglement-contact.json', fighting: 'reglement-fighting.json' };
+var PAGES = { traditionnel: 'reglement.html', contact: 'reglement-contact.html', fighting: 'reglement-fighting.html' };
+var DANS = {
+  traditionnel: [ { n: 1, label: '1er Dan' }, { n: 2, label: '2ème Dan' }, { n: 3, label: '3ème Dan' }, { n: 4, label: '4ème Dan' } ],
+  contact: [ { n: 1, label: '1er Dan', id: '1er-dan' }, { n: 2, label: '2ème Dan', id: '2eme-dan' }, { n: 3, label: '3ème Dan', id: '3eme-dan' }, { n: 4, label: '4ème Dan', id: '4eme-dan' } ],
+  fighting: []
+};
+
+var LEX = null, TECH = null, REG = {};
+var etat = { d: 'traditionnel', dan: 0 };
+
+function lireParametres() {
+  var p = new URLSearchParams(window.location.search);
+  var d = p.get('d');
+  if (d && REGLEMENTS[d]) etat.d = d;
+  var dan = parseInt(p.get('dan'), 10);
+  etat.dan = (dan >= 1 && dan <= 4) ? dan : 0;
+}
+
+function majUrl() {
+  var q = '?d=' + etat.d + (etat.dan ? '&dan=' + etat.dan : '');
+  history.replaceState(null, '', q);
+}
+
+function charger(url) {
+  return fetch(url).then(function(r) { return r.json(); }).catch(function() { return null; });
+}
+
+function ligneUV2(danN) {
+  var reg = REG[etat.d];
+  if (!reg || !reg.criteres || !danN) return '';
+  var cible = null;
+  reg.criteres.contenu.forEach(function(c) {
+    var t = c.sous_titre.toLowerCase();
+    var motif = danN === 1 ? '1er dan' : danN + 'ème dan';
+    if (t.indexOf(motif) === 0) cible = c;
+  });
+  if (!cible) return '';
+  var l = cible.texte.split('\n').filter(function(x) { return x.indexOf('UV2') === 0; })[0];
+  return l ? '<div class="uv2-bloc"><strong>' + cible.sous_titre + '</strong><br>' + l + '</div>' : '';
+}
+
+function tableTermes(termes) {
+  return '<table class="terme-table">' + termes.map(function(t) {
+    var cle = (t.terme + ' ' + t.traduction).toLowerCase().replace(/-/g, ' ').replace(/<br>/g, ' ');
+    return '<tr data-cle="' + cle.replace(/"/g, '') + '"><td class="col-terme">' + t.terme + (t.badge ? '<span class="badge-dan">' + t.badge + '</span>' : '') + '</td><td class="col-trad">' + t.traduction + '</td></tr>';
+  }).join('') + '</table>';
+}
+
+function blocCategorie(c) {
+  return '<div class="cat" style="--cat:' + c.couleur + '">' +
+    '<button class="cat-bouton" type="button" onclick="this.parentNode.classList.toggle(\'ouvert\')">' +
+      '<span class="cat-gauche"><span class="cat-icone">' + c.icone + '</span><span>' +
+        '<span class="cat-jp">' + c.jp + '<span class="cat-compte">(' + c.termes.length + ')</span></span>' +
+        (c.fr ? '<span class="cat-fr">' + c.fr + '</span>' : '') +
+      '</span></span><span class="cat-chevron">▼</span>' +
+    '</button><div class="cat-contenu">' + tableTermes(c.termes) + '</div></div>';
+}
+
+function categoriesContact() {
+  var conf = LEX.contact;
+  if (!TECH) return [];
+  var dans = TECH.jujitsuContact.dans;
+  return conf.familles.map(function(f) {
+    var termes = [];
+    dans.forEach(function(dan, i) {
+      if (etat.dan && etat.dan !== i + 1) return;
+      (dan.uv2[f.cle] || []).forEach(function(t) {
+        var morceaux = t.split(' — ');
+        termes.push({ terme: morceaux[0], traduction: morceaux.slice(1).join(' — ') || '', badge: etat.dan ? '' : dan.nom });
+      });
+    });
+    return { jp: f.jp, fr: f.fr, icone: f.icone, couleur: f.couleur, termes: termes };
+  });
+}
+
+function afficher() {
+  var conf = LEX[etat.d];
+  document.documentElement.style.setProperty('--disc', conf.couleur);
+  document.getElementById('titre-page').textContent = '📖 Lexique ' + conf.titre;
+  document.title = 'Lexique ' + conf.titre + ' — Jujitsu JAK';
+  document.getElementById('annexe-titre').textContent = conf.intro;
+  document.getElementById('annexe-source').textContent = conf.source;
+  document.getElementById('retour-reglement').href = PAGES[etat.d];
+
+  document.querySelectorAll('.disc-btn').forEach(function(b) { b.classList.toggle('actif', b.dataset.d === etat.d); });
+
+  var ds = document.getElementById('dan-switch');
+  var liste = DANS[etat.d];
+  ds.innerHTML = liste.length ? ['<button class="dan-chip' + (etat.dan === 0 ? ' actif' : '') + '" data-dan="0">Tous</button>'].concat(liste.map(function(x) {
+    return '<button class="dan-chip' + (etat.dan === x.n ? ' actif' : '') + '" data-dan="' + x.n + '">' + x.label + '</button>';
+  })).join('') : '';
+  ds.querySelectorAll('.dan-chip').forEach(function(b) {
+    b.onclick = function() { etat.dan = parseInt(b.dataset.dan, 10); majUrl(); afficher(); };
+  });
+
+  document.getElementById('uv2').innerHTML = ligneUV2(etat.dan);
+
+  var cats = etat.d === 'contact' ? categoriesContact() : conf.categories;
+  document.getElementById('categories').innerHTML = cats.map(blocCategorie).join('');
+  document.getElementById('liens').innerHTML = (conf.liens || []).map(function(l) {
+    return '<a class="lien-bleu" href="' + l.href + '">' + l.texte + '</a>';
+  }).join('');
+  document.getElementById('recherche').value = '';
+  filtrer();
+}
+
+function filtrer() {
+  var q = document.getElementById('recherche').value.toLowerCase().trim().replace(/-/g, ' ');
+  var total = 0;
+  document.querySelectorAll('.cat').forEach(function(cat) {
+    var n = 0;
+    cat.querySelectorAll('tr').forEach(function(tr) {
+      var ok = !q || tr.dataset.cle.indexOf(q) !== -1;
+      tr.classList.toggle('masque', !ok);
+      if (ok) n++;
+    });
+    total += n;
+    cat.classList.toggle('masque', q !== '' && n === 0);
+    if (q) cat.classList.toggle('ouvert', n > 0);
+  });
+  document.getElementById('aucun').classList.toggle('masque', !(q && total === 0));
+}
+
+document.getElementById('recherche').addEventListener('input', filtrer);
+document.querySelectorAll('.disc-btn').forEach(function(b) {
+  b.onclick = function() { etat.d = b.dataset.d; if (!DANS[etat.d].length) etat.dan = 0; majUrl(); afficher(); };
+});
+
+lireParametres();
+Promise.all([
+  charger('lexique-disciplines.json'),
+  charger('techniques-contact.json'),
+  charger('reglement.json'),
+  charger('reglement-contact.json')
+]).then(function(r) {
+  LEX = r[0]; TECH = r[1]; REG.traditionnel = r[2]; REG.contact = r[3];
+  if (!LEX) {
+    document.getElementById('categories').innerHTML = '<p style="color:#c62828;text-align:center;">Erreur de chargement du lexique.</p>';
+    return;
+  }
+  if (!DANS[etat.d].length) etat.dan = 0;
+  afficher();
+});
+</script>
+
+</body>
+</html>
