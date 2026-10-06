@@ -34,35 +34,6 @@
 <script>
 const GRADE = 'jaune';
 
-fetch('techniques-jujitsu.json')
-  .then(r => r.json())
-  .then(data => {
-    const techniques = data[GRADE] || [];
-    const container = document.getElementById('contenu-techniques');
-    if (!techniques.length) { container.innerHTML = '<p style="color:#888;">Techniques à venir.</p>'; return; }
-    let html = '<h2>🥋 Techniques</h2>';
-    let categorie = '';
-    techniques.forEach(t => {
-      if (t.categorie !== categorie) {
-        categorie = t.categorie;
-        html += `<div class="section-title">${categorie}</div>`;
-      }
-      const vid = t.video ? (t.video.match(/(?:v=|youtu\.be\/|shorts\/)([\w-]{11})/) || [])[1] : null;
-      const img = t.image || (vid ? `https://img.youtube.com/vi/${vid}/hqdefault.jpg` : '');
-      html += `<div class="video-item">
-        <strong>${t.nom}</strong>
-        ${t.description ? `<p style="color:#555;margin-top:4px;font-size:0.95em;">${t.description}</p>` : ''}
-        ${img ? `<a href="${t.video || img}" target="_blank"><img src="${img}" alt="${t.nom}" loading="lazy" style="width:100%;max-width:360px;border-radius:8px;margin-top:8px;display:block;"></a>` : ''}
-        ${!t.video ? `<p style="color:#b71c1c;margin-top:8px;">❌ Vidéo à trouver</p>` : ''}
-        ${t.video ? `<p style="margin-top:8px;"><a href="${t.video}" target="_blank" style="color:#1a3a5c;font-weight:bold;">▶ Voir la vidéo</a></p>` : ''}
-      </div>`;
-    });
-    container.innerHTML = html;
-  })
-  .catch(() => {
-    document.getElementById('contenu-techniques').innerHTML = '<p style="color:#888;">Techniques à venir.</p>';
-  });
-
 fetch('documents-grades.json')
   .then(r => r.json())
   .then(data => {
@@ -82,6 +53,7 @@ fetch('documents-grades.json')
     container.innerHTML = html;
   });
 </script>
+<script src="techniques-grade.js"></script>
 
 </body>
 </html>

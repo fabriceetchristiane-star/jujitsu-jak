@@ -1,25 +1,600 @@
 {
   "jaune": [
-    { "categorie": "Travail de mobilité", "nom": "Roulade sur une épaule", "description": "Roulade avant en passant sur une épaule.", "video": "https://www.youtube.com/watch?v=0Ih-G11sMYc" },
-    { "categorie": "Travail de mobilité", "nom": "La langouste seul", "description": "Déplacement au sol en arrière, seul.", "video": "https://www.youtube.com/watch?v=KA9VmnuNEWQ" },
-    { "categorie": "Travail de mobilité", "nom": "Mobilité et contrôle", "description": "Se déplacer autour du partenaire au sol en gardant le contrôle.", "video": "https://www.youtube.com/watch?v=MQU7ViY4FLQ" },
-    { "categorie": "Atemi-waza", "nom": "Oi-tsuki", "description": "Coup de poing direct en avançant, bras du côté de la jambe avant.", "video": "https://www.youtube.com/watch?v=Uxz8Wodg8vY" },
-    { "categorie": "Atemi-waza", "nom": "Gyaku-tsuki", "description": "Coup de poing direct du bras opposé à la jambe avant.", "video": "https://www.youtube.com/watch?v=9BdHHX5Lty8" },
-    { "categorie": "Atemi-waza", "nom": "Teisho-tsuki", "description": "Frappe directe avec la paume de la main.", "video": "https://www.youtube.com/watch?v=_m7ASLD_9YU" },
-    { "categorie": "Atemi-waza", "nom": "Mae-geri", "description": "Coup de pied de face.", "video": "https://www.youtube.com/watch?v=kMNBs4rv_To" },
-    { "categorie": "Atemi-waza", "nom": "Ushiro-geri", "description": "Coup de pied arrière.", "video": "https://www.youtube.com/watch?v=byGcXrAV3hk" },
-    { "categorie": "Atemi-waza", "nom": "Yoko-geri", "description": "Coup de pied de côté.", "video": "https://www.youtube.com/watch?v=xqqfYgIFqDY" },
-    { "categorie": "Blocage et parade", "nom": "Gedan-barai", "description": "Blocage balayé vers le bas.", "video": "https://www.youtube.com/watch?v=IOSs9vLoLhs" },
-    { "categorie": "Ne-waza", "nom": "Sortie d'immobilisation : Tate-shiho-gatame", "description": "Se dégager quand uke est à cheval sur moi.", "video": "https://www.youtube.com/watch?v=nnpFx3FvDP8" },
-    { "categorie": "Ne-waza", "nom": "Sortie d'immobilisation : Yoko-shiho-gatame", "description": "Se dégager d'une immobilisation par le côté.", "video": "https://www.youtube.com/watch?v=FhzEp-qIvXI" },
-    { "categorie": "Ne-waza", "nom": "Je sais sortir de la garde fermée", "description": "Ouvrir la garde de uke et en sortir.", "video": "https://www.youtube.com/watch?v=BLEBJuoXsX0" },
-    { "categorie": "Ne-waza", "nom": "Je sais renverser uke quand il est entre mes jambes", "description": "Renversements depuis la garde.", "video": "https://www.youtube.com/watch?v=A9TN__XquPg" },
-    { "categorie": "Self-défense", "nom": "Défense sur Katate-dori", "description": "Saisie du poignet.", "video": "https://www.youtube.com/watch?v=gfpBDnOfwEo" },
-    { "categorie": "Self-défense", "nom": "Défense sur Eri-dori", "description": "Saisie au revers.", "video": "https://www.youtube.com/watch?v=bwH_WlJ22Sw" },
-    { "categorie": "Self-défense", "nom": "Défense sur Mae-kubi-dori", "description": "Saisie au cou de face.", "video": "https://www.youtube.com/watch?v=GVx_xgNLCAo" }
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "Roulade sur une épaule",
+      "description": "Roulade avant en passant sur une épaule.",
+      "video": "https://www.youtube.com/watch?v=0Ih-G11sMYc"
+    },
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "La langouste seul",
+      "description": "Déplacement au sol en arrière, seul.",
+      "video": "https://www.youtube.com/watch?v=KA9VmnuNEWQ"
+    },
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "Mobilité et contrôle",
+      "description": "Se déplacer autour du partenaire au sol en gardant le contrôle.",
+      "video": "https://www.youtube.com/watch?v=MQU7ViY4FLQ"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Oi-tsuki",
+      "description": "Coup de poing direct en avançant, bras du côté de la jambe avant.",
+      "video": "https://www.youtube.com/watch?v=Uxz8Wodg8vY"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Gyaku-tsuki",
+      "description": "Coup de poing direct du bras opposé à la jambe avant.",
+      "video": "https://www.youtube.com/watch?v=9BdHHX5Lty8"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Teisho-tsuki",
+      "description": "Frappe directe avec la paume de la main.",
+      "video": "https://www.youtube.com/watch?v=_m7ASLD_9YU"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Mae-geri",
+      "description": "Coup de pied de face.",
+      "video": "https://www.youtube.com/watch?v=kMNBs4rv_To"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Ushiro-geri",
+      "description": "Coup de pied arrière.",
+      "video": "https://www.youtube.com/watch?v=byGcXrAV3hk"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Yoko-geri",
+      "description": "Coup de pied de côté.",
+      "video": "https://www.youtube.com/watch?v=xqqfYgIFqDY"
+    },
+    {
+      "categorie": "Blocage et parade",
+      "nom": "Gedan-barai",
+      "description": "Blocage balayé vers le bas.",
+      "video": "https://www.youtube.com/watch?v=IOSs9vLoLhs"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Sortie d'immobilisation : Tate-shiho-gatame",
+      "description": "Se dégager quand uke est à cheval sur moi.",
+      "video": "https://www.youtube.com/watch?v=nnpFx3FvDP8"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Sortie d'immobilisation : Yoko-shiho-gatame",
+      "description": "Se dégager d'une immobilisation par le côté.",
+      "video": "https://www.youtube.com/watch?v=FhzEp-qIvXI"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je sais sortir de la garde fermée",
+      "description": "Ouvrir la garde de uke et en sortir.",
+      "video": "https://www.youtube.com/watch?v=BLEBJuoXsX0"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je sais renverser uke quand il est entre mes jambes",
+      "description": "Renversements depuis la garde.",
+      "video": "https://www.youtube.com/watch?v=A9TN__XquPg"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Katate-dori",
+      "description": "Saisie du poignet.",
+      "video": "https://www.youtube.com/watch?v=gfpBDnOfwEo"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Eri-dori",
+      "description": "Saisie au revers.",
+      "video": "https://www.youtube.com/watch?v=bwH_WlJ22Sw"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Mae-kubi-dori",
+      "description": "Saisie au cou de face.",
+      "video": "https://www.youtube.com/watch?v=GVx_xgNLCAo"
+    }
   ],
-  "orange": [],
-  "verte": [],
-  "bleue": [],
-  "marron": []
+  "orange": [
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "Roulade sur une épaule",
+      "description": "Roulade avant en passant sur une épaule.",
+      "video": "https://www.youtube.com/watch?v=0Ih-G11sMYc"
+    },
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "La langouste seul",
+      "description": "Déplacement au sol en arrière, seul.",
+      "video": "https://www.youtube.com/watch?v=KA9VmnuNEWQ"
+    },
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "Mobilité et contrôle",
+      "description": "Se déplacer autour du partenaire au sol en gardant le contrôle.",
+      "video": "https://www.youtube.com/watch?v=MQU7ViY4FLQ"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Haito",
+      "description": "Frappe avec le tranchant interne de la main.",
+      "video": "https://www.youtube.com/watch?v=dblZPDLASLs"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Ura-uchi-haishu",
+      "description": "Frappe en revers avec le dos de la main.",
+      "video": "https://www.youtube.com/watch?v=TVj4FjPwPWo"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Yoko-tsuki",
+      "description": "Coup de poing sur le côté."
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Mawashi-geri",
+      "description": "Coup de pied circulaire.",
+      "video": "https://www.youtube.com/watch?v=cqHDkfPM364"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Ura-mawashi-geri",
+      "description": "Coup de pied circulaire inversé.",
+      "video": "https://www.youtube.com/watch?v=QVA9xNlXgII"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Mikazuki-geri",
+      "description": "Coup de pied en croissant.",
+      "video": "https://www.youtube.com/watch?v=bI_Di_pf4Kc"
+    },
+    {
+      "categorie": "Blocage et parade",
+      "nom": "Soto-uke",
+      "description": "Blocage de l'extérieur vers l'intérieur.",
+      "video": "https://www.youtube.com/watch?v=QTFXSxVxqR8"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Sortie d'immobilisation : Kami-shiho-gatame",
+      "description": "Se dégager quand uke contrôle par la tête.",
+      "video": "https://www.youtube.com/watch?v=zQcoe10m7E8"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Sortie d'immobilisation : Hon-gesa-gatame",
+      "description": "Se dégager du contrôle en écharpe.",
+      "video": "https://www.youtube.com/watch?v=pEgV3ljQiU0"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je sais dégager ma jambe quand uke défend",
+      "description": "Libérer sa jambe prise entre celles de uke.",
+      "video": "https://www.youtube.com/watch?v=hZcRFP-cXtE"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je sais supprimer les appuis avec mes jambes pour renverser uke",
+      "description": "Renversements avec les jambes.",
+      "video": "https://www.youtube.com/watch?v=zo37mrY23AQ"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Yoko-kubi-dori",
+      "description": "Saisie à 2 mains de côté au cou.",
+      "video": "https://www.youtube.com/watch?v=lLgKuo_uAkU"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Yoko-sode-dori",
+      "description": "Saisie de la manche de côté.",
+      "video": "https://www.youtube.com/watch?v=JvoC4Cmawrw"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Mae-dori",
+      "description": "Saisie de face en ceinturant sous les bras.",
+      "video": "https://www.youtube.com/watch?v=W8tFaPq8ryQ"
+    }
+  ],
+  "verte": [
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "Le travail en pont",
+      "description": "Exercices de pont pour renforcer la nuque et se dégager."
+    },
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "Cercle avec les jambes",
+      "description": "Sur le dos, tourner autour du partenaire en gardant les jambes entre lui et soi."
+    },
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "Mobilité et contrôle",
+      "description": "Se déplacer autour du partenaire au sol en gardant le contrôle.",
+      "video": "https://www.youtube.com/watch?v=MQU7ViY4FLQ"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Uchi-oroshi",
+      "description": "Frappe de haut en bas."
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Tettsui-oroshi",
+      "description": "Frappe de haut en bas avec le poing en marteau.",
+      "video": "https://www.youtube.com/watch?v=ILtvlU0clrE"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Naname-tsuki",
+      "description": "Coup de poing en oblique."
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Hiza-geri",
+      "description": "Coup de genou.",
+      "video": "https://www.youtube.com/watch?v=62SPm8Fl4OE"
+    },
+    {
+      "categorie": "Atemi-waza",
+      "nom": "Kakato-geri",
+      "description": "Coup de talon."
+    },
+    {
+      "categorie": "Blocage et parade",
+      "nom": "Jodan-age-uke",
+      "description": "Blocage haut en remontant l'avant-bras.",
+      "video": "https://www.youtube.com/watch?v=8jX8wxHHN-E"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je sais défendre avec mes jambes quand je suis sur le dos",
+      "description": "Garder uke entre ses jambes pour l'empêcher de passer.",
+      "video": "https://www.youtube.com/watch?v=rehFufcQtC8"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je sais me remettre face à uke quand je suis à plat ventre",
+      "description": "Se retourner pour faire face à uke."
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je sais dégager ma jambe quand uke défend (2)",
+      "description": "Libérer sa jambe prise entre celles de uke.",
+      "video": "https://www.youtube.com/watch?v=hZcRFP-cXtE"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je sais immobiliser uke sur le ventre",
+      "description": "Contrôler uke à plat ventre.",
+      "video": "https://www.youtube.com/watch?v=3MNN-_jGlus"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Yoko-dori",
+      "description": "Saisie de côté en ceinturant les bras.",
+      "video": "https://www.youtube.com/watch?v=icw-yvfw5Fs"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Yoko-kubi-dori",
+      "description": "Saisie de côté au cou.",
+      "video": "https://www.youtube.com/watch?v=ClYTl-YLj3U"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Mae-kubi-dori",
+      "description": "Saisie de face au cou.",
+      "video": "https://www.youtube.com/watch?v=b7vg80ByuNk"
+    }
+  ],
+  "bleue": [
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "Le travail en pont",
+      "description": "Exercices de pont pour renforcer la nuque et se dégager."
+    },
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "Cercle avec les jambes",
+      "description": "Sur le dos, tourner autour du partenaire en gardant les jambes entre lui et soi."
+    },
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "Mobilité et contrôle",
+      "description": "Se déplacer autour du partenaire au sol en gardant le contrôle.",
+      "video": "https://www.youtube.com/watch?v=MQU7ViY4FLQ"
+    },
+    {
+      "categorie": "Atemi-waza et kansetsu-waza",
+      "nom": "Ke-age",
+      "description": "Coup de pied fouetté.",
+      "video": "https://www.youtube.com/watch?v=AI560ZPBiFo"
+    },
+    {
+      "categorie": "Atemi-waza et kansetsu-waza",
+      "nom": "Shiho-nage",
+      "description": "Projection dans les quatre directions par clé de poignet.",
+      "video": "https://www.youtube.com/watch?v=hIxejgtg390"
+    },
+    {
+      "categorie": "Atemi-waza et kansetsu-waza",
+      "nom": "Kote-hineri",
+      "description": "Clé de poignet en torsion.",
+      "video": "https://www.youtube.com/watch?v=Dk-RyZLIC24"
+    },
+    {
+      "categorie": "Atemi-waza et kansetsu-waza",
+      "nom": "Kote-mawashi",
+      "description": "Clé de poignet en tournant.",
+      "video": "https://www.youtube.com/watch?v=WmPavJJVi1c"
+    },
+    {
+      "categorie": "Atemi-waza et kansetsu-waza",
+      "nom": "Kote-gaeshi",
+      "description": "Clé de poignet en flexion avec projection.",
+      "video": "https://www.youtube.com/watch?v=JIssDzWWTf8"
+    },
+    {
+      "categorie": "20 attaques imposées — Série A (saisies avec les mains)",
+      "nom": "A1 — Katate-dori",
+      "description": "Saisie du poignet à 2 mains",
+      "video": "https://www.youtube.com/watch?v=gfpBDnOfwEo"
+    },
+    {
+      "categorie": "20 attaques imposées — Série A (saisies avec les mains)",
+      "nom": "A2 — Eri-dori",
+      "description": "Saisie croisée du revers",
+      "video": "https://www.youtube.com/watch?v=bwH_WlJ22Sw"
+    },
+    {
+      "categorie": "20 attaques imposées — Série A (saisies avec les mains)",
+      "nom": "A3 — Mae-kubi-dori",
+      "description": "Saisie à 2 mains de face au cou",
+      "video": "https://www.youtube.com/watch?v=GVx_xgNLCAo"
+    },
+    {
+      "categorie": "20 attaques imposées — Série A (saisies avec les mains)",
+      "nom": "A4 — Yoko-kubi-dori",
+      "description": "Saisie à 2 mains de côté au cou",
+      "video": "https://www.youtube.com/watch?v=lLgKuo_uAkU"
+    },
+    {
+      "categorie": "20 attaques imposées — Série A (saisies avec les mains)",
+      "nom": "A5 — Yoko-sode-dori",
+      "description": "Saisie de la manche de côté",
+      "video": "https://www.youtube.com/watch?v=JvoC4Cmawrw"
+    },
+    {
+      "categorie": "Blocage et parade",
+      "nom": "Uchi-uke",
+      "description": "Blocage de l'intérieur vers l'extérieur.",
+      "video": "https://www.youtube.com/watch?v=0KPJlIwA_N0"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je sais soumettre uke quand il est entre mes jambes",
+      "description": "Clés et étranglements depuis la garde.",
+      "video": "https://www.youtube.com/watch?v=_EOE2oLSU7w"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je sais passer la garde de uke quand il est sur le dos",
+      "description": "Franchir les jambes de uke au sol.",
+      "video": "https://www.youtube.com/watch?v=Rr5Y6lb9Jmc"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je maîtrise le travail en garde fermée",
+      "description": "Attaques depuis la garde fermée.",
+      "video": "https://www.youtube.com/watch?v=qcInWH3x5SY"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je maîtrise le travail en garde papillon",
+      "description": "Renversements depuis la garde papillon.",
+      "video": "https://www.youtube.com/watch?v=yn1SSYFERy4"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Kata-ashi-hishigi",
+      "description": "Clé de cheville.",
+      "video": "https://www.youtube.com/watch?v=n_djFU-uKS0"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Hadaka-jime",
+      "description": "Étranglement par l'arrière.",
+      "video": "https://www.youtube.com/watch?v=qJMsx5J8K5Y"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Jodan-oi-tsuki",
+      "description": "Coup de poing direct au visage en avançant.",
+      "video": "https://www.youtube.com/watch?v=py_cB6VU89g"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Chudan-gyaku-tsuki",
+      "description": "Coup de poing direct au plexus.",
+      "video": "https://www.youtube.com/watch?v=T1lFQA92jYo"
+    }
+  ],
+  "marron": [
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "Le travail en pont",
+      "description": "Exercices de pont pour renforcer la nuque et se dégager."
+    },
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "Cercle avec les jambes",
+      "description": "Sur le dos, tourner autour du partenaire en gardant les jambes entre lui et soi."
+    },
+    {
+      "categorie": "Travail de mobilité",
+      "nom": "Mobilité et contrôle",
+      "description": "Se déplacer autour du partenaire au sol en gardant le contrôle.",
+      "video": "https://www.youtube.com/watch?v=MQU7ViY4FLQ"
+    },
+    {
+      "categorie": "Kansetsu-waza",
+      "nom": "Ude-hishigi-ude-gatame",
+      "description": "Clé de bras en extension avec les bras.",
+      "video": "https://www.youtube.com/watch?v=SBf0aTma1VI"
+    },
+    {
+      "categorie": "Kansetsu-waza",
+      "nom": "Ude-hishigi-waki-gatame",
+      "description": "Clé de bras sous l'aisselle.",
+      "video": "https://www.youtube.com/watch?v=8F5p1zuJRG0"
+    },
+    {
+      "categorie": "Kansetsu-waza",
+      "nom": "Ude-hishigi-hara-gatame",
+      "description": "Clé de bras avec le ventre.",
+      "video": "https://www.youtube.com/watch?v=ZzEycg8R_9M"
+    },
+    {
+      "categorie": "Kansetsu-waza",
+      "nom": "Tekubi-osae",
+      "description": "Contrôle du poignet."
+    },
+    {
+      "categorie": "20 attaques imposées — Série A (saisies avec les mains)",
+      "nom": "A1 — Katate-dori",
+      "description": "Saisie du poignet à 2 mains",
+      "video": "https://www.youtube.com/watch?v=gfpBDnOfwEo"
+    },
+    {
+      "categorie": "20 attaques imposées — Série A (saisies avec les mains)",
+      "nom": "A2 — Eri-dori",
+      "description": "Saisie croisée du revers",
+      "video": "https://www.youtube.com/watch?v=bwH_WlJ22Sw"
+    },
+    {
+      "categorie": "20 attaques imposées — Série A (saisies avec les mains)",
+      "nom": "A3 — Mae-kubi-dori",
+      "description": "Saisie à 2 mains de face au cou",
+      "video": "https://www.youtube.com/watch?v=GVx_xgNLCAo"
+    },
+    {
+      "categorie": "20 attaques imposées — Série A (saisies avec les mains)",
+      "nom": "A4 — Yoko-kubi-dori",
+      "description": "Saisie à 2 mains de côté au cou",
+      "video": "https://www.youtube.com/watch?v=lLgKuo_uAkU"
+    },
+    {
+      "categorie": "20 attaques imposées — Série A (saisies avec les mains)",
+      "nom": "A5 — Yoko-sode-dori",
+      "description": "Saisie de la manche de côté",
+      "video": "https://www.youtube.com/watch?v=JvoC4Cmawrw"
+    },
+    {
+      "categorie": "20 attaques imposées — Série B (saisies avec les bras)",
+      "nom": "B1 — Mae-dori",
+      "description": "Saisie de face en ceinturant sous les bras",
+      "video": "https://www.youtube.com/watch?v=W8tFaPq8ryQ"
+    },
+    {
+      "categorie": "20 attaques imposées — Série B (saisies avec les bras)",
+      "nom": "B2 — Yoko-dori",
+      "description": "Saisie de côté en ceinturant les bras",
+      "video": "https://www.youtube.com/watch?v=icw-yvfw5Fs"
+    },
+    {
+      "categorie": "20 attaques imposées — Série B (saisies avec les bras)",
+      "nom": "B3 — Yoko-kubi-dori",
+      "description": "Saisie de côté au cou (avec le bras)",
+      "video": "https://www.youtube.com/watch?v=ClYTl-YLj3U"
+    },
+    {
+      "categorie": "20 attaques imposées — Série B (saisies avec les bras)",
+      "nom": "B4 — Mae-kubi-dori",
+      "description": "Saisie de face au cou (avec le bras)",
+      "video": "https://www.youtube.com/watch?v=b7vg80ByuNk"
+    },
+    {
+      "categorie": "20 attaques imposées — Série B (saisies avec les bras)",
+      "nom": "B5 — Hadaka-jime",
+      "description": "Étranglement par l'arrière",
+      "video": "https://www.youtube.com/watch?v=qJMsx5J8K5Y"
+    },
+    {
+      "categorie": "Blocage et parade",
+      "nom": "Perfectionnement : Gedan-barai",
+      "description": "Blocage balayé vers le bas.",
+      "video": "https://www.youtube.com/watch?v=IOSs9vLoLhs"
+    },
+    {
+      "categorie": "Blocage et parade",
+      "nom": "Perfectionnement : Soto-uke",
+      "description": "Blocage de l'extérieur vers l'intérieur.",
+      "video": "https://www.youtube.com/watch?v=QTFXSxVxqR8"
+    },
+    {
+      "categorie": "Blocage et parade",
+      "nom": "Perfectionnement : Jodan-age-uke",
+      "description": "Blocage haut en remontant l'avant-bras.",
+      "video": "https://www.youtube.com/watch?v=8jX8wxHHN-E"
+    },
+    {
+      "categorie": "Blocage et parade",
+      "nom": "Perfectionnement : Uchi-uke",
+      "description": "Blocage de l'intérieur vers l'extérieur.",
+      "video": "https://www.youtube.com/watch?v=0KPJlIwA_N0"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je sais passer la garde de uke (2)",
+      "description": "Passages de garde.",
+      "video": "https://www.youtube.com/watch?v=mRyqe-5eL9g"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je sais contrôler et soumettre uke quand je suis dans son dos",
+      "description": "Contrôle arrière et étranglements.",
+      "video": "https://www.youtube.com/watch?v=7gjCvPcDP4s"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Je maîtrise le travail en garde ouverte",
+      "description": "Renversements depuis la garde ouverte.",
+      "video": "https://www.youtube.com/watch?v=TZg-q7Cd4Tg"
+    },
+    {
+      "categorie": "Ne-waza",
+      "nom": "Hiza-hishigi",
+      "description": "Clé de genou par compression.",
+      "video": "https://www.youtube.com/watch?v=Rzq1yEg4D4w"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Jodan-naname-shuto",
+      "description": "Attaque en oblique avec le tranchant de la main.",
+      "video": "https://www.youtube.com/watch?v=rrIaF9mXpiQ"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Chudan-mae-geri-kekomi",
+      "description": "Coup de pied direct de face.",
+      "video": "https://www.youtube.com/watch?v=Z1hf3CPlwRk"
+    },
+    {
+      "categorie": "Self-défense",
+      "nom": "Défense sur Chudan-mawashi-geri",
+      "description": "Coup de pied circulaire.",
+      "video": "https://www.youtube.com/watch?v=aCVXZZYAWlw"
+    }
+  ]
 }
