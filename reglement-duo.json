@@ -1,0 +1,192 @@
+{
+  "general": {
+    "titre": "Présentation",
+    "icone": "🤝",
+    "contenu": [
+      {
+        "sous_titre": "✅ Confirmé — Qu'est-ce que le Duo System ?",
+        "texte": "Le Duo System (expression technique) est une compétition de jujitsu où deux athlètes du même club forment un couple. L'un attaque (Uke), l'autre se défend (Tori), sur des attaques imposées et dans un ordre fixé par le règlement.\n\nLa défense est libre : c'est le couple qui choisit ses techniques. Il choisit aussi le côté (droite ou gauche), mais pas l'attaque.\n\nCatégories : Masculin · Féminin · Mixte · Open. Un même couple peut s'engager dans sa catégorie (masculine, féminine ou mixte) et aussi en Open."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Les textes de référence",
+        "texte": "🌍 International : JJIF — Ju-Jitsu Duo Rule Book V4.3, approuvé le 24 mai 2026 (en anglais).\n\n🇫🇷 France : règlements FFJDA 2026/2027. L'arbitrage se fait « en conformité des règles d'arbitrage de la Fédération internationale de Jujitsu (J.J.I.F.) avec certaines adaptations de la Fédération Française de Judo, Jujitsu, Kendo et Disciplines Associées ».\n\n📄 Traduction française disponible sur le site FFJDA : Livre de règles Ju-Jitsu Duo V4.1."
+      },
+      {
+        "sous_titre": "❌ Non confirmé — Traduction française de la V4.3",
+        "texte": "La traduction officielle FFJDA de la version 2026 (V4.3) n'est pas encore publiée. Les textes de cette page qui viennent de la V4.3 sont traduits depuis l'anglais. À vérifier avec le référent technique."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Conditions de participation FFJDA 2026/2027",
+        "texte": "Tournois nationaux Jujitsu Duo :\n• Ceinture verte minimum pour tous les participants\n• Deux années de licence FFJDA, dont celle de l'année en cours\n• Seniors : nés en 2011 et avant\n• Judogi blanc obligatoire\n• Formules : DUO Féminin, DUO Masculin, DUO Mixte\n• Poules de 1 à 6 duos, puis tableau avec repêchage au-delà de 6\n• Engagement : 10 € par athlète ou par duo, sur la plateforme fédérale"
+      },
+      {
+        "sous_titre": "✅ Confirmé — Coupe de France par équipes mixtes de Jujitsu Duo System 2026/2027",
+        "texte": "• Une équipe = 3 couples : U16, U18 et Adultes\n• Deux équipes maximum par club au niveau national\n• Ceinture verte minimum et 2 ans de licence FFJDA\n• Chaque couple présente trois blocs de deux techniques, en alternance avec le couple adverse. Chaque bloc gagné rapporte 1 point ; le premier couple à 2 points gagne\n• L'équipe gagnante est celle qui remporte 2 rencontres\n• Un couple remplaçant autorisé par équipe\n• Tous les membres d'une équipe portent un judogi de la même couleur (couleur unie)\n• Inscription directe, sans phase qualificative régionale ; tableau avec double repêchage"
+      }
+    ]
+  },
+  "series": {
+    "titre": "Les 12 attaques",
+    "icone": "🥋",
+    "contenu": [
+      {
+        "sous_titre": "✅ Confirmé — Déroulement d'une attaque",
+        "texte": "Chaque attaque se déroule en 5 temps :\n1. Pré-attaque\n2. Attaque\n3. Défense\n4. Projection, amenée au sol ou soumission\n5. Finition (contrôle final)\n\nPré-attaque : « Chaque attaque doit être préparée par une seule pré-attaque, comme une poussée, un atemi, une traction ou une combinaison. » C'est l'attaquant qui fait la pré-attaque et l'attaque."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Série A — Saisies, étranglements et ceinturages",
+        "texte": "A1 — Uke saisit le bras de Tori : une main au poignet, l'autre à l'avant-bras.\nA2 — Uke saisit le revers du gi de Tori avec la main.\nA3 — Uke attaque le cou de Tori de face, de dos ou de côté pour l'étrangler.\nA4 — Uke ceinture Tori de face ou de dos, sous ou par-dessus les bras."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Série B — Coups de poing et coups de pied",
+        "texte": "B1 — Jodan ou Chudan Tsuki : coup de poing direct de face, à la tête ou au corps.\nB2 — Mawashi Tsuki (crochet) : coup de poing semi-circulaire.\nB3 — Mae Geri : coup de pied direct de face. Cible : plexus solaire, ventre.\nB4 — Mawashi Geri : coup de pied semi-circulaire."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Série C — Attaques avec armes (V4.3, 2026)",
+        "texte": "C1 — Couteau de face, en deux coups. Cible : le ventre.\nC2 — Couteau en coupe diagonale. Cible : le torse ou la tête de Tori, coupe diagonale vers le haut ou vers le bas.\nC3 — Bâton de haut en bas. Cible : le dessus de la tête.\nC4 — Bâton de l'extérieur, d'un côté ou de l'autre.\n\nLa série C n'est présentée qu'en U18, U21, Adultes et Masters."
+      },
+      {
+        "sous_titre": "❌ Non confirmé — Attaques présentées par les jeunes (U10 à U16)",
+        "texte": "Les jeunes et les enfants ne font que deux tours de qualification (séries A et B). Le tableau précis des attaques par catégorie d'âge de la V4.3 est à vérifier."
+      }
+    ]
+  },
+  "notation": {
+    "titre": "Notation",
+    "icone": "🎯",
+    "contenu": [
+      {
+        "sous_titre": "✅ Confirmé — Le corps arbitral",
+        "texte": "• 1 arbitre central (MR) sur le tapis\n• 3 juges arbitres (JR) assis au bord du tatami\n• 1 arbitre vidéo (VR) : il contrôle la variété des techniques et les mauvaises attaques"
+      },
+      {
+        "sous_titre": "✅ Confirmé — Le barème",
+        "texte": "Chaque juge note chaque attaque de 0 à 3 points, partie par partie :\n1. Attaque\n2. Défense\n3. Projection / amenée au sol / soumission\n4. Finition\n5. Contrôle de l'arme (série C uniquement)"
+      },
+      {
+        "sous_titre": "✅ Confirmé — Série A — Détail des notes",
+        "texte": "1. Attaque\n3 : bras et mains au bon endroit, saisie ferme\n2 : bras et mains au bon endroit, mais saisie lâche\n1 : pré-attaque faible, ou main au bon endroit mais saisie lâche\n0 : attaque fausse ou absente ; pré-attaque absente, illogique ou multiple ; main au mauvais endroit\n\n2. Défense\n3 : premier atemi et déséquilibre (ou libération) parfaits, qui amènent Uke en position de projection\n2 : bon atemi et bon déséquilibre ou libération\n1 : atemi faible, ou déséquilibre / libération moyen\n0 : pas d'atemi, ou pas de déséquilibre / libération\n\n3. Projection / amenée au sol / soumission\n3 : projection, amenée au sol, clé ou étranglement parfait\n2 : bonne projection mais en 2 temps, ou clé / étranglement avec un contrôle faible\n1 : projection où Uke saute, ou clé / étranglement faible\n0 : Uke saute sans aucun effort de Tori\n\n4. Finition\n3 : atemi parfait (puissant, bien équilibré, à bonne distance, avec hikite / hikiashi) ; clé ou étranglement parfait\n2 : bon atemi mais sans puissance ; clé ou étranglement faible\n1 : atemi déséquilibré ou trop loin ; clé ou étranglement mains ouvertes\n0 : atemi qui manque la cible ou techniquement incorrect ; clé ou étranglement incorrect"
+      },
+      {
+        "sous_titre": "✅ Confirmé — Série B — Détail des notes",
+        "texte": "1. Attaque\n3 : attaque parfaite qui toucherait la cible si Tori ne réagissait pas ; pour un coup de poing, poing fermé et coup puissant\n2 : l'attaque toucherait Tori, mais sans puissance\n1 : l'attaque toucherait Tori, mais sans équilibre, avec une pré-attaque faible ou une mauvaise garde d'Uke après l'attaque\n0 : attaque fausse ou absente ; pré-attaque absente, illogique ou multiple ; attaque qui manque la cible\n\n2. Défense\n3 : blocage parfait avec tai sabaki et premier atemi, avec une saisie qui amène Uke en position de projection\n2 : bon blocage et bon déséquilibre\n1 : blocage faible avec tai sabaki, ou déséquilibre insuffisant\n0 : pas de blocage ou pas de tai sabaki\n\n3. Projection et 4. Finition : mêmes critères que la série A."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Série C — Détail des notes",
+        "texte": "1. Attaque\n3 : attaque parfaite qui toucherait Tori s'il ne réagissait pas\n2 : l'attaque toucherait Tori, mais l'arme est tenue mollement ou la garde est moyenne\n1 : l'attaque toucherait Tori, mais l'attaque ou la pré-attaque est faible, ou la garde est mauvaise\n0 : attaque fausse ou absente ; pré-attaque absente, illogique ou multiple ; l'arme manque la cible ou est tenue mollement\n\n2. Défense : mêmes critères que la série B. 0 si l'arme touche Tori.\n\n3. Projection et 4. Finition : mêmes critères que la série A. 0 si Tori est touché ou coupé par l'arme.\n\n5. Contrôle de l'arme\n3 : Tori contrôle réellement l'arme pendant toute la défense, ou se place entre Uke et l'arme\n2 : l'arme finit loin d'Uke mais de son côté ; l'arme échappe à Tori pendant la séquence\n1 : Uke tombe sur l'arme ou à côté ; l'arme reste au sol près d'Uke ; le bâton tombe droit et roule\n0 : Uke tient l'arme ; l'arme sort de la surface ; l'arme touche une tierce personne ; Tori est touché ou coupé pendant la séquence ; le désarmement n'est pas présenté aux juges"
+      },
+      {
+        "sous_titre": "✅ Confirmé — Note de variété (nouveau barème 2026)",
+        "texte": "L'arbitre vidéo ajoute une note de variété à la fin de la prestation. Elle porte sur les parties 3 (projections) et 4 (finitions) :\n• 1 point pour chaque type d'action différent\n• 0 point pour chaque répétition\n• Maximum : 12 points\n\nFamilles de projections (partie 3) :\nI. Projection debout vers l'avant d'Uke, 2 techniques différentes (ex. Seoi Nage, O Goshi, Tai Otoshi, Uchi Mata)\nII. Projection debout vers l'arrière d'Uke (ex. O Soto Gari, Sukui Nage)\nIII. Projection en tombant sur un ou deux genoux (ex. Seoi Otoshi, Kata Guruma à genoux)\nIV. Amenée au sol vers l'avant d'Uke\nV. Amenée au sol vers l'arrière d'Uke (ex. Double Leg, Ko Uchi Gari)\nVI. Sacrifice vers l'avant d'Uke (ex. Yoko Wakare, Ura Nage, Tomoe Nage)\nVII. Sacrifice vers l'arrière d'Uke (ex. Tani Otoshi, Kani Basami, Ko Uchi Makikomi)\nVIII. Soumission debout, clé ou étranglement (ex. Kote Gaeshi, Shiho Nage)\nIX. Atemi (ex. Yoko Geri, Mawashi Geri, coup de poing)\nX. Non classée (ex. combinaison de deux familles)\n\nFamilles de finitions (partie 4) :\nI. Atemi du bras (poing, coude, main ouverte, shuto)\nII. Atemi de la jambe (genou, talon, pied)\nIII. Clé, Uke sur le dos (Juji Gatame…)\nIV. Clé, Uke sur le ventre (Ude Garami…)\nV. Étranglement de face (étranglement croisé…)\nVI. Étranglement de dos (Hadaka Jime…)\nVII. Clé de jambe (Ashi Gatame, Hiza Gatame)\nVIII. Clé de cou (kubi kansetsu)\nIX. Arme (frappe, clé)\nX. Non classée"
+      }
+    ]
+  },
+  "juges": {
+    "titre": "Ce qu'attendent les juges",
+    "icone": "🧑‍⚖️",
+    "contenu": [
+      {
+        "sous_titre": "✅ Confirmé — Actions puissantes",
+        "texte": "« Toutes les actions doivent être réalisées de manière puissante. »"
+      },
+      {
+        "sous_titre": "✅ Confirmé — Logique biomécanique",
+        "texte": "« Les techniques doivent être réalisées et enchaînées d'une manière biomécaniquement logique. »"
+      },
+      {
+        "sous_titre": "✅ Confirmé — Contrôle",
+        "texte": "« Contrôle évident et clair tout au long de chaque démonstration. »"
+      },
+      {
+        "sous_titre": "✅ Confirmé — Efficacité",
+        "texte": "« Toutes les actions doivent être réalisées avec un bon contrôle et s'enchaîner avec cohérence. »"
+      },
+      {
+        "sous_titre": "✅ Confirmé — Vitesse",
+        "texte": "L'attaque et la défense doivent être « réalisées de manière technique et réaliste, ni trop rapidement ni trop lentement »."
+      }
+    ]
+  },
+  "deroulement": {
+    "titre": "Déroulement",
+    "icone": "📋",
+    "contenu": [
+      {
+        "sous_titre": "✅ Confirmé — Phase de qualification",
+        "texte": "Tous les couples présentent toutes les attaques, dans l'ordre :\n• Tour 1 : A1 → A4\n• Tour 2 : B1 → B4\n• Tour 3 : C1 → C4\n\nLes jeunes et les enfants ne font que deux tours de qualification.\nLes 4 couples qui ont le meilleur total se qualifient pour la phase finale."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Phase finale",
+        "texte": "• Tour 4, demi-finales : A1 · A2 · B2 · B3 · C3 · C4\n• Tour 5, finales : A3 · A4 · B1 · B4 · C1 · C2\n\nPremier couple appelé : ceinture rouge. Second couple : ceinture bleue (en qualification, tous les couples portent la ceinture rouge).\nLe vainqueur est le couple qui a le plus de points. L'arbitre central le désigne en tendant le bras vers lui."
+      },
+      {
+        "sous_titre": "✅ Confirmé — En cas d'égalité en phase finale",
+        "texte": "Le couple rouge présente à nouveau les deux mêmes attaques de la série A, puis le couple bleu. Si l'égalité persiste, le couple bleu présente les deux mêmes attaques de la série B, puis le couple rouge. On continue série après série jusqu'à ce qu'un couple ait plus de points que l'autre."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Les temps",
+        "texte": "• 10 secondes pour lancer l'attaque, sinon pénalité\n• Récupération entre deux tours : 5 minutes maximum en qualification, 10 minutes en phase finale\n• Temps médical : 2 minutes maximum par prestation. Au-delà, le tour vaut 0 point\n• Tenue non conforme : 2 minutes pour se mettre en règle, sinon 0 point"
+      }
+    ]
+  },
+  "penalites": {
+    "titre": "Pénalités",
+    "icone": "🟥",
+    "contenu": [
+      {
+        "sous_titre": "✅ Confirmé — Déduction de 4 points",
+        "texte": "Motifs :\n• Arriver en retard sur le tatami\n• Arriver sans être prêt\n• Perdre du temps\n\nLa déduction de 4 points s'affiche au tableau."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Mauvaise attaque",
+        "texte": "Si le couple présente une mauvaise attaque (mauvais numéro), la partie 1 (attaque) est notée 0. L'arbitre vidéo le signale ; un drapeau rouge s'affiche au tableau quand c'est possible."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Armes",
+        "texte": "Si Tori frappe Uke à la tête avec le bâton ou le coupe avec le couteau, la note est 0."
+      }
+    ]
+  },
+  "tenue": {
+    "titre": "Tenue & Armes",
+    "icone": "👘",
+    "contenu": [
+      {
+        "sous_titre": "✅ Confirmé — Tenue",
+        "texte": "• Gi conforme au code sportif JJIF. En France, judogi blanc obligatoire en tournoi national\n• Les femmes portent, les hommes peuvent porter, un justaucorps ou un rashguard blanc ou noir\n• Protections souples autorisées (avant-bras, genoux, pieds, tibias), portées sous le gi\n• Coquille, protège-dents et hijab autorisés\n• Interdit : tout objet qui peut blesser ou mettre quelqu'un en danger"
+      },
+      {
+        "sous_titre": "✅ Confirmé — Armes",
+        "texte": "• Couteau et bâton en matière souple ou en caoutchouc\n• Bâton : 50 à 70 cm"
+      }
+    ]
+  },
+  "nouveautes": {
+    "titre": "Nouveautés 2026",
+    "icone": "🆕",
+    "contenu": [
+      {
+        "sous_titre": "✅ Confirmé — Note de variété",
+        "texte": "V4.2.1 (2024) : 0 à 2 points pour les projections et 0 à 2 points pour les finitions (4 au maximum).\nV4.3 (2026) : 1 point par type d'action différent, 0 par répétition, 12 points au maximum. Le texte définit 10 familles de projections et 10 familles de finitions."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Pré-attaque",
+        "texte": "V4.2.1 (2024) : 0 si la pré-attaque est absente ou illogique.\nV4.3 (2026) : 0 si la pré-attaque est absente, illogique ou s'il y en a plus d'une."
+      },
+      {
+        "sous_titre": "✅ Confirmé — Attaques C1 et C2",
+        "texte": "V4.2.1 (2024) : C1 couteau de haut en bas · C2 couteau de face au ventre.\nV4.3 (2026) : C1 couteau de face en deux coups au ventre · C2 couteau en coupe diagonale, au torse ou à la tête."
+      }
+    ]
+  },
+  "sources": {
+    "titre": "Sources",
+    "icone": "📄",
+    "contenu": [
+      {
+        "sous_titre": "Textes officiels",
+        "texte": "• JJIF — Ju-Jitsu Duo Rule Book V4.3 (2026)\n• JJIF — Ju-Jitsu Duo Rule Book V4.2.1 (2024)\n• FFJDA — Livre de règles Ju-Jitsu Duo V4.1 (traduction française)\n• FFJDA — Règlement des compétitions sportives 2026/2027, Tournois nationaux Jujitsu Duo\n• FFJDA — Règlement des compétitions de loisir 2026/2027, Coupe de France par équipes mixtes de Jujitsu Duo System"
+      }
+    ]
+  }
+}
